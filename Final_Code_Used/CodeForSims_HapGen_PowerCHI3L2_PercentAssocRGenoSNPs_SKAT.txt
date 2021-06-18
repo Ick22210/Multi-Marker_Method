@@ -1,0 +1,240 @@
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8724799 CHI3L2 20 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7738221 CHI3L2 20 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1634489 CHI3L2 20 linear small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4817859 CHI3L2 20 linear small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4228552 CHI3L2 20 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5901700 CHI3L2 20 linear small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8131259 CHI3L2 20 linear medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 3920830 CHI3L2 20 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 3999231 CHI3L2 20 linear medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1990486 CHI3L2 20 linear medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7387597 CHI3L2 20 linear medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 567760 CHI3L2 20 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7659190 CHI3L2 20 linear large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8745383 CHI3L2 20 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8238409 CHI3L2 20 linear large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 3826378 CHI3L2 20 linear large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4828636 CHI3L2 20 linear large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linearKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9111252 CHI3L2 20 linear large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8536856 CHI3L2 20 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1208004 CHI3L2 20 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9923883 CHI3L2 20 IBS small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2884439 CHI3L2 20 IBS small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8462247 CHI3L2 20 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5302878 CHI3L2 20 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8280922 CHI3L2 20 IBS medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2218939 CHI3L2 20 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8283558 CHI3L2 20 IBS medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6420181 CHI3L2 20 IBS medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4138636 CHI3L2 20 IBS medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7637868 CHI3L2 20 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6340112 CHI3L2 20 IBS large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5749536 CHI3L2 20 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8444261 CHI3L2 20 IBS large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8071545 CHI3L2 20 IBS large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1153407 CHI3L2 20 IBS large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5927745 CHI3L2 20 IBS large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1504729 CHI3L2 10 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6365534 CHI3L2 10 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9667870 CHI3L2 10 linear small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4484747 CHI3L2 10 linear small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4670612 CHI3L2 10 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4028034 CHI3L2 10 linear small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9695676 CHI3L2 10 linear medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7371935 CHI3L2 10 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4822748 CHI3L2 10 linear medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2232044 CHI3L2 10 linear medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6398910 CHI3L2 10 linear medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2227281 CHI3L2 10 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9476554 CHI3L2 10 linear large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9813767 CHI3L2 10 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2517480 CHI3L2 10 linear large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9094960 CHI3L2 10 linear large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1096036 CHI3L2 10 linear large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linearKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2330573 CHI3L2 10 linear large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8177249 CHI3L2 10 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 186486 CHI3L2 10 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8003923 CHI3L2 10 IBS small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5699123 CHI3L2 10 IBS small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2028023 CHI3L2 10 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 796108 CHI3L2 10 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1697153 CHI3L2 10 IBS medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 3881713 CHI3L2 10 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 3078861 CHI3L2 10 IBS medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2144454 CHI3L2 10 IBS medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9075132 CHI3L2 10 IBS medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 3562202 CHI3L2 10 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 462112 CHI3L2 10 IBS large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1423514 CHI3L2 10 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 528894 CHI3L2 10 IBS large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9893049 CHI3L2 10 IBS large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5302002 CHI3L2 10 IBS large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6634888 CHI3L2 10 IBS large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5412560 CHI3L2 5 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2841134 CHI3L2 5 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1177171 CHI3L2 5 linear small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6670840 CHI3L2 5 linear small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6615851 CHI3L2 5 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 220725 CHI3L2 5 linear small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 474400 CHI3L2 5 linear medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 3315350 CHI3L2 5 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6672390 CHI3L2 5 linear medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7284542 CHI3L2 5 linear medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9998367 CHI3L2 5 linear medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9532512 CHI3L2 5 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7953570 CHI3L2 5 linear large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7981881 CHI3L2 5 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4613051 CHI3L2 5 linear large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6581026 CHI3L2 5 linear large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1393040 CHI3L2 5 linear large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linearKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4306835 CHI3L2 5 linear large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7729299 CHI3L2 5 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 6292883 CHI3L2 5 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5233009 CHI3L2 5 IBS small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4369747 CHI3L2 5 IBS small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 4360968 CHI3L2 5 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5375888 CHI3L2 5 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1475668 CHI3L2 5 IBS medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 578080 CHI3L2 5 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 12885 CHI3L2 5 IBS medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7592533 CHI3L2 5 IBS medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 9752110 CHI3L2 5 IBS medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 5361408 CHI3L2 5 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 7327901 CHI3L2 5 IBS large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8550936 CHI3L2 5 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 1959349 CHI3L2 5 IBS large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 8649355 CHI3L2 5 IBS large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 3259570 CHI3L2 5 IBS large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 500 2096355 CHI3L2 5 IBS large 25 FALSE
+ 
+######################## 
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2936133 CHI3L2 20 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 9774546 CHI3L2 20 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6818030 CHI3L2 20 linear small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1265597 CHI3L2 20 linear small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3601417 CHI3L2 20 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 4425716 CHI3L2 20 linear small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5273698 CHI3L2 20 linear medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1376906 CHI3L2 20 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 8657127 CHI3L2 20 linear medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3330562 CHI3L2 20 linear medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6786384 CHI3L2 20 linear medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 643114 CHI3L2 20 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 30379 CHI3L2 20 linear large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7656657 CHI3L2 20 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7067354 CHI3L2 20 linear large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1327344 CHI3L2 20 linear large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2884957 CHI3L2 20 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 9644182 CHI3L2 20 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7928023 CHI3L2 20 IBS small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2325183 CHI3L2 20 IBS small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5433619 CHI3L2 20 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6238265 CHI3L2 20 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1737789 CHI3L2 20 IBS medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7812710 CHI3L2 20 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2426870 CHI3L2 20 IBS medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6813488 CHI3L2 20 IBS medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6861527 CHI3L2 20 IBS medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 841216 CHI3L2 20 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6058172 CHI3L2 20 IBS large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1363991 CHI3L2 20 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3329907 CHI3L2 20 IBS large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7917146 CHI3L2 20 IBS large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 8695116 CHI3L2 10 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 4588841 CHI3L2 10 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6294161 CHI3L2 10 linear small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2780331 CHI3L2 10 linear small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 9805038 CHI3L2 10 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5152733 CHI3L2 10 linear small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6378932 CHI3L2 10 linear medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1514109 CHI3L2 10 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 8200585 CHI3L2 10 linear medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 8222176 CHI3L2 10 linear medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6423708 CHI3L2 10 linear medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 8518275 CHI3L2 10 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3279459 CHI3L2 10 linear large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1824865 CHI3L2 10 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7441601 CHI3L2 10 linear large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3159956 CHI3L2 10 linear large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5689363 CHI3L2 10 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 772825 CHI3L2 10 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2730224 CHI3L2 10 IBS small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1253680 CHI3L2 10 IBS small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5181266 CHI3L2 10 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 8364685 CHI3L2 10 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6177347 CHI3L2 10 IBS medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6430473 CHI3L2 10 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3176954 CHI3L2 10 IBS medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3515362 CHI3L2 10 IBS medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5993770 CHI3L2 10 IBS medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6890490 CHI3L2 10 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2441677 CHI3L2 10 IBS large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7200825 CHI3L2 10 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 4424865 CHI3L2 10 IBS large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2679217 CHI3L2 10 IBS large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 9616807 CHI3L2 5 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 8895568 CHI3L2 5 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 9818197 CHI3L2 5 linear small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 6761357 CHI3L2 5 linear small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 9824169 CHI3L2 5 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 147847 CHI3L2 5 linear small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7909862 CHI3L2 5 linear medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7284635 CHI3L2 5 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5429708 CHI3L2 5 linear medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3941 CHI3L2 5 linear medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7903203 CHI3L2 5 linear medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 920233 CHI3L2 5 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3109373 CHI3L2 5 linear large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7316746 CHI3L2 5 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2772048 CHI3L2 5 linear large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 4172029 CHI3L2 5 linear large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2957543 CHI3L2 5 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5748959 CHI3L2 5 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1578153 CHI3L2 5 IBS small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5792161 CHI3L2 5 IBS small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1440831 CHI3L2 5 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1365691 CHI3L2 5 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7583036 CHI3L2 5 IBS medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 8045131 CHI3L2 5 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 204913 CHI3L2 5 IBS medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2045636 CHI3L2 5 IBS medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 5869417 CHI3L2 5 IBS medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1046631 CHI3L2 5 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 2142477 CHI3L2 5 IBS large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 1531562 CHI3L2 5 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 3708776 CHI3L2 5 IBS large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 1 1000 7791997 CHI3L2 5 IBS large 15 FALSE

@@ -1,0 +1,464 @@
+bsub -e Power_Calc_NAT2_500_20_S85_small_5_TRUE.e -o Power_Calc_NAT2_500_20_S85_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7105715 NAT2 20 85 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S85_small_5_FALSE.e -o Power_Calc_NAT2_500_20_S85_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7192208 NAT2 20 85 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S85_small_15_TRUE.e -o Power_Calc_NAT2_500_20_S85_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1695112 NAT2 20 85 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S85_small_15_FALSE.e -o Power_Calc_NAT2_500_20_S85_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1433908 NAT2 20 85 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S85_small_25_TRUE.e -o Power_Calc_NAT2_500_20_S85_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1804753 NAT2 20 85 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S85_small_25_FALSE.e -o Power_Calc_NAT2_500_20_S85_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4064636 NAT2 20 85 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S85_medium_5_TRUE.e -o Power_Calc_NAT2_500_20_S85_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5998137 NAT2 20 85 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S85_medium_5_FALSE.e -o Power_Calc_NAT2_500_20_S85_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 153524 NAT2 20 85 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S85_medium_15_TRUE.e -o Power_Calc_NAT2_500_20_S85_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8660916 NAT2 20 85 medium 15 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_S85_medium_15_FALSE.e -o Power_Calc_NAT2_500_20_S85_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9211784 NAT2 20 85 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S85_medium_25_TRUE.e -o Power_Calc_NAT2_500_20_S85_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5632717 NAT2 20 85 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S85_medium_25_FALSE.e -o Power_Calc_NAT2_500_20_S85_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4906045 NAT2 20 85 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S85_large_5_TRUE.e -o Power_Calc_NAT2_500_20_S85_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 35338 NAT2 20 85 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S85_large_5_FALSE.e -o Power_Calc_NAT2_500_20_S85_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2451383 NAT2 20 85 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S85_large_15_TRUE.e -o Power_Calc_NAT2_500_20_S85_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 643967 NAT2 20 85 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S85_large_15_FALSE.e -o Power_Calc_NAT2_500_20_S85_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2211817 NAT2 20 85 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S85_large_25_TRUE.e -o Power_Calc_NAT2_500_20_S85_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4355714 NAT2 20 85 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S85_large_25_FALSE.e -o Power_Calc_NAT2_500_20_S85_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8647913 NAT2 20 85 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_small_5_TRUE.e -o Power_Calc_NAT2_500_20_S90_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9254795 NAT2 20 90 small 5 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_S90_small_5_FALSE.e -o Power_Calc_NAT2_500_20_S90_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1798563 NAT2 20 90 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_small_15_TRUE.e -o Power_Calc_NAT2_500_20_S90_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8933518 NAT2 20 90 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S90_small_15_FALSE.e -o Power_Calc_NAT2_500_20_S90_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4890376 NAT2 20 90 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_small_25_TRUE.e -o Power_Calc_NAT2_500_20_S90_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8054508 NAT2 20 90 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S90_small_25_FALSE.e -o Power_Calc_NAT2_500_20_S90_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9336184 NAT2 20 90 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_medium_5_TRUE.e -o Power_Calc_NAT2_500_20_S90_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 56684 NAT2 20 90 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S90_medium_5_FALSE.e -o Power_Calc_NAT2_500_20_S90_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 813665 NAT2 20 90 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_medium_15_TRUE.e -o Power_Calc_NAT2_500_20_S90_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3420511 NAT2 20 90 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S90_medium_15_FALSE.e -o Power_Calc_NAT2_500_20_S90_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5198172 NAT2 20 90 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_medium_25_TRUE.e -o Power_Calc_NAT2_500_20_S90_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4386233 NAT2 20 90 medium 25 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_S90_medium_25_FALSE.e -o Power_Calc_NAT2_500_20_S90_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6659690 NAT2 20 90 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_large_5_TRUE.e -o Power_Calc_NAT2_500_20_S90_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4406784 NAT2 20 90 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S90_large_5_FALSE.e -o Power_Calc_NAT2_500_20_S90_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7194251 NAT2 20 90 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_large_15_TRUE.e -o Power_Calc_NAT2_500_20_S90_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2996179 NAT2 20 90 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S90_large_15_FALSE.e -o Power_Calc_NAT2_500_20_S90_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1233610 NAT2 20 90 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S90_large_25_TRUE.e -o Power_Calc_NAT2_500_20_S90_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1253289 NAT2 20 90 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S90_large_25_FALSE.e -o Power_Calc_NAT2_500_20_S90_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1584027 NAT2 20 90 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S95_small_5_TRUE.e -o Power_Calc_NAT2_500_20_S95_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 558058 NAT2 20 95 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S95_small_5_FALSE.e -o Power_Calc_NAT2_500_20_S95_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6046224 NAT2 20 95 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S95_small_15_TRUE.e -o Power_Calc_NAT2_500_20_S95_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3168584 NAT2 20 95 small 15 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_S95_small_15_FALSE.e -o Power_Calc_NAT2_500_20_S95_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 710029 NAT2 20 95 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S95_small_25_TRUE.e -o Power_Calc_NAT2_500_20_S95_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9373824 NAT2 20 95 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S95_small_25_FALSE.e -o Power_Calc_NAT2_500_20_S95_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2081578 NAT2 20 95 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S95_medium_5_TRUE.e -o Power_Calc_NAT2_500_20_S95_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1195713 NAT2 20 95 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S95_medium_5_FALSE.e -o Power_Calc_NAT2_500_20_S95_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8439089 NAT2 20 95 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S95_medium_15_TRUE.e -o Power_Calc_NAT2_500_20_S95_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2638510 NAT2 20 95 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S95_medium_15_FALSE.e -o Power_Calc_NAT2_500_20_S95_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1593553 NAT2 20 95 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S95_medium_25_TRUE.e -o Power_Calc_NAT2_500_20_S95_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6241363 NAT2 20 95 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S95_medium_25_FALSE.e -o Power_Calc_NAT2_500_20_S95_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9843398 NAT2 20 95 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S95_large_5_TRUE.e -o Power_Calc_NAT2_500_20_S95_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3943641 NAT2 20 95 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S95_large_5_FALSE.e -o Power_Calc_NAT2_500_20_S95_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1985350 NAT2 20 95 large 5 FALSE
+
+bsub -e Power_Calc_NAT2_500_20_S95_large_15_TRUE.e -o Power_Calc_NAT2_500_20_S95_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7356106 NAT2 20 95 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S95_large_15_FALSE.e -o Power_Calc_NAT2_500_20_S95_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9432612 NAT2 20 95 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S95_large_25_TRUE.e -o Power_Calc_NAT2_500_20_S95_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3382561 NAT2 20 95 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S95_large_25_FALSE.e -o Power_Calc_NAT2_500_20_S95_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2688013 NAT2 20 95 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_small_5_TRUE.e -o Power_Calc_NAT2_500_20_S99_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2825593 NAT2 20 99 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S99_small_5_FALSE.e -o Power_Calc_NAT2_500_20_S99_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6481320 NAT2 20 99 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_small_15_TRUE.e -o Power_Calc_NAT2_500_20_S99_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1134471 NAT2 20 99 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S99_small_15_FALSE.e -o Power_Calc_NAT2_500_20_S99_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4990401 NAT2 20 99 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_small_25_TRUE.e -o Power_Calc_NAT2_500_20_S99_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7725824 NAT2 20 99 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S99_small_25_FALSE.e -o Power_Calc_NAT2_500_20_S99_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6653575 NAT2 20 99 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_medium_5_TRUE.e -o Power_Calc_NAT2_500_20_S99_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5569245 NAT2 20 99 medium 5 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_S99_medium_5_FALSE.e -o Power_Calc_NAT2_500_20_S99_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2100677 NAT2 20 99 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_medium_15_TRUE.e -o Power_Calc_NAT2_500_20_S99_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4693661 NAT2 20 99 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S99_medium_15_FALSE.e -o Power_Calc_NAT2_500_20_S99_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1946805 NAT2 20 99 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_medium_25_TRUE.e -o Power_Calc_NAT2_500_20_S99_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8755493 NAT2 20 99 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_S99_medium_25_FALSE.e -o Power_Calc_NAT2_500_20_S99_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2012815 NAT2 20 99 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_large_5_TRUE.e -o Power_Calc_NAT2_500_20_S99_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5111940 NAT2 20 99 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_S99_large_5_FALSE.e -o Power_Calc_NAT2_500_20_S99_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7569527 NAT2 20 99 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_large_15_TRUE.e -o Power_Calc_NAT2_500_20_S99_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 432290 NAT2 20 99 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_S99_large_15_FALSE.e -o Power_Calc_NAT2_500_20_S99_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8602572 NAT2 20 99 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_S99_large_25_TRUE.e -o Power_Calc_NAT2_500_20_S99_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6804794 NAT2 20 99 large 25 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_S99_large_25_FALSE.e -o Power_Calc_NAT2_500_20_S99_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1984701 NAT2 20 99 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_small_5_TRUE.e -o Power_Calc_NAT2_500_10_S85_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3986406 NAT2 10 85 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S85_small_5_FALSE.e -o Power_Calc_NAT2_500_10_S85_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3885698 NAT2 10 85 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_small_15_TRUE.e -o Power_Calc_NAT2_500_10_S85_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4183520 NAT2 10 85 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S85_small_15_FALSE.e -o Power_Calc_NAT2_500_10_S85_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3271796 NAT2 10 85 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_small_25_TRUE.e -o Power_Calc_NAT2_500_10_S85_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5654615 NAT2 10 85 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S85_small_25_FALSE.e -o Power_Calc_NAT2_500_10_S85_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7172351 NAT2 10 85 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_medium_5_TRUE.e -o Power_Calc_NAT2_500_10_S85_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5425968 NAT2 10 85 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S85_medium_5_FALSE.e -o Power_Calc_NAT2_500_10_S85_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2486353 NAT2 10 85 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_medium_15_TRUE.e -o Power_Calc_NAT2_500_10_S85_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4961271 NAT2 10 85 medium 15 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_S85_medium_15_FALSE.e -o Power_Calc_NAT2_500_10_S85_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1794757 NAT2 10 85 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_medium_25_TRUE.e -o Power_Calc_NAT2_500_10_S85_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4203277 NAT2 10 85 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S85_medium_25_FALSE.e -o Power_Calc_NAT2_500_10_S85_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1791451 NAT2 10 85 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_large_5_TRUE.e -o Power_Calc_NAT2_500_10_S85_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1461867 NAT2 10 85 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S85_large_5_FALSE.e -o Power_Calc_NAT2_500_10_S85_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1682652 NAT2 10 85 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_large_15_TRUE.e -o Power_Calc_NAT2_500_10_S85_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1608540 NAT2 10 85 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S85_large_15_FALSE.e -o Power_Calc_NAT2_500_10_S85_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1375194 NAT2 10 85 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S85_large_25_TRUE.e -o Power_Calc_NAT2_500_10_S85_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1860734 NAT2 10 85 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S85_large_25_FALSE.e -o Power_Calc_NAT2_500_10_S85_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6397346 NAT2 10 85 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S90_small_5_TRUE.e -o Power_Calc_NAT2_500_10_S90_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1551818 NAT2 10 90 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_small_5_FALSE.e -o Power_Calc_NAT2_500_10_S90_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1442501 NAT2 10 90 small 5 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_S90_small_15_TRUE.e -o Power_Calc_NAT2_500_10_S90_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7981081 NAT2 10 90 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_small_15_FALSE.e -o Power_Calc_NAT2_500_10_S90_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6446698 NAT2 10 90 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S90_small_25_TRUE.e -o Power_Calc_NAT2_500_10_S90_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7192222 NAT2 10 90 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_small_25_FALSE.e -o Power_Calc_NAT2_500_10_S90_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3187548 NAT2 10 90 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S90_medium_5_TRUE.e -o Power_Calc_NAT2_500_10_S90_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2658740 NAT2 10 90 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_medium_5_FALSE.e -o Power_Calc_NAT2_500_10_S90_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3526690 NAT2 10 90 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S90_medium_15_TRUE.e -o Power_Calc_NAT2_500_10_S90_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4859945 NAT2 10 90 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_medium_15_FALSE.e -o Power_Calc_NAT2_500_10_S90_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 98052 NAT2 10 90 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S90_medium_25_TRUE.e -o Power_Calc_NAT2_500_10_S90_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5374428 NAT2 10 90 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_medium_25_FALSE.e -o Power_Calc_NAT2_500_10_S90_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6920749 NAT2 10 90 medium 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_S90_large_5_TRUE.e -o Power_Calc_NAT2_500_10_S90_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 871684 NAT2 10 90 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_large_5_FALSE.e -o Power_Calc_NAT2_500_10_S90_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6347976 NAT2 10 90 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S90_large_15_TRUE.e -o Power_Calc_NAT2_500_10_S90_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5134017 NAT2 10 90 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_large_15_FALSE.e -o Power_Calc_NAT2_500_10_S90_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8036969 NAT2 10 90 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S90_large_25_TRUE.e -o Power_Calc_NAT2_500_10_S90_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4424884 NAT2 10 90 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S90_large_25_FALSE.e -o Power_Calc_NAT2_500_10_S90_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2289842 NAT2 10 90 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S95_small_5_TRUE.e -o Power_Calc_NAT2_500_10_S95_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1288037 NAT2 10 95 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S95_small_5_FALSE.e -o Power_Calc_NAT2_500_10_S95_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7533763 NAT2 10 95 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S95_small_15_TRUE.e -o Power_Calc_NAT2_500_10_S95_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7397822 NAT2 10 95 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S95_small_15_FALSE.e -o Power_Calc_NAT2_500_10_S95_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 679607 NAT2 10 95 small 15 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_S95_small_25_TRUE.e -o Power_Calc_NAT2_500_10_S95_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9993318 NAT2 10 95 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S95_small_25_FALSE.e -o Power_Calc_NAT2_500_10_S95_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1669964 NAT2 10 95 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S95_medium_5_TRUE.e -o Power_Calc_NAT2_500_10_S95_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9530701 NAT2 10 95 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S95_medium_5_FALSE.e -o Power_Calc_NAT2_500_10_S95_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8458222 NAT2 10 95 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S95_medium_15_TRUE.e -o Power_Calc_NAT2_500_10_S95_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1288142 NAT2 10 95 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S95_medium_15_FALSE.e -o Power_Calc_NAT2_500_10_S95_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 355680 NAT2 10 95 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S95_medium_25_TRUE.e -o Power_Calc_NAT2_500_10_S95_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6532603 NAT2 10 95 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S95_medium_25_FALSE.e -o Power_Calc_NAT2_500_10_S95_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5827325 NAT2 10 95 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S95_large_5_TRUE.e -o Power_Calc_NAT2_500_10_S95_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7997016 NAT2 10 95 large 5 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_S95_large_5_FALSE.e -o Power_Calc_NAT2_500_10_S95_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3889393 NAT2 10 95 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S95_large_15_TRUE.e -o Power_Calc_NAT2_500_10_S95_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6182207 NAT2 10 95 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S95_large_15_FALSE.e -o Power_Calc_NAT2_500_10_S95_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5691888 NAT2 10 95 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S95_large_25_TRUE.e -o Power_Calc_NAT2_500_10_S95_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7318125 NAT2 10 95 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S95_large_25_FALSE.e -o Power_Calc_NAT2_500_10_S95_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1131671 NAT2 10 95 large 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_S99_small_5_TRUE.e -o Power_Calc_NAT2_500_10_S99_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8922067 NAT2 10 99 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S99_small_5_FALSE.e -o Power_Calc_NAT2_500_10_S99_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1012338 NAT2 10 99 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S99_small_15_TRUE.e -o Power_Calc_NAT2_500_10_S99_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5312783 NAT2 10 99 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S99_small_15_FALSE.e -o Power_Calc_NAT2_500_10_S99_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6984018 NAT2 10 99 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S99_small_25_TRUE.e -o Power_Calc_NAT2_500_10_S99_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5228686 NAT2 10 99 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S99_small_25_FALSE.e -o Power_Calc_NAT2_500_10_S99_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5478725 NAT2 10 99 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S99_medium_5_TRUE.e -o Power_Calc_NAT2_500_10_S99_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5508189 NAT2 10 99 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S99_medium_5_FALSE.e -o Power_Calc_NAT2_500_10_S99_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8932326 NAT2 10 99 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S99_medium_15_TRUE.e -o Power_Calc_NAT2_500_10_S99_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3111052 NAT2 10 99 medium 15 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_S99_medium_15_FALSE.e -o Power_Calc_NAT2_500_10_S99_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5381694 NAT2 10 99 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S99_medium_25_TRUE.e -o Power_Calc_NAT2_500_10_S99_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5378110 NAT2 10 99 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S99_medium_25_FALSE.e -o Power_Calc_NAT2_500_10_S99_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3485179 NAT2 10 99 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_S99_large_5_TRUE.e -o Power_Calc_NAT2_500_10_S99_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5228174 NAT2 10 99 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_S99_large_5_FALSE.e -o Power_Calc_NAT2_500_10_S99_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6248912 NAT2 10 99 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_S99_large_15_TRUE.e -o Power_Calc_NAT2_500_10_S99_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5305534 NAT2 10 99 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_S99_large_15_FALSE.e -o Power_Calc_NAT2_500_10_S99_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5436673 NAT2 10 99 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_S99_large_25_TRUE.e -o Power_Calc_NAT2_500_10_S99_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7591932 NAT2 10 99 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_S99_large_25_FALSE.e -o Power_Calc_NAT2_500_10_S99_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 343642 NAT2 10 99 large 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_5_S85_small_5_TRUE.e -o Power_Calc_NAT2_500_5_S85_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1501093 NAT2 5 85 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_small_5_FALSE.e -o Power_Calc_NAT2_500_5_S85_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4091971 NAT2 5 85 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S85_small_15_TRUE.e -o Power_Calc_NAT2_500_5_S85_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7783012 NAT2 5 85 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_small_15_FALSE.e -o Power_Calc_NAT2_500_5_S85_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9735082 NAT2 5 85 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S85_small_25_TRUE.e -o Power_Calc_NAT2_500_5_S85_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4373834 NAT2 5 85 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_small_25_FALSE.e -o Power_Calc_NAT2_500_5_S85_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8185553 NAT2 5 85 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S85_medium_5_TRUE.e -o Power_Calc_NAT2_500_5_S85_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5244133 NAT2 5 85 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_medium_5_FALSE.e -o Power_Calc_NAT2_500_5_S85_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7412984 NAT2 5 85 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S85_medium_15_TRUE.e -o Power_Calc_NAT2_500_5_S85_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8833128 NAT2 5 85 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_medium_15_FALSE.e -o Power_Calc_NAT2_500_5_S85_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1881134 NAT2 5 85 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S85_medium_25_TRUE.e -o Power_Calc_NAT2_500_5_S85_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6192752 NAT2 5 85 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_medium_25_FALSE.e -o Power_Calc_NAT2_500_5_S85_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6075330 NAT2 5 85 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S85_large_5_TRUE.e -o Power_Calc_NAT2_500_5_S85_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1445802 NAT2 5 85 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_large_5_FALSE.e -o Power_Calc_NAT2_500_5_S85_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9266989 NAT2 5 85 large 5 FALSE
+
+bsub -e Power_Calc_NAT2_500_5_S85_large_15_TRUE.e -o Power_Calc_NAT2_500_5_S85_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 13841 NAT2 5 85 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_large_15_FALSE.e -o Power_Calc_NAT2_500_5_S85_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9827663 NAT2 5 85 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S85_large_25_TRUE.e -o Power_Calc_NAT2_500_5_S85_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7158067 NAT2 5 85 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S85_large_25_FALSE.e -o Power_Calc_NAT2_500_5_S85_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1253525 NAT2 5 85 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_small_5_TRUE.e -o Power_Calc_NAT2_500_5_S90_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2557088 NAT2 5 90 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S90_small_5_FALSE.e -o Power_Calc_NAT2_500_5_S90_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 715484 NAT2 5 90 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_small_15_TRUE.e -o Power_Calc_NAT2_500_5_S90_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 993178 NAT2 5 90 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S90_small_15_FALSE.e -o Power_Calc_NAT2_500_5_S90_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8504402 NAT2 5 90 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_small_25_TRUE.e -o Power_Calc_NAT2_500_5_S90_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6648818 NAT2 5 90 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S90_small_25_FALSE.e -o Power_Calc_NAT2_500_5_S90_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9374750 NAT2 5 90 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_medium_5_TRUE.e -o Power_Calc_NAT2_500_5_S90_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8476353 NAT2 5 90 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S90_medium_5_FALSE.e -o Power_Calc_NAT2_500_5_S90_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1640036 NAT2 5 90 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_medium_15_TRUE.e -o Power_Calc_NAT2_500_5_S90_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2344480 NAT2 5 90 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S90_medium_15_FALSE.e -o Power_Calc_NAT2_500_5_S90_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1394864 NAT2 5 90 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_medium_25_TRUE.e -o Power_Calc_NAT2_500_5_S90_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7237161 NAT2 5 90 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S90_medium_25_FALSE.e -o Power_Calc_NAT2_500_5_S90_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4646024 NAT2 5 90 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_large_5_TRUE.e -o Power_Calc_NAT2_500_5_S90_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6657867 NAT2 5 90 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S90_large_5_FALSE.e -o Power_Calc_NAT2_500_5_S90_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7361325 NAT2 5 90 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_large_15_TRUE.e -o Power_Calc_NAT2_500_5_S90_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3476517 NAT2 5 90 large 15 TRUE
+
+bsub -e Power_Calc_NAT2_500_5_S90_large_15_FALSE.e -o Power_Calc_NAT2_500_5_S90_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9313106 NAT2 5 90 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S90_large_25_TRUE.e -o Power_Calc_NAT2_500_5_S90_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9750553 NAT2 5 90 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S90_large_25_FALSE.e -o Power_Calc_NAT2_500_5_S90_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7262265 NAT2 5 90 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S95_small_5_TRUE.e -o Power_Calc_NAT2_500_5_S95_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7188942 NAT2 5 95 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_small_5_FALSE.e -o Power_Calc_NAT2_500_5_S95_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 580057 NAT2 5 95 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S95_small_15_TRUE.e -o Power_Calc_NAT2_500_5_S95_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8013619 NAT2 5 95 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_small_15_FALSE.e -o Power_Calc_NAT2_500_5_S95_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7563848 NAT2 5 95 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S95_small_25_TRUE.e -o Power_Calc_NAT2_500_5_S95_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7071393 NAT2 5 95 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_small_25_FALSE.e -o Power_Calc_NAT2_500_5_S95_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3372067 NAT2 5 95 small 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S95_medium_5_TRUE.e -o Power_Calc_NAT2_500_5_S95_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 4748054 NAT2 5 95 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_medium_5_FALSE.e -o Power_Calc_NAT2_500_5_S95_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6869967 NAT2 5 95 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S95_medium_15_TRUE.e -o Power_Calc_NAT2_500_5_S95_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6215938 NAT2 5 95 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_medium_15_FALSE.e -o Power_Calc_NAT2_500_5_S95_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5865648 NAT2 5 95 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S95_medium_25_TRUE.e -o Power_Calc_NAT2_500_5_S95_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 521630 NAT2 5 95 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_medium_25_FALSE.e -o Power_Calc_NAT2_500_5_S95_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2786530 NAT2 5 95 medium 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_5_S95_large_5_TRUE.e -o Power_Calc_NAT2_500_5_S95_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2885203 NAT2 5 95 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_large_5_FALSE.e -o Power_Calc_NAT2_500_5_S95_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9839563 NAT2 5 95 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S95_large_15_TRUE.e -o Power_Calc_NAT2_500_5_S95_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 7437016 NAT2 5 95 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_large_15_FALSE.e -o Power_Calc_NAT2_500_5_S95_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 792934 NAT2 5 95 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S95_large_25_TRUE.e -o Power_Calc_NAT2_500_5_S95_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 483255 NAT2 5 95 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S95_large_25_FALSE.e -o Power_Calc_NAT2_500_5_S95_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9873999 NAT2 5 95 large 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S99_small_5_TRUE.e -o Power_Calc_NAT2_500_5_S99_small_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1205154 NAT2 5 99 small 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_small_5_FALSE.e -o Power_Calc_NAT2_500_5_S99_small_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5254931 NAT2 5 99 small 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S99_small_15_TRUE.e -o Power_Calc_NAT2_500_5_S99_small_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6858768 NAT2 5 99 small 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_small_15_FALSE.e -o Power_Calc_NAT2_500_5_S99_small_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6013531 NAT2 5 99 small 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S99_small_25_TRUE.e -o Power_Calc_NAT2_500_5_S99_small_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 6809366 NAT2 5 99 small 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_small_25_FALSE.e -o Power_Calc_NAT2_500_5_S99_small_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3681190 NAT2 5 99 small 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_5_S99_medium_5_TRUE.e -o Power_Calc_NAT2_500_5_S99_medium_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9835925 NAT2 5 99 medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_medium_5_FALSE.e -o Power_Calc_NAT2_500_5_S99_medium_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5227541 NAT2 5 99 medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S99_medium_15_TRUE.e -o Power_Calc_NAT2_500_5_S99_medium_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5887456 NAT2 5 99 medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_medium_15_FALSE.e -o Power_Calc_NAT2_500_5_S99_medium_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9815547 NAT2 5 99 medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S99_medium_25_TRUE.e -o Power_Calc_NAT2_500_5_S99_medium_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8847702 NAT2 5 99 medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_medium_25_FALSE.e -o Power_Calc_NAT2_500_5_S99_medium_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 9840497 NAT2 5 99 medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_S99_large_5_TRUE.e -o Power_Calc_NAT2_500_5_S99_large_5_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3114708 NAT2 5 99 large 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_large_5_FALSE.e -o Power_Calc_NAT2_500_5_S99_large_5_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 2487014 NAT2 5 99 large 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_S99_large_15_TRUE.e -o Power_Calc_NAT2_500_5_S99_large_15_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 8152588 NAT2 5 99 large 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_large_15_FALSE.e -o Power_Calc_NAT2_500_5_S99_large_15_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 5820302 NAT2 5 99 large 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_S99_large_25_TRUE.e -o Power_Calc_NAT2_500_5_S99_large_25_TRUE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 1377550 NAT2 5 99 large 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_S99_large_25_FALSE.e -o Power_Calc_NAT2_500_5_S99_large_25_FALSE.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 500 3049910 NAT2 5 99 large 25 FALSE
+
+#####################################
+bsub -e Power_Calc_NAT2_1000_20_S85_small_5_TRUE.e -o Power_Calc_NAT2_1000_20_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 501006 NAT2 20 85 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S85_small_5_FALSE.e -o Power_Calc_NAT2_1000_20_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3872673 NAT2 20 85 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S85_small_15_TRUE.e -o Power_Calc_NAT2_1000_20_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7005947 NAT2 20 85 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S85_small_15_FALSE.e -o Power_Calc_NAT2_1000_20_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3912864 NAT2 20 85 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S85_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1862692 NAT2 20 85 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S85_small_25_FALSE.e -o Power_Calc_NAT2_1000_20_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9814527 NAT2 20 85 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S85_medium_5_TRUE.e -o Power_Calc_NAT2_1000_20_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6552428 NAT2 20 85 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S85_medium_5_FALSE.e -o Power_Calc_NAT2_1000_20_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9039491 NAT2 20 85 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S85_medium_15_TRUE.e -o Power_Calc_NAT2_1000_20_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7940498 NAT2 20 85 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S85_medium_15_FALSE.e -o Power_Calc_NAT2_1000_20_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4156866 NAT2 20 85 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S85_medium_25_TRUE.e -o Power_Calc_NAT2_1000_20_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6108665 NAT2 20 85 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S85_medium_25_FALSE.e -o Power_Calc_NAT2_1000_20_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7875878 NAT2 20 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S85_large_5_TRUE.e -o Power_Calc_NAT2_1000_20_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4060680 NAT2 20 85 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S85_large_5_FALSE.e -o Power_Calc_NAT2_1000_20_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5673372 NAT2 20 85 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S85_large_15_TRUE.e -o Power_Calc_NAT2_1000_20_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5312721 NAT2 20 85 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S85_large_15_FALSE.e -o Power_Calc_NAT2_1000_20_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5392172 NAT2 20 85 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S90_small_5_TRUE.e -o Power_Calc_NAT2_1000_20_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 517975 NAT2 20 90 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S90_small_5_FALSE.e -o Power_Calc_NAT2_1000_20_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8454136 NAT2 20 90 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S90_small_15_TRUE.e -o Power_Calc_NAT2_1000_20_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8686372 NAT2 20 90 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S90_small_15_FALSE.e -o Power_Calc_NAT2_1000_20_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6449816 NAT2 20 90 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S90_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5536349 NAT2 20 90 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S90_small_25_FALSE.e -o Power_Calc_NAT2_1000_20_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 645176 NAT2 20 90 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S90_medium_5_TRUE.e -o Power_Calc_NAT2_1000_20_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2988866 NAT2 20 90 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S90_medium_5_FALSE.e -o Power_Calc_NAT2_1000_20_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7166422 NAT2 20 90 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S90_medium_15_TRUE.e -o Power_Calc_NAT2_1000_20_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9340120 NAT2 20 90 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S90_medium_15_FALSE.e -o Power_Calc_NAT2_1000_20_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6054728 NAT2 20 90 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S90_medium_25_TRUE.e -o Power_Calc_NAT2_1000_20_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4738085 NAT2 20 90 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S90_medium_25_FALSE.e -o Power_Calc_NAT2_1000_20_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3500808 NAT2 20 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S90_large_5_TRUE.e -o Power_Calc_NAT2_1000_20_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4431338 NAT2 20 90 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S90_large_5_FALSE.e -o Power_Calc_NAT2_1000_20_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9841298 NAT2 20 90 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S90_large_15_TRUE.e -o Power_Calc_NAT2_1000_20_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2904495 NAT2 20 90 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S90_large_15_FALSE.e -o Power_Calc_NAT2_1000_20_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3727511 NAT2 20 90 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S95_small_5_TRUE.e -o Power_Calc_NAT2_1000_20_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5211712 NAT2 20 95 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S95_small_5_FALSE.e -o Power_Calc_NAT2_1000_20_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7124973 NAT2 20 95 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S95_small_15_TRUE.e -o Power_Calc_NAT2_1000_20_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3302975 NAT2 20 95 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S95_small_15_FALSE.e -o Power_Calc_NAT2_1000_20_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2194781 NAT2 20 95 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S95_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8353594 NAT2 20 95 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S95_small_25_FALSE.e -o Power_Calc_NAT2_1000_20_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8304759 NAT2 20 95 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S95_medium_5_TRUE.e -o Power_Calc_NAT2_1000_20_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3481347 NAT2 20 95 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S95_medium_5_FALSE.e -o Power_Calc_NAT2_1000_20_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5287067 NAT2 20 95 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S95_medium_15_TRUE.e -o Power_Calc_NAT2_1000_20_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2251409 NAT2 20 95 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S95_medium_15_FALSE.e -o Power_Calc_NAT2_1000_20_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7218328 NAT2 20 95 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S95_medium_25_TRUE.e -o Power_Calc_NAT2_1000_20_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2526334 NAT2 20 95 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S95_medium_25_FALSE.e -o Power_Calc_NAT2_1000_20_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3255905 NAT2 20 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S95_large_5_TRUE.e -o Power_Calc_NAT2_1000_20_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1479907 NAT2 20 95 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S95_large_5_FALSE.e -o Power_Calc_NAT2_1000_20_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9781280 NAT2 20 95 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S95_large_15_TRUE.e -o Power_Calc_NAT2_1000_20_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1934863 NAT2 20 95 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S95_large_15_FALSE.e -o Power_Calc_NAT2_1000_20_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 497769 NAT2 20 95 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S99_small_5_TRUE.e -o Power_Calc_NAT2_1000_20_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6680122 NAT2 20 99 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S99_small_5_FALSE.e -o Power_Calc_NAT2_1000_20_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3908183 NAT2 20 99 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S99_small_15_TRUE.e -o Power_Calc_NAT2_1000_20_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8371033 NAT2 20 99 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S99_small_15_FALSE.e -o Power_Calc_NAT2_1000_20_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5544649 NAT2 20 99 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S99_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1217470 NAT2 20 99 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S99_small_25_FALSE.e -o Power_Calc_NAT2_1000_20_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7840631 NAT2 20 99 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S99_medium_5_TRUE.e -o Power_Calc_NAT2_1000_20_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1130562 NAT2 20 99 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S99_medium_5_FALSE.e -o Power_Calc_NAT2_1000_20_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6283175 NAT2 20 99 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S99_medium_15_TRUE.e -o Power_Calc_NAT2_1000_20_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5149916 NAT2 20 99 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S99_medium_15_FALSE.e -o Power_Calc_NAT2_1000_20_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8403904 NAT2 20 99 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S99_medium_25_TRUE.e -o Power_Calc_NAT2_1000_20_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2083046 NAT2 20 99 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S99_medium_25_FALSE.e -o Power_Calc_NAT2_1000_20_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4902181 NAT2 20 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_S99_large_5_TRUE.e -o Power_Calc_NAT2_1000_20_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4428835 NAT2 20 99 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S99_large_5_FALSE.e -o Power_Calc_NAT2_1000_20_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 787565 NAT2 20 99 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_S99_large_15_TRUE.e -o Power_Calc_NAT2_1000_20_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1237180 NAT2 20 99 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_S99_large_15_FALSE.e -o Power_Calc_NAT2_1000_20_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7175300 NAT2 20 99 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S85_small_5_TRUE.e -o Power_Calc_NAT2_1000_10_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7799324 NAT2 10 85 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S85_small_5_FALSE.e -o Power_Calc_NAT2_1000_10_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9428584 NAT2 10 85 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S85_small_15_TRUE.e -o Power_Calc_NAT2_1000_10_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5012315 NAT2 10 85 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S85_small_15_FALSE.e -o Power_Calc_NAT2_1000_10_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1511787 NAT2 10 85 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S85_small_25_TRUE.e -o Power_Calc_NAT2_1000_10_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5404868 NAT2 10 85 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S85_small_25_FALSE.e -o Power_Calc_NAT2_1000_10_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8446401 NAT2 10 85 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S85_medium_5_TRUE.e -o Power_Calc_NAT2_1000_10_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6138028 NAT2 10 85 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S85_medium_5_FALSE.e -o Power_Calc_NAT2_1000_10_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3680371 NAT2 10 85 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S85_medium_15_TRUE.e -o Power_Calc_NAT2_1000_10_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7398588 NAT2 10 85 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S85_medium_15_FALSE.e -o Power_Calc_NAT2_1000_10_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9371741 NAT2 10 85 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S85_medium_25_TRUE.e -o Power_Calc_NAT2_1000_10_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3859036 NAT2 10 85 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S85_medium_25_FALSE.e -o Power_Calc_NAT2_1000_10_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4505348 NAT2 10 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S85_large_5_TRUE.e -o Power_Calc_NAT2_1000_10_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6194331 NAT2 10 85 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S85_large_5_FALSE.e -o Power_Calc_NAT2_1000_10_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1979898 NAT2 10 85 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S85_large_15_TRUE.e -o Power_Calc_NAT2_1000_10_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5487888 NAT2 10 85 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S85_large_15_FALSE.e -o Power_Calc_NAT2_1000_10_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7073819 NAT2 10 85 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S90_small_5_TRUE.e -o Power_Calc_NAT2_1000_10_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1920893 NAT2 10 90 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S90_small_5_FALSE.e -o Power_Calc_NAT2_1000_10_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4888201 NAT2 10 90 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S90_small_15_TRUE.e -o Power_Calc_NAT2_1000_10_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4409959 NAT2 10 90 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S90_small_15_FALSE.e -o Power_Calc_NAT2_1000_10_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 181079 NAT2 10 90 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S90_small_25_TRUE.e -o Power_Calc_NAT2_1000_10_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3903726 NAT2 10 90 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S90_small_25_FALSE.e -o Power_Calc_NAT2_1000_10_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7601714 NAT2 10 90 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S90_medium_5_TRUE.e -o Power_Calc_NAT2_1000_10_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3153684 NAT2 10 90 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S90_medium_5_FALSE.e -o Power_Calc_NAT2_1000_10_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8104767 NAT2 10 90 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S90_medium_15_TRUE.e -o Power_Calc_NAT2_1000_10_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1486442 NAT2 10 90 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S90_medium_15_FALSE.e -o Power_Calc_NAT2_1000_10_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1822881 NAT2 10 90 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S90_medium_25_TRUE.e -o Power_Calc_NAT2_1000_10_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6837686 NAT2 10 90 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S90_medium_25_FALSE.e -o Power_Calc_NAT2_1000_10_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4380103 NAT2 10 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S90_large_5_TRUE.e -o Power_Calc_NAT2_1000_10_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9390429 NAT2 10 90 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S90_large_5_FALSE.e -o Power_Calc_NAT2_1000_10_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8798432 NAT2 10 90 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S90_large_15_TRUE.e -o Power_Calc_NAT2_1000_10_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4735657 NAT2 10 90 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S90_large_15_FALSE.e -o Power_Calc_NAT2_1000_10_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2513790 NAT2 10 90 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S95_small_5_TRUE.e -o Power_Calc_NAT2_1000_10_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9859626 NAT2 10 95 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S95_small_5_FALSE.e -o Power_Calc_NAT2_1000_10_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2571860 NAT2 10 95 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S95_small_15_TRUE.e -o Power_Calc_NAT2_1000_10_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9850303 NAT2 10 95 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S95_small_15_FALSE.e -o Power_Calc_NAT2_1000_10_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3383401 NAT2 10 95 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S95_small_25_TRUE.e -o Power_Calc_NAT2_1000_10_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2408321 NAT2 10 95 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S95_small_25_FALSE.e -o Power_Calc_NAT2_1000_10_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9511495 NAT2 10 95 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S95_medium_5_TRUE.e -o Power_Calc_NAT2_1000_10_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8039916 NAT2 10 95 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S95_medium_5_FALSE.e -o Power_Calc_NAT2_1000_10_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8263315 NAT2 10 95 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S95_medium_15_TRUE.e -o Power_Calc_NAT2_1000_10_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1711404 NAT2 10 95 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S95_medium_15_FALSE.e -o Power_Calc_NAT2_1000_10_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7812762 NAT2 10 95 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S95_medium_25_TRUE.e -o Power_Calc_NAT2_1000_10_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1918369 NAT2 10 95 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S95_medium_25_FALSE.e -o Power_Calc_NAT2_1000_10_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5542183 NAT2 10 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S95_large_5_TRUE.e -o Power_Calc_NAT2_1000_10_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1353376 NAT2 10 95 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S95_large_5_FALSE.e -o Power_Calc_NAT2_1000_10_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 760588 NAT2 10 95 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S95_large_15_TRUE.e -o Power_Calc_NAT2_1000_10_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3523811 NAT2 10 95 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S95_large_15_FALSE.e -o Power_Calc_NAT2_1000_10_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4660728 NAT2 10 95 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S99_small_5_TRUE.e -o Power_Calc_NAT2_1000_10_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9389582 NAT2 10 99 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S99_small_5_FALSE.e -o Power_Calc_NAT2_1000_10_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1389582 NAT2 10 99 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S99_small_15_TRUE.e -o Power_Calc_NAT2_1000_10_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5514893 NAT2 10 99 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S99_small_15_FALSE.e -o Power_Calc_NAT2_1000_10_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8260076 NAT2 10 99 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S99_small_25_TRUE.e -o Power_Calc_NAT2_1000_10_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3022821 NAT2 10 99 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S99_small_25_FALSE.e -o Power_Calc_NAT2_1000_10_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8538861 NAT2 10 99 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S99_medium_5_TRUE.e -o Power_Calc_NAT2_1000_10_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 46381 NAT2 10 99 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S99_medium_5_FALSE.e -o Power_Calc_NAT2_1000_10_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 254162 NAT2 10 99 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S99_medium_15_TRUE.e -o Power_Calc_NAT2_1000_10_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 661796 NAT2 10 99 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S99_medium_15_FALSE.e -o Power_Calc_NAT2_1000_10_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 729472 NAT2 10 99 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S99_medium_25_TRUE.e -o Power_Calc_NAT2_1000_10_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2316125 NAT2 10 99 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S99_medium_25_FALSE.e -o Power_Calc_NAT2_1000_10_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4740132 NAT2 10 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_S99_large_5_TRUE.e -o Power_Calc_NAT2_1000_10_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4246052 NAT2 10 99 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S99_large_5_FALSE.e -o Power_Calc_NAT2_1000_10_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5618181 NAT2 10 99 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_S99_large_15_TRUE.e -o Power_Calc_NAT2_1000_10_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8974836 NAT2 10 99 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_S99_large_15_FALSE.e -o Power_Calc_NAT2_1000_10_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5656989 NAT2 10 99 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S85_small_5_TRUE.e -o Power_Calc_NAT2_1000_5_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8165382 NAT2 5 85 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S85_small_5_FALSE.e -o Power_Calc_NAT2_1000_5_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8980804 NAT2 5 85 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S85_small_15_TRUE.e -o Power_Calc_NAT2_1000_5_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5407098 NAT2 5 85 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S85_small_15_FALSE.e -o Power_Calc_NAT2_1000_5_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8031513 NAT2 5 85 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S85_small_25_TRUE.e -o Power_Calc_NAT2_1000_5_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8887729 NAT2 5 85 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S85_small_25_FALSE.e -o Power_Calc_NAT2_1000_5_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2168631 NAT2 5 85 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S85_medium_5_TRUE.e -o Power_Calc_NAT2_1000_5_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 571031 NAT2 5 85 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S85_medium_5_FALSE.e -o Power_Calc_NAT2_1000_5_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9413310 NAT2 5 85 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S85_medium_15_TRUE.e -o Power_Calc_NAT2_1000_5_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2648720 NAT2 5 85 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S85_medium_15_FALSE.e -o Power_Calc_NAT2_1000_5_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6577033 NAT2 5 85 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S85_medium_25_TRUE.e -o Power_Calc_NAT2_1000_5_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1013319 NAT2 5 85 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S85_medium_25_FALSE.e -o Power_Calc_NAT2_1000_5_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 683143 NAT2 5 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S85_large_5_TRUE.e -o Power_Calc_NAT2_1000_5_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7049334 NAT2 5 85 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S85_large_5_FALSE.e -o Power_Calc_NAT2_1000_5_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 215631 NAT2 5 85 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S85_large_15_TRUE.e -o Power_Calc_NAT2_1000_5_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 568244 NAT2 5 85 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S85_large_15_FALSE.e -o Power_Calc_NAT2_1000_5_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2881308 NAT2 5 85 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S90_small_5_TRUE.e -o Power_Calc_NAT2_1000_5_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3703976 NAT2 5 90 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S90_small_5_FALSE.e -o Power_Calc_NAT2_1000_5_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6116768 NAT2 5 90 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S90_small_15_TRUE.e -o Power_Calc_NAT2_1000_5_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6155764 NAT2 5 90 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S90_small_15_FALSE.e -o Power_Calc_NAT2_1000_5_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5344568 NAT2 5 90 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S90_small_25_TRUE.e -o Power_Calc_NAT2_1000_5_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 350409 NAT2 5 90 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S90_small_25_FALSE.e -o Power_Calc_NAT2_1000_5_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9049252 NAT2 5 90 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S90_medium_5_TRUE.e -o Power_Calc_NAT2_1000_5_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3931714 NAT2 5 90 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S90_medium_5_FALSE.e -o Power_Calc_NAT2_1000_5_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6933209 NAT2 5 90 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S90_medium_15_TRUE.e -o Power_Calc_NAT2_1000_5_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7031049 NAT2 5 90 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S90_medium_15_FALSE.e -o Power_Calc_NAT2_1000_5_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8406499 NAT2 5 90 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S90_medium_25_TRUE.e -o Power_Calc_NAT2_1000_5_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 686881 NAT2 5 90 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S90_medium_25_FALSE.e -o Power_Calc_NAT2_1000_5_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5783059 NAT2 5 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S90_large_5_TRUE.e -o Power_Calc_NAT2_1000_5_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7431125 NAT2 5 90 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S90_large_5_FALSE.e -o Power_Calc_NAT2_1000_5_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 428355 NAT2 5 90 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S90_large_15_TRUE.e -o Power_Calc_NAT2_1000_5_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7928812 NAT2 5 90 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S90_large_15_FALSE.e -o Power_Calc_NAT2_1000_5_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3119588 NAT2 5 90 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S95_small_5_TRUE.e -o Power_Calc_NAT2_1000_5_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6241081 NAT2 5 95 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S95_small_5_FALSE.e -o Power_Calc_NAT2_1000_5_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6933586 NAT2 5 95 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S95_small_15_TRUE.e -o Power_Calc_NAT2_1000_5_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4549594 NAT2 5 95 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S95_small_15_FALSE.e -o Power_Calc_NAT2_1000_5_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 239888 NAT2 5 95 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S95_small_25_TRUE.e -o Power_Calc_NAT2_1000_5_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2995535 NAT2 5 95 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S95_small_25_FALSE.e -o Power_Calc_NAT2_1000_5_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6723912 NAT2 5 95 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S95_medium_5_TRUE.e -o Power_Calc_NAT2_1000_5_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6202697 NAT2 5 95 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S95_medium_5_FALSE.e -o Power_Calc_NAT2_1000_5_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2530691 NAT2 5 95 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S95_medium_15_TRUE.e -o Power_Calc_NAT2_1000_5_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4042223 NAT2 5 95 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S95_medium_15_FALSE.e -o Power_Calc_NAT2_1000_5_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7274606 NAT2 5 95 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S95_medium_25_TRUE.e -o Power_Calc_NAT2_1000_5_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4706959 NAT2 5 95 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S95_medium_25_FALSE.e -o Power_Calc_NAT2_1000_5_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4223092 NAT2 5 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S95_large_5_TRUE.e -o Power_Calc_NAT2_1000_5_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6225857 NAT2 5 95 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S95_large_5_FALSE.e -o Power_Calc_NAT2_1000_5_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2526332 NAT2 5 95 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S95_large_15_TRUE.e -o Power_Calc_NAT2_1000_5_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2611478 NAT2 5 95 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S95_large_15_FALSE.e -o Power_Calc_NAT2_1000_5_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3069431 NAT2 5 95 large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S99_small_5_TRUE.e -o Power_Calc_NAT2_1000_5_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 644641 NAT2 5 99 small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S99_small_5_FALSE.e -o Power_Calc_NAT2_1000_5_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3942834 NAT2 5 99 small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S99_small_15_TRUE.e -o Power_Calc_NAT2_1000_5_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4810240 NAT2 5 99 small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S99_small_15_FALSE.e -o Power_Calc_NAT2_1000_5_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3184986 NAT2 5 99 small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S99_small_25_TRUE.e -o Power_Calc_NAT2_1000_5_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5452764 NAT2 5 99 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S99_small_25_FALSE.e -o Power_Calc_NAT2_1000_5_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6723640 NAT2 5 99 small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S99_medium_5_TRUE.e -o Power_Calc_NAT2_1000_5_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3786497 NAT2 5 99 medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S99_medium_5_FALSE.e -o Power_Calc_NAT2_1000_5_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9779823 NAT2 5 99 medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S99_medium_15_TRUE.e -o Power_Calc_NAT2_1000_5_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7774739 NAT2 5 99 medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S99_medium_15_FALSE.e -o Power_Calc_NAT2_1000_5_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1669440 NAT2 5 99 medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S99_medium_25_TRUE.e -o Power_Calc_NAT2_1000_5_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1134716 NAT2 5 99 medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S99_medium_25_FALSE.e -o Power_Calc_NAT2_1000_5_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8534689 NAT2 5 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_S99_large_5_TRUE.e -o Power_Calc_NAT2_1000_5_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9930313 NAT2 5 99 large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S99_large_5_FALSE.e -o Power_Calc_NAT2_1000_5_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4946556 NAT2 5 99 large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_S99_large_15_TRUE.e -o Power_Calc_NAT2_1000_5_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7330887 NAT2 5 99 large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_S99_large_15_FALSE.e -o Power_Calc_NAT2_1000_5_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8587293 NAT2 5 99 large 15 FALSE

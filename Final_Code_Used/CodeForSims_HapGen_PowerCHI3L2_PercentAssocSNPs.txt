@@ -1,0 +1,615 @@
+##General Power Code               
+#bsub -e Power_Calc_Gene_SS_Prev_S_ORSize_percentageAssoc_lowLDTF.e -o Power_Calc_Gene_SS_Prev_S_ORSize_percentageAssoc_lowLDTF.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh CHR SS SEED GENE YPREV S ORSize percentageAssoc LowLDTF
+
+bsub -e Power_Calc_CHI3L2_500_20_85_small_5_FALSE.e -o Power_Calc_CHI3L2_500_20_85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4529525 CHI3L2 20 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_25_FALSE.e -o Power_Calc_CHI3L2_500_20_85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8275700 CHI3L2 20 85 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_50_FALSE.e -o Power_Calc_CHI3L2_500_20_85_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6614144 CHI3L2 20 85 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_75_FALSE.e -o Power_Calc_CHI3L2_500_20_85_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9690525 CHI3L2 20 85 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_100_FALSE.e -o Power_Calc_CHI3L2_500_20_85_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1486341 CHI3L2 20 85 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_5_TRUE.e -o Power_Calc_CHI3L2_500_20_85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7660310 CHI3L2 20 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_25_TRUE.e -o Power_Calc_CHI3L2_500_20_85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5201728 CHI3L2 20 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_50_TRUE.e -o Power_Calc_CHI3L2_500_20_85_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3964739 CHI3L2 20 85 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_75_TRUE.e -o Power_Calc_CHI3L2_500_20_85_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3414199 CHI3L2 20 85 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_small_100_TRUE.e -o Power_Calc_CHI3L2_500_20_85_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9230501 CHI3L2 20 85 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_20_85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7933305 CHI3L2 20 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_20_85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2131432 CHI3L2 20 85 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_20_85_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2911869 CHI3L2 20 85 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_20_85_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2023373 CHI3L2 20 85 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_20_85_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8837566 CHI3L2 20 85 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_20_85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2502030 CHI3L2 20 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_20_85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 181342 CHI3L2 20 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_20_85_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7301029 CHI3L2 20 85 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_20_85_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1936981 CHI3L2 20 85 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_20_85_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6918130 CHI3L2 20 85 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_85_large_5_FALSE.e -o Power_Calc_CHI3L2_500_20_85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8554313 CHI3L2 20 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_25_FALSE.e -o Power_Calc_CHI3L2_500_20_85_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9774553 CHI3L2 20 85 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_50_FALSE.e -o Power_Calc_CHI3L2_500_20_85_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 242119 CHI3L2 20 85 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_75_FALSE.e -o Power_Calc_CHI3L2_500_20_85_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4867992 CHI3L2 20 85 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_100_FALSE.e -o Power_Calc_CHI3L2_500_20_85_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4466296 CHI3L2 20 85 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_5_TRUE.e -o Power_Calc_CHI3L2_500_20_85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5552124 CHI3L2 20 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_25_TRUE.e -o Power_Calc_CHI3L2_500_20_85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4574033 CHI3L2 20 85 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_50_TRUE.e -o Power_Calc_CHI3L2_500_20_85_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1489172 CHI3L2 20 85 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_75_TRUE.e -o Power_Calc_CHI3L2_500_20_85_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7662946 CHI3L2 20 85 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_85_large_100_TRUE.e -o Power_Calc_CHI3L2_500_20_85_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2349821 CHI3L2 20 85 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_90_small_5_FALSE.e -o Power_Calc_CHI3L2_500_20_90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2050740 CHI3L2 20 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_25_FALSE.e -o Power_Calc_CHI3L2_500_20_90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9428052 CHI3L2 20 90 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_50_FALSE.e -o Power_Calc_CHI3L2_500_20_90_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6144360 CHI3L2 20 90 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_75_FALSE.e -o Power_Calc_CHI3L2_500_20_90_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 720872 CHI3L2 20 90 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_100_FALSE.e -o Power_Calc_CHI3L2_500_20_90_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9581936 CHI3L2 20 90 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_5_TRUE.e -o Power_Calc_CHI3L2_500_20_90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6900952 CHI3L2 20 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_25_TRUE.e -o Power_Calc_CHI3L2_500_20_90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 220500 CHI3L2 20 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_50_TRUE.e -o Power_Calc_CHI3L2_500_20_90_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 662525 CHI3L2 20 90 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_75_TRUE.e -o Power_Calc_CHI3L2_500_20_90_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5055124 CHI3L2 20 90 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_small_100_TRUE.e -o Power_Calc_CHI3L2_500_20_90_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6774181 CHI3L2 20 90 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_20_90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4967846 CHI3L2 20 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_20_90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1214045 CHI3L2 20 90 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_20_90_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 802891 CHI3L2 20 90 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_20_90_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8046604 CHI3L2 20 90 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_20_90_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1493968 CHI3L2 20 90 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_20_90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1880388 CHI3L2 20 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_20_90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4197103 CHI3L2 20 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_20_90_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7073056 CHI3L2 20 90 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_20_90_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8630352 CHI3L2 20 90 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_20_90_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6551035 CHI3L2 20 90 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_90_large_5_FALSE.e -o Power_Calc_CHI3L2_500_20_90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1460854 CHI3L2 20 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_25_FALSE.e -o Power_Calc_CHI3L2_500_20_90_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8866280 CHI3L2 20 90 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_50_FALSE.e -o Power_Calc_CHI3L2_500_20_90_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9726191 CHI3L2 20 90 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_75_FALSE.e -o Power_Calc_CHI3L2_500_20_90_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2947824 CHI3L2 20 90 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_100_FALSE.e -o Power_Calc_CHI3L2_500_20_90_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5629862 CHI3L2 20 90 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_5_TRUE.e -o Power_Calc_CHI3L2_500_20_90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8403269 CHI3L2 20 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_25_TRUE.e -o Power_Calc_CHI3L2_500_20_90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9495669 CHI3L2 20 90 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_50_TRUE.e -o Power_Calc_CHI3L2_500_20_90_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2903769 CHI3L2 20 90 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_75_TRUE.e -o Power_Calc_CHI3L2_500_20_90_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9540820 CHI3L2 20 90 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_90_large_100_TRUE.e -o Power_Calc_CHI3L2_500_20_90_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9783700 CHI3L2 20 90 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_95_small_5_FALSE.e -o Power_Calc_CHI3L2_500_20_95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 262412 CHI3L2 20 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_25_FALSE.e -o Power_Calc_CHI3L2_500_20_95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6684088 CHI3L2 20 95 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_50_FALSE.e -o Power_Calc_CHI3L2_500_20_95_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8327452 CHI3L2 20 95 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_75_FALSE.e -o Power_Calc_CHI3L2_500_20_95_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6757182 CHI3L2 20 95 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_100_FALSE.e -o Power_Calc_CHI3L2_500_20_95_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4133531 CHI3L2 20 95 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_5_TRUE.e -o Power_Calc_CHI3L2_500_20_95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 101289 CHI3L2 20 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_25_TRUE.e -o Power_Calc_CHI3L2_500_20_95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6158125 CHI3L2 20 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_50_TRUE.e -o Power_Calc_CHI3L2_500_20_95_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5291901 CHI3L2 20 95 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_75_TRUE.e -o Power_Calc_CHI3L2_500_20_95_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2291940 CHI3L2 20 95 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_small_100_TRUE.e -o Power_Calc_CHI3L2_500_20_95_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8536765 CHI3L2 20 95 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_20_95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8216541 CHI3L2 20 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_20_95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6441734 CHI3L2 20 95 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_20_95_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3452394 CHI3L2 20 95 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_20_95_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9825649 CHI3L2 20 95 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_20_95_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1901190 CHI3L2 20 95 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_20_95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6941748 CHI3L2 20 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_20_95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1481459 CHI3L2 20 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_20_95_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 653702 CHI3L2 20 95 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_20_95_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2308289 CHI3L2 20 95 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_20_95_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3293042 CHI3L2 20 95 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_95_large_5_FALSE.e -o Power_Calc_CHI3L2_500_20_95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 689641 CHI3L2 20 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_25_FALSE.e -o Power_Calc_CHI3L2_500_20_95_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2145301 CHI3L2 20 95 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_50_FALSE.e -o Power_Calc_CHI3L2_500_20_95_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5100756 CHI3L2 20 95 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_75_FALSE.e -o Power_Calc_CHI3L2_500_20_95_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1650926 CHI3L2 20 95 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_100_FALSE.e -o Power_Calc_CHI3L2_500_20_95_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2112555 CHI3L2 20 95 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_5_TRUE.e -o Power_Calc_CHI3L2_500_20_95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7751964 CHI3L2 20 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_25_TRUE.e -o Power_Calc_CHI3L2_500_20_95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7311666 CHI3L2 20 95 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_50_TRUE.e -o Power_Calc_CHI3L2_500_20_95_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9725371 CHI3L2 20 95 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_75_TRUE.e -o Power_Calc_CHI3L2_500_20_95_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2507842 CHI3L2 20 95 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_95_large_100_TRUE.e -o Power_Calc_CHI3L2_500_20_95_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3907780 CHI3L2 20 95 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_99_small_5_FALSE.e -o Power_Calc_CHI3L2_500_20_99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9164890 CHI3L2 20 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_25_FALSE.e -o Power_Calc_CHI3L2_500_20_99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9563 CHI3L2 20 99 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_50_FALSE.e -o Power_Calc_CHI3L2_500_20_99_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 639337 CHI3L2 20 99 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_75_FALSE.e -o Power_Calc_CHI3L2_500_20_99_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1905245 CHI3L2 20 99 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_100_FALSE.e -o Power_Calc_CHI3L2_500_20_99_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9357226 CHI3L2 20 99 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_5_TRUE.e -o Power_Calc_CHI3L2_500_20_99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1517505 CHI3L2 20 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_25_TRUE.e -o Power_Calc_CHI3L2_500_20_99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9526219 CHI3L2 20 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_50_TRUE.e -o Power_Calc_CHI3L2_500_20_99_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7755404 CHI3L2 20 99 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_75_TRUE.e -o Power_Calc_CHI3L2_500_20_99_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 790296 CHI3L2 20 99 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_small_100_TRUE.e -o Power_Calc_CHI3L2_500_20_99_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4794175 CHI3L2 20 99 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_20_99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5225166 CHI3L2 20 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_20_99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8665227 CHI3L2 20 99 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_20_99_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3996359 CHI3L2 20 99 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_20_99_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2456839 CHI3L2 20 99 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_20_99_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4860466 CHI3L2 20 99 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_20_99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2073305 CHI3L2 20 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_20_99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2151847 CHI3L2 20 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_20_99_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2438426 CHI3L2 20 99 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_20_99_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 143221 CHI3L2 20 99 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_20_99_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9800868 CHI3L2 20 99 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_20_99_large_5_FALSE.e -o Power_Calc_CHI3L2_500_20_99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2057616 CHI3L2 20 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_25_FALSE.e -o Power_Calc_CHI3L2_500_20_99_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9848394 CHI3L2 20 99 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_50_FALSE.e -o Power_Calc_CHI3L2_500_20_99_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 25676 CHI3L2 20 99 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_75_FALSE.e -o Power_Calc_CHI3L2_500_20_99_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7905739 CHI3L2 20 99 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_100_FALSE.e -o Power_Calc_CHI3L2_500_20_99_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9257860 CHI3L2 20 99 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_5_TRUE.e -o Power_Calc_CHI3L2_500_20_99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1686546 CHI3L2 20 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_25_TRUE.e -o Power_Calc_CHI3L2_500_20_99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1575285 CHI3L2 20 99 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_50_TRUE.e -o Power_Calc_CHI3L2_500_20_99_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1516510 CHI3L2 20 99 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_75_TRUE.e -o Power_Calc_CHI3L2_500_20_99_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1881049 CHI3L2 20 99 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_99_large_100_TRUE.e -o Power_Calc_CHI3L2_500_20_99_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6377804 CHI3L2 20 99 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_85_small_5_FALSE.e -o Power_Calc_CHI3L2_500_10_85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6555632 CHI3L2 10 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_25_FALSE.e -o Power_Calc_CHI3L2_500_10_85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3288228 CHI3L2 10 85 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_50_FALSE.e -o Power_Calc_CHI3L2_500_10_85_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5818587 CHI3L2 10 85 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_75_FALSE.e -o Power_Calc_CHI3L2_500_10_85_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2897942 CHI3L2 10 85 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_100_FALSE.e -o Power_Calc_CHI3L2_500_10_85_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5648653 CHI3L2 10 85 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_5_TRUE.e -o Power_Calc_CHI3L2_500_10_85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1149156 CHI3L2 10 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_25_TRUE.e -o Power_Calc_CHI3L2_500_10_85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2643394 CHI3L2 10 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_50_TRUE.e -o Power_Calc_CHI3L2_500_10_85_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9253145 CHI3L2 10 85 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_75_TRUE.e -o Power_Calc_CHI3L2_500_10_85_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 963323 CHI3L2 10 85 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_small_100_TRUE.e -o Power_Calc_CHI3L2_500_10_85_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3294612 CHI3L2 10 85 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_10_85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6361322 CHI3L2 10 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_10_85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1225530 CHI3L2 10 85 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_10_85_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4273548 CHI3L2 10 85 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_10_85_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 84286 CHI3L2 10 85 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_10_85_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8385944 CHI3L2 10 85 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_10_85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4969044 CHI3L2 10 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_10_85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5458269 CHI3L2 10 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_10_85_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5975886 CHI3L2 10 85 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_10_85_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4657101 CHI3L2 10 85 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_10_85_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1451857 CHI3L2 10 85 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_85_large_5_FALSE.e -o Power_Calc_CHI3L2_500_10_85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4802333 CHI3L2 10 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_25_FALSE.e -o Power_Calc_CHI3L2_500_10_85_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7631171 CHI3L2 10 85 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_50_FALSE.e -o Power_Calc_CHI3L2_500_10_85_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2256372 CHI3L2 10 85 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_75_FALSE.e -o Power_Calc_CHI3L2_500_10_85_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4077079 CHI3L2 10 85 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_100_FALSE.e -o Power_Calc_CHI3L2_500_10_85_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6933441 CHI3L2 10 85 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_5_TRUE.e -o Power_Calc_CHI3L2_500_10_85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3721129 CHI3L2 10 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_25_TRUE.e -o Power_Calc_CHI3L2_500_10_85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8183549 CHI3L2 10 85 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_50_TRUE.e -o Power_Calc_CHI3L2_500_10_85_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3993080 CHI3L2 10 85 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_75_TRUE.e -o Power_Calc_CHI3L2_500_10_85_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1259504 CHI3L2 10 85 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_85_large_100_TRUE.e -o Power_Calc_CHI3L2_500_10_85_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8608903 CHI3L2 10 85 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_90_small_5_FALSE.e -o Power_Calc_CHI3L2_500_10_90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8658296 CHI3L2 10 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_25_FALSE.e -o Power_Calc_CHI3L2_500_10_90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4221443 CHI3L2 10 90 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_50_FALSE.e -o Power_Calc_CHI3L2_500_10_90_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 446044 CHI3L2 10 90 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_75_FALSE.e -o Power_Calc_CHI3L2_500_10_90_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7248234 CHI3L2 10 90 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_100_FALSE.e -o Power_Calc_CHI3L2_500_10_90_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 205180 CHI3L2 10 90 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_5_TRUE.e -o Power_Calc_CHI3L2_500_10_90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4864247 CHI3L2 10 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_25_TRUE.e -o Power_Calc_CHI3L2_500_10_90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8588188 CHI3L2 10 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_50_TRUE.e -o Power_Calc_CHI3L2_500_10_90_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8745986 CHI3L2 10 90 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_75_TRUE.e -o Power_Calc_CHI3L2_500_10_90_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1403219 CHI3L2 10 90 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_small_100_TRUE.e -o Power_Calc_CHI3L2_500_10_90_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3956328 CHI3L2 10 90 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_10_90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7818626 CHI3L2 10 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_10_90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 159473 CHI3L2 10 90 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_10_90_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7328446 CHI3L2 10 90 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_10_90_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 969627 CHI3L2 10 90 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_10_90_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 146884 CHI3L2 10 90 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_10_90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6234911 CHI3L2 10 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_10_90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3774144 CHI3L2 10 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_10_90_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6881049 CHI3L2 10 90 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_10_90_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9203028 CHI3L2 10 90 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_10_90_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7880598 CHI3L2 10 90 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_90_large_5_FALSE.e -o Power_Calc_CHI3L2_500_10_90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5701839 CHI3L2 10 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_25_FALSE.e -o Power_Calc_CHI3L2_500_10_90_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5670355 CHI3L2 10 90 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_50_FALSE.e -o Power_Calc_CHI3L2_500_10_90_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6633785 CHI3L2 10 90 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_75_FALSE.e -o Power_Calc_CHI3L2_500_10_90_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7968506 CHI3L2 10 90 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_100_FALSE.e -o Power_Calc_CHI3L2_500_10_90_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8742081 CHI3L2 10 90 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_5_TRUE.e -o Power_Calc_CHI3L2_500_10_90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9382549 CHI3L2 10 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_25_TRUE.e -o Power_Calc_CHI3L2_500_10_90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4470914 CHI3L2 10 90 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_50_TRUE.e -o Power_Calc_CHI3L2_500_10_90_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6680747 CHI3L2 10 90 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_75_TRUE.e -o Power_Calc_CHI3L2_500_10_90_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3449090 CHI3L2 10 90 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_90_large_100_TRUE.e -o Power_Calc_CHI3L2_500_10_90_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1050186 CHI3L2 10 90 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_95_small_5_FALSE.e -o Power_Calc_CHI3L2_500_10_95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 228384 CHI3L2 10 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_25_FALSE.e -o Power_Calc_CHI3L2_500_10_95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8526088 CHI3L2 10 95 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_50_FALSE.e -o Power_Calc_CHI3L2_500_10_95_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8527070 CHI3L2 10 95 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_75_FALSE.e -o Power_Calc_CHI3L2_500_10_95_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5680982 CHI3L2 10 95 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_100_FALSE.e -o Power_Calc_CHI3L2_500_10_95_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7139818 CHI3L2 10 95 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_5_TRUE.e -o Power_Calc_CHI3L2_500_10_95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2991431 CHI3L2 10 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_25_TRUE.e -o Power_Calc_CHI3L2_500_10_95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4998721 CHI3L2 10 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_50_TRUE.e -o Power_Calc_CHI3L2_500_10_95_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5685366 CHI3L2 10 95 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_75_TRUE.e -o Power_Calc_CHI3L2_500_10_95_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8726750 CHI3L2 10 95 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_small_100_TRUE.e -o Power_Calc_CHI3L2_500_10_95_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4777542 CHI3L2 10 95 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_10_95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9590975 CHI3L2 10 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_10_95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1956187 CHI3L2 10 95 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_10_95_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6646111 CHI3L2 10 95 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_10_95_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2993765 CHI3L2 10 95 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_10_95_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7302954 CHI3L2 10 95 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_10_95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6839718 CHI3L2 10 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_10_95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5307709 CHI3L2 10 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_10_95_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1761378 CHI3L2 10 95 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_10_95_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9439845 CHI3L2 10 95 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_10_95_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8278207 CHI3L2 10 95 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_95_large_5_FALSE.e -o Power_Calc_CHI3L2_500_10_95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6312193 CHI3L2 10 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_25_FALSE.e -o Power_Calc_CHI3L2_500_10_95_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 20431 CHI3L2 10 95 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_50_FALSE.e -o Power_Calc_CHI3L2_500_10_95_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5213820 CHI3L2 10 95 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_75_FALSE.e -o Power_Calc_CHI3L2_500_10_95_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 961478 CHI3L2 10 95 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_100_FALSE.e -o Power_Calc_CHI3L2_500_10_95_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 432045 CHI3L2 10 95 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_5_TRUE.e -o Power_Calc_CHI3L2_500_10_95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4798093 CHI3L2 10 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_25_TRUE.e -o Power_Calc_CHI3L2_500_10_95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5847690 CHI3L2 10 95 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_50_TRUE.e -o Power_Calc_CHI3L2_500_10_95_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7687664 CHI3L2 10 95 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_75_TRUE.e -o Power_Calc_CHI3L2_500_10_95_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6029755 CHI3L2 10 95 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_95_large_100_TRUE.e -o Power_Calc_CHI3L2_500_10_95_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6104895 CHI3L2 10 95 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_99_small_5_FALSE.e -o Power_Calc_CHI3L2_500_10_99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7440749 CHI3L2 10 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_25_FALSE.e -o Power_Calc_CHI3L2_500_10_99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9435675 CHI3L2 10 99 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_50_FALSE.e -o Power_Calc_CHI3L2_500_10_99_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7606441 CHI3L2 10 99 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_75_FALSE.e -o Power_Calc_CHI3L2_500_10_99_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 585776 CHI3L2 10 99 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_100_FALSE.e -o Power_Calc_CHI3L2_500_10_99_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8942087 CHI3L2 10 99 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_5_TRUE.e -o Power_Calc_CHI3L2_500_10_99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 488665 CHI3L2 10 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_25_TRUE.e -o Power_Calc_CHI3L2_500_10_99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8756863 CHI3L2 10 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_50_TRUE.e -o Power_Calc_CHI3L2_500_10_99_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3877498 CHI3L2 10 99 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_75_TRUE.e -o Power_Calc_CHI3L2_500_10_99_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9933740 CHI3L2 10 99 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_small_100_TRUE.e -o Power_Calc_CHI3L2_500_10_99_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1435562 CHI3L2 10 99 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_10_99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3559062 CHI3L2 10 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_10_99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 385640 CHI3L2 10 99 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_10_99_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8932818 CHI3L2 10 99 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_10_99_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5134274 CHI3L2 10 99 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_10_99_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3676325 CHI3L2 10 99 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_10_99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7959331 CHI3L2 10 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_10_99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2296615 CHI3L2 10 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_10_99_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4654233 CHI3L2 10 99 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_10_99_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8171048 CHI3L2 10 99 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_10_99_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7211354 CHI3L2 10 99 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_10_99_large_5_FALSE.e -o Power_Calc_CHI3L2_500_10_99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 701648 CHI3L2 10 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_25_FALSE.e -o Power_Calc_CHI3L2_500_10_99_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2967863 CHI3L2 10 99 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_50_FALSE.e -o Power_Calc_CHI3L2_500_10_99_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1612852 CHI3L2 10 99 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_75_FALSE.e -o Power_Calc_CHI3L2_500_10_99_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6924283 CHI3L2 10 99 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_100_FALSE.e -o Power_Calc_CHI3L2_500_10_99_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9897803 CHI3L2 10 99 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_5_TRUE.e -o Power_Calc_CHI3L2_500_10_99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5183588 CHI3L2 10 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_25_TRUE.e -o Power_Calc_CHI3L2_500_10_99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4303326 CHI3L2 10 99 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_50_TRUE.e -o Power_Calc_CHI3L2_500_10_99_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5959662 CHI3L2 10 99 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_75_TRUE.e -o Power_Calc_CHI3L2_500_10_99_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6469217 CHI3L2 10 99 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_99_large_100_TRUE.e -o Power_Calc_CHI3L2_500_10_99_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9276665 CHI3L2 10 99 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_85_small_5_FALSE.e -o Power_Calc_CHI3L2_500_5_85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 857623 CHI3L2 5 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_25_FALSE.e -o Power_Calc_CHI3L2_500_5_85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4619432 CHI3L2 5 85 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_50_FALSE.e -o Power_Calc_CHI3L2_500_5_85_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2495651 CHI3L2 5 85 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_75_FALSE.e -o Power_Calc_CHI3L2_500_5_85_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2361538 CHI3L2 5 85 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_100_FALSE.e -o Power_Calc_CHI3L2_500_5_85_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4149692 CHI3L2 5 85 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_5_TRUE.e -o Power_Calc_CHI3L2_500_5_85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2716049 CHI3L2 5 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_25_TRUE.e -o Power_Calc_CHI3L2_500_5_85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 296648 CHI3L2 5 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_50_TRUE.e -o Power_Calc_CHI3L2_500_5_85_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8244625 CHI3L2 5 85 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_75_TRUE.e -o Power_Calc_CHI3L2_500_5_85_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2344751 CHI3L2 5 85 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_small_100_TRUE.e -o Power_Calc_CHI3L2_500_5_85_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7884093 CHI3L2 5 85 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_5_85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8262822 CHI3L2 5 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_5_85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4829695 CHI3L2 5 85 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_5_85_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2661978 CHI3L2 5 85 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_5_85_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3410003 CHI3L2 5 85 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_5_85_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7005055 CHI3L2 5 85 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_5_85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1323078 CHI3L2 5 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_5_85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1285984 CHI3L2 5 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_5_85_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4957863 CHI3L2 5 85 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_5_85_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5138258 CHI3L2 5 85 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_5_85_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7671124 CHI3L2 5 85 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_85_large_5_FALSE.e -o Power_Calc_CHI3L2_500_5_85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4315308 CHI3L2 5 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_25_FALSE.e -o Power_Calc_CHI3L2_500_5_85_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3551130 CHI3L2 5 85 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_50_FALSE.e -o Power_Calc_CHI3L2_500_5_85_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 107400 CHI3L2 5 85 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_75_FALSE.e -o Power_Calc_CHI3L2_500_5_85_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1782802 CHI3L2 5 85 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_100_FALSE.e -o Power_Calc_CHI3L2_500_5_85_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1460574 CHI3L2 5 85 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_5_TRUE.e -o Power_Calc_CHI3L2_500_5_85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7823057 CHI3L2 5 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_25_TRUE.e -o Power_Calc_CHI3L2_500_5_85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9600036 CHI3L2 5 85 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_50_TRUE.e -o Power_Calc_CHI3L2_500_5_85_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7789799 CHI3L2 5 85 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_75_TRUE.e -o Power_Calc_CHI3L2_500_5_85_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8586522 CHI3L2 5 85 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_85_large_100_TRUE.e -o Power_Calc_CHI3L2_500_5_85_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3865899 CHI3L2 5 85 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_90_small_5_FALSE.e -o Power_Calc_CHI3L2_500_5_90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5250320 CHI3L2 5 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_25_FALSE.e -o Power_Calc_CHI3L2_500_5_90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4912302 CHI3L2 5 90 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_50_FALSE.e -o Power_Calc_CHI3L2_500_5_90_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9689678 CHI3L2 5 90 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_75_FALSE.e -o Power_Calc_CHI3L2_500_5_90_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3087592 CHI3L2 5 90 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_100_FALSE.e -o Power_Calc_CHI3L2_500_5_90_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4288233 CHI3L2 5 90 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_5_TRUE.e -o Power_Calc_CHI3L2_500_5_90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9966327 CHI3L2 5 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_25_TRUE.e -o Power_Calc_CHI3L2_500_5_90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3389299 CHI3L2 5 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_50_TRUE.e -o Power_Calc_CHI3L2_500_5_90_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1559564 CHI3L2 5 90 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_75_TRUE.e -o Power_Calc_CHI3L2_500_5_90_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6455824 CHI3L2 5 90 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_small_100_TRUE.e -o Power_Calc_CHI3L2_500_5_90_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6112251 CHI3L2 5 90 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_5_90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7107041 CHI3L2 5 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_5_90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5377182 CHI3L2 5 90 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_5_90_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9399042 CHI3L2 5 90 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_5_90_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1531921 CHI3L2 5 90 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_5_90_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7727466 CHI3L2 5 90 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_5_90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9989643 CHI3L2 5 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_5_90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8294074 CHI3L2 5 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_5_90_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6130227 CHI3L2 5 90 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_5_90_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2520826 CHI3L2 5 90 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_5_90_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3776606 CHI3L2 5 90 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_90_large_5_FALSE.e -o Power_Calc_CHI3L2_500_5_90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9252555 CHI3L2 5 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_25_FALSE.e -o Power_Calc_CHI3L2_500_5_90_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6567287 CHI3L2 5 90 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_50_FALSE.e -o Power_Calc_CHI3L2_500_5_90_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6372670 CHI3L2 5 90 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_75_FALSE.e -o Power_Calc_CHI3L2_500_5_90_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 717037 CHI3L2 5 90 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_100_FALSE.e -o Power_Calc_CHI3L2_500_5_90_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2469325 CHI3L2 5 90 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_5_TRUE.e -o Power_Calc_CHI3L2_500_5_90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 828337 CHI3L2 5 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_25_TRUE.e -o Power_Calc_CHI3L2_500_5_90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6532932 CHI3L2 5 90 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_50_TRUE.e -o Power_Calc_CHI3L2_500_5_90_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1308275 CHI3L2 5 90 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_75_TRUE.e -o Power_Calc_CHI3L2_500_5_90_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8317670 CHI3L2 5 90 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_90_large_100_TRUE.e -o Power_Calc_CHI3L2_500_5_90_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9520004 CHI3L2 5 90 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_95_small_5_FALSE.e -o Power_Calc_CHI3L2_500_5_95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8683688 CHI3L2 5 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_25_FALSE.e -o Power_Calc_CHI3L2_500_5_95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6415786 CHI3L2 5 95 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_50_FALSE.e -o Power_Calc_CHI3L2_500_5_95_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2863900 CHI3L2 5 95 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_75_FALSE.e -o Power_Calc_CHI3L2_500_5_95_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4567873 CHI3L2 5 95 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_100_FALSE.e -o Power_Calc_CHI3L2_500_5_95_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9293238 CHI3L2 5 95 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_5_TRUE.e -o Power_Calc_CHI3L2_500_5_95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4956224 CHI3L2 5 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_25_TRUE.e -o Power_Calc_CHI3L2_500_5_95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9498961 CHI3L2 5 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_50_TRUE.e -o Power_Calc_CHI3L2_500_5_95_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7412712 CHI3L2 5 95 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_75_TRUE.e -o Power_Calc_CHI3L2_500_5_95_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 779265 CHI3L2 5 95 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_small_100_TRUE.e -o Power_Calc_CHI3L2_500_5_95_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1773658 CHI3L2 5 95 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_5_95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7679224 CHI3L2 5 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_5_95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8019174 CHI3L2 5 95 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_5_95_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2682500 CHI3L2 5 95 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_5_95_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8792461 CHI3L2 5 95 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_5_95_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9625848 CHI3L2 5 95 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_5_95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6326437 CHI3L2 5 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_5_95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 935459 CHI3L2 5 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_5_95_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5741243 CHI3L2 5 95 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_5_95_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2391617 CHI3L2 5 95 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_5_95_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2827164 CHI3L2 5 95 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_95_large_5_FALSE.e -o Power_Calc_CHI3L2_500_5_95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6388435 CHI3L2 5 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_25_FALSE.e -o Power_Calc_CHI3L2_500_5_95_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5627034 CHI3L2 5 95 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_50_FALSE.e -o Power_Calc_CHI3L2_500_5_95_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8405957 CHI3L2 5 95 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_75_FALSE.e -o Power_Calc_CHI3L2_500_5_95_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 698742 CHI3L2 5 95 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_100_FALSE.e -o Power_Calc_CHI3L2_500_5_95_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5279088 CHI3L2 5 95 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_5_TRUE.e -o Power_Calc_CHI3L2_500_5_95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1559590 CHI3L2 5 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_25_TRUE.e -o Power_Calc_CHI3L2_500_5_95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4304833 CHI3L2 5 95 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_50_TRUE.e -o Power_Calc_CHI3L2_500_5_95_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 237404 CHI3L2 5 95 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_75_TRUE.e -o Power_Calc_CHI3L2_500_5_95_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4076945 CHI3L2 5 95 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_95_large_100_TRUE.e -o Power_Calc_CHI3L2_500_5_95_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7300022 CHI3L2 5 95 large 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_99_small_5_FALSE.e -o Power_Calc_CHI3L2_500_5_99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7397274 CHI3L2 5 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_25_FALSE.e -o Power_Calc_CHI3L2_500_5_99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8788938 CHI3L2 5 99 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_50_FALSE.e -o Power_Calc_CHI3L2_500_5_99_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7661094 CHI3L2 5 99 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_75_FALSE.e -o Power_Calc_CHI3L2_500_5_99_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9512668 CHI3L2 5 99 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_100_FALSE.e -o Power_Calc_CHI3L2_500_5_99_small_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 515851 CHI3L2 5 99 small 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_5_TRUE.e -o Power_Calc_CHI3L2_500_5_99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1535920 CHI3L2 5 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_25_TRUE.e -o Power_Calc_CHI3L2_500_5_99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3163230 CHI3L2 5 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_50_TRUE.e -o Power_Calc_CHI3L2_500_5_99_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4616426 CHI3L2 5 99 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_75_TRUE.e -o Power_Calc_CHI3L2_500_5_99_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8102554 CHI3L2 5 99 small 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_small_100_TRUE.e -o Power_Calc_CHI3L2_500_5_99_small_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7594265 CHI3L2 5 99 small 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_5_99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9737453 CHI3L2 5 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_5_99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2899342 CHI3L2 5 99 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_50_FALSE.e -o Power_Calc_CHI3L2_500_5_99_medium_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5152682 CHI3L2 5 99 medium 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_75_FALSE.e -o Power_Calc_CHI3L2_500_5_99_medium_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5184478 CHI3L2 5 99 medium 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_100_FALSE.e -o Power_Calc_CHI3L2_500_5_99_medium_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7688660 CHI3L2 5 99 medium 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_5_99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3316907 CHI3L2 5 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_5_99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 496702 CHI3L2 5 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_50_TRUE.e -o Power_Calc_CHI3L2_500_5_99_medium_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6595443 CHI3L2 5 99 medium 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_75_TRUE.e -o Power_Calc_CHI3L2_500_5_99_medium_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8716572 CHI3L2 5 99 medium 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_medium_100_TRUE.e -o Power_Calc_CHI3L2_500_5_99_medium_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2398534 CHI3L2 5 99 medium 100 TRUE
+
+bsub -e Power_Calc_CHI3L2_500_5_99_large_5_FALSE.e -o Power_Calc_CHI3L2_500_5_99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2123540 CHI3L2 5 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_25_FALSE.e -o Power_Calc_CHI3L2_500_5_99_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5149039 CHI3L2 5 99 large 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_50_FALSE.e -o Power_Calc_CHI3L2_500_5_99_large_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 977371 CHI3L2 5 99 large 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_75_FALSE.e -o Power_Calc_CHI3L2_500_5_99_large_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5575433 CHI3L2 5 99 large 75 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_100_FALSE.e -o Power_Calc_CHI3L2_500_5_99_large_100_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1691349 CHI3L2 5 99 large 100 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_5_TRUE.e -o Power_Calc_CHI3L2_500_5_99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8696485 CHI3L2 5 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_25_TRUE.e -o Power_Calc_CHI3L2_500_5_99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6997333 CHI3L2 5 99 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_50_TRUE.e -o Power_Calc_CHI3L2_500_5_99_large_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7391888 CHI3L2 5 99 large 50 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_75_TRUE.e -o Power_Calc_CHI3L2_500_5_99_large_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8328085 CHI3L2 5 99 large 75 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_99_large_100_TRUE.e -o Power_Calc_CHI3L2_500_5_99_large_100_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1147606 CHI3L2 5 99 large 100 TRUE
+
+##############################################
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9344213 CHI3L2 20 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2431637 CHI3L2 20 85 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4782952 CHI3L2 20 85 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 932037 CHI3L2 20 85 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1952378 CHI3L2 20 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8664512 CHI3L2 20 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1869872 CHI3L2 20 85 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7292846 CHI3L2 20 85 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_85_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9530990 CHI3L2 20 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_85_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1127809 CHI3L2 20 85 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_85_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9687882 CHI3L2 20 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_85_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7344951 CHI3L2 20 85 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_85_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7953984 CHI3L2 20 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_85_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2565820 CHI3L2 20 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_85_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5094579 CHI3L2 20 85 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 430597 CHI3L2 20 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2117203 CHI3L2 20 90 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5063164 CHI3L2 20 90 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4628302 CHI3L2 20 90 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4356862 CHI3L2 20 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6707613 CHI3L2 20 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6922061 CHI3L2 20 90 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8220560 CHI3L2 20 90 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_90_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9543987 CHI3L2 20 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_90_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1974220 CHI3L2 20 90 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_90_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1535997 CHI3L2 20 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_90_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7190631 CHI3L2 20 90 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_90_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2920181 CHI3L2 20 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_90_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2605096 CHI3L2 20 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_90_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8005534 CHI3L2 20 90 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 238875 CHI3L2 20 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3542662 CHI3L2 20 95 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1715579 CHI3L2 20 95 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9451954 CHI3L2 20 95 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 327110 CHI3L2 20 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1731849 CHI3L2 20 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 81234 CHI3L2 20 95 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6472511 CHI3L2 20 95 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_95_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8726246 CHI3L2 20 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_95_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9359677 CHI3L2 20 95 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_95_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5291389 CHI3L2 20 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_95_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8153940 CHI3L2 20 95 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_95_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2461540 CHI3L2 20 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_95_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5944165 CHI3L2 20 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_95_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8850608 CHI3L2 20 95 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 580049 CHI3L2 20 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4323009 CHI3L2 20 99 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5886148 CHI3L2 20 99 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1743476 CHI3L2 20 99 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8166299 CHI3L2 20 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1234475 CHI3L2 20 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9397908 CHI3L2 20 99 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6727212 CHI3L2 20 99 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_99_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4872184 CHI3L2 20 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_99_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2446488 CHI3L2 20 99 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_99_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5726572 CHI3L2 20 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_99_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3193025 CHI3L2 20 99 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_99_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5450536 CHI3L2 20 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_99_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6296296 CHI3L2 20 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_99_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9765203 CHI3L2 20 99 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_85_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5526426 CHI3L2 10 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_85_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2809344 CHI3L2 10 85 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_85_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_10_85_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3223178 CHI3L2 10 85 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_85_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_10_85_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9575199 CHI3L2 10 85 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_85_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3586641 CHI3L2 10 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_85_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8811443 CHI3L2 10 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_85_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5599292 CHI3L2 10 85 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_85_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3031752 CHI3L2 10 85 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_85_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7988820 CHI3L2 10 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_85_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8220557 CHI3L2 10 85 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_85_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4839361 CHI3L2 10 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_85_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7058197 CHI3L2 10 85 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_85_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7280547 CHI3L2 10 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_85_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8032465 CHI3L2 10 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_85_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6312044 CHI3L2 10 85 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_90_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8917140 CHI3L2 10 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_90_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8167753 CHI3L2 10 90 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_90_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_10_90_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7746043 CHI3L2 10 90 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_90_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_10_90_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5928295 CHI3L2 10 90 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_90_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6105455 CHI3L2 10 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_90_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7500269 CHI3L2 10 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_90_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 958775 CHI3L2 10 90 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_90_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8778630 CHI3L2 10 90 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_90_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3562312 CHI3L2 10 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_90_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4611090 CHI3L2 10 90 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_90_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2206849 CHI3L2 10 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_90_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2185771 CHI3L2 10 90 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_90_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7032070 CHI3L2 10 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_90_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1650871 CHI3L2 10 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_90_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1290173 CHI3L2 10 90 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_95_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1513508 CHI3L2 10 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_95_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7901773 CHI3L2 10 95 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_95_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_10_95_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9451481 CHI3L2 10 95 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_95_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_10_95_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7079493 CHI3L2 10 95 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_95_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1858510 CHI3L2 10 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_95_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6741815 CHI3L2 10 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_95_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2098536 CHI3L2 10 95 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_95_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9017663 CHI3L2 10 95 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_95_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2162833 CHI3L2 10 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_95_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9208726 CHI3L2 10 95 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_95_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6016607 CHI3L2 10 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_95_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 441642 CHI3L2 10 95 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_95_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2015716 CHI3L2 10 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_95_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6277319 CHI3L2 10 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_95_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9084714 CHI3L2 10 95 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_99_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1864535 CHI3L2 10 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_99_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4301975 CHI3L2 10 99 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_99_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_10_99_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5906222 CHI3L2 10 99 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_99_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_10_99_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9724704 CHI3L2 10 99 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_99_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4290570 CHI3L2 10 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_99_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8760713 CHI3L2 10 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_99_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4610817 CHI3L2 10 99 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_99_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8352483 CHI3L2 10 99 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_99_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2890992 CHI3L2 10 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_99_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1113853 CHI3L2 10 99 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_99_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1722756 CHI3L2 10 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_99_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3832645 CHI3L2 10 99 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_99_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7392168 CHI3L2 10 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_99_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1852869 CHI3L2 10 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_99_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7418646 CHI3L2 10 99 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_85_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8374458 CHI3L2 5 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_85_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7739775 CHI3L2 5 85 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_85_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_5_85_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9892655 CHI3L2 5 85 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_85_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_5_85_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4494700 CHI3L2 5 85 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_85_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1574731 CHI3L2 5 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_85_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1285001 CHI3L2 5 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_85_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7526820 CHI3L2 5 85 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_85_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4744010 CHI3L2 5 85 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_85_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5781369 CHI3L2 5 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_85_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2885112 CHI3L2 5 85 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_85_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8221871 CHI3L2 5 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_85_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1279531 CHI3L2 5 85 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_85_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9600253 CHI3L2 5 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_85_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 266546 CHI3L2 5 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_85_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9848121 CHI3L2 5 85 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_90_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5543744 CHI3L2 5 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_90_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1949973 CHI3L2 5 90 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_90_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_5_90_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 833814 CHI3L2 5 90 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_90_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_5_90_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4246089 CHI3L2 5 90 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_90_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9053725 CHI3L2 5 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_90_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3342958 CHI3L2 5 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_90_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1438166 CHI3L2 5 90 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_90_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8736035 CHI3L2 5 90 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_90_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1346013 CHI3L2 5 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_90_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4737106 CHI3L2 5 90 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_90_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1358090 CHI3L2 5 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_90_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9870904 CHI3L2 5 90 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_90_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6212058 CHI3L2 5 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_90_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7593740 CHI3L2 5 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_90_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8994102 CHI3L2 5 90 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_95_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2309359 CHI3L2 5 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_95_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1217588 CHI3L2 5 95 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_95_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_5_95_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8797611 CHI3L2 5 95 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_95_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_5_95_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1093610 CHI3L2 5 95 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_95_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7766655 CHI3L2 5 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_95_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5941267 CHI3L2 5 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_95_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9872647 CHI3L2 5 95 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_95_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4492644 CHI3L2 5 95 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_95_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1465636 CHI3L2 5 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_95_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3469604 CHI3L2 5 95 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_95_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 291386 CHI3L2 5 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_95_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8275141 CHI3L2 5 95 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_95_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2233611 CHI3L2 5 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_95_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1462507 CHI3L2 5 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_95_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5837953 CHI3L2 5 95 large 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_99_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4859824 CHI3L2 5 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_99_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3036616 CHI3L2 5 99 small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_99_small_50_FALSE.e -o Power_Calc_CHI3L2_1000_5_99_small_50_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8476782 CHI3L2 5 99 small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_99_small_75_FALSE.e -o Power_Calc_CHI3L2_1000_5_99_small_75_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3551413 CHI3L2 5 99 small 75 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_99_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5010935 CHI3L2 5 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_99_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 143855 CHI3L2 5 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_99_small_50_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_small_50_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2031303 CHI3L2 5 99 small 50 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_99_small_75_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_small_75_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 2761427 CHI3L2 5 99 small 75 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_99_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9662729 CHI3L2 5 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_99_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3193978 CHI3L2 5 99 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_99_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9273190 CHI3L2 5 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_99_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1571904 CHI3L2 5 99 medium 25 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_99_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4120787 CHI3L2 5 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_99_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 162709 CHI3L2 5 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_99_large_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6637120 CHI3L2 5 99 large 25 TRUE

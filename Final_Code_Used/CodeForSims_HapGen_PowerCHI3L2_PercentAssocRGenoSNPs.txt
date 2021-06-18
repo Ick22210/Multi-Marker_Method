@@ -1,0 +1,519 @@
+bsub -e Power_Calc_CHI3L2_500_20_S85_small_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7269197 CHI3L2 20 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_small_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2484273 CHI3L2 20 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S85_small_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7772866 CHI3L2 20 85 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_small_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3579920 CHI3L2 20 85 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S85_small_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2190245 CHI3L2 20 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_small_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 439550 CHI3L2 20 85 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S85_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9994661 CHI3L2 20 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1572180 CHI3L2 20 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S85_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6106169 CHI3L2 20 85 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5675975 CHI3L2 20 85 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S85_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4420413 CHI3L2 20 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2566773 CHI3L2 20 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S85_large_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2084514 CHI3L2 20 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_large_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 28799 CHI3L2 20 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S85_large_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3482487 CHI3L2 20 85 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_large_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8444572 CHI3L2 20 85 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S85_large_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9933688 CHI3L2 20 85 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S85_large_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S85_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6363645 CHI3L2 20 85 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S90_small_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1132992 CHI3L2 20 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_small_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9566550 CHI3L2 20 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S90_small_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 313416 CHI3L2 20 90 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_small_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3728659 CHI3L2 20 90 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S90_small_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2077754 CHI3L2 20 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_small_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2884040 CHI3L2 20 90 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S90_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7781449 CHI3L2 20 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4148948 CHI3L2 20 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S90_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1635783 CHI3L2 20 90 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7354275 CHI3L2 20 90 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S90_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9318042 CHI3L2 20 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2107612 CHI3L2 20 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S90_large_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6758035 CHI3L2 20 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_large_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5130266 CHI3L2 20 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S90_large_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8741202 CHI3L2 20 90 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_large_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1829863 CHI3L2 20 90 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S90_large_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 913581 CHI3L2 20 90 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S90_large_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S90_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8074169 CHI3L2 20 90 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S95_small_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7852424 CHI3L2 20 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_small_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1242823 CHI3L2 20 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S95_small_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9236460 CHI3L2 20 95 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_small_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7084900 CHI3L2 20 95 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S95_small_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5979746 CHI3L2 20 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_small_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4380016 CHI3L2 20 95 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S95_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3163314 CHI3L2 20 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3104922 CHI3L2 20 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S95_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1286816 CHI3L2 20 95 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3126298 CHI3L2 20 95 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S95_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3175433 CHI3L2 20 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3378247 CHI3L2 20 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S95_large_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4888796 CHI3L2 20 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_large_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2882112 CHI3L2 20 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S95_large_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2094603 CHI3L2 20 95 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_large_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2084704 CHI3L2 20 95 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S95_large_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1316751 CHI3L2 20 95 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S95_large_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S95_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7485629 CHI3L2 20 95 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S99_small_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4355014 CHI3L2 20 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_small_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4311823 CHI3L2 20 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S99_small_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5429674 CHI3L2 20 99 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_small_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5499501 CHI3L2 20 99 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S99_small_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2697932 CHI3L2 20 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_small_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7026178 CHI3L2 20 99 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S99_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 942930 CHI3L2 20 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6638210 CHI3L2 20 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S99_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7280785 CHI3L2 20 99 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9541875 CHI3L2 20 99 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S99_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6123966 CHI3L2 20 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5124503 CHI3L2 20 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_S99_large_5_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5701523 CHI3L2 20 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_large_5_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9079381 CHI3L2 20 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S99_large_15_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3229069 CHI3L2 20 99 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_large_15_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2712895 CHI3L2 20 99 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_S99_large_25_TRUE.e -o Power_Calc_CHI3L2_500_20_S99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7070942 CHI3L2 20 99 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_S99_large_25_FALSE.e -o Power_Calc_CHI3L2_500_20_S99_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2714524 CHI3L2 20 99 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S85_small_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2467897 CHI3L2 10 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_small_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1392842 CHI3L2 10 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S85_small_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2874998 CHI3L2 10 85 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_small_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1583962 CHI3L2 10 85 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S85_small_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1645061 CHI3L2 10 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_small_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6970127 CHI3L2 10 85 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S85_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2390718 CHI3L2 10 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1115622 CHI3L2 10 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S85_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4994814 CHI3L2 10 85 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1346360 CHI3L2 10 85 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S85_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2782861 CHI3L2 10 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5537417 CHI3L2 10 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S85_large_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 114462 CHI3L2 10 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_large_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5728422 CHI3L2 10 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S85_large_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1359997 CHI3L2 10 85 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_large_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3765225 CHI3L2 10 85 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S85_large_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4684535 CHI3L2 10 85 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S85_large_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S85_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7524735 CHI3L2 10 85 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S90_small_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3513946 CHI3L2 10 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_small_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8871422 CHI3L2 10 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S90_small_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1040262 CHI3L2 10 90 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_small_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6028601 CHI3L2 10 90 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S90_small_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 297471 CHI3L2 10 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_small_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2352401 CHI3L2 10 90 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S90_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5117863 CHI3L2 10 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 848777 CHI3L2 10 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S90_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9132759 CHI3L2 10 90 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 982922 CHI3L2 10 90 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S90_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6906565 CHI3L2 10 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7781012 CHI3L2 10 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S90_large_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7363875 CHI3L2 10 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_large_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3562787 CHI3L2 10 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S90_large_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4260069 CHI3L2 10 90 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_large_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8903242 CHI3L2 10 90 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S90_large_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3190873 CHI3L2 10 90 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S90_large_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S90_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2748566 CHI3L2 10 90 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S95_small_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4820661 CHI3L2 10 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_small_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1203883 CHI3L2 10 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S95_small_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2825024 CHI3L2 10 95 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_small_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3820988 CHI3L2 10 95 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S95_small_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3044314 CHI3L2 10 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_small_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3460167 CHI3L2 10 95 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S95_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4570594 CHI3L2 10 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8184598 CHI3L2 10 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S95_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5359903 CHI3L2 10 95 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9931547 CHI3L2 10 95 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S95_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4230783 CHI3L2 10 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8744686 CHI3L2 10 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S95_large_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3891669 CHI3L2 10 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_large_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1301241 CHI3L2 10 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S95_large_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2101854 CHI3L2 10 95 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_large_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2979629 CHI3L2 10 95 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S95_large_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3178503 CHI3L2 10 95 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S95_large_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S95_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9076304 CHI3L2 10 95 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S99_small_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1554456 CHI3L2 10 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_small_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9455883 CHI3L2 10 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S99_small_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3830797 CHI3L2 10 99 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_small_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6505398 CHI3L2 10 99 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S99_small_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6297775 CHI3L2 10 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_small_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7320116 CHI3L2 10 99 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S99_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 484223 CHI3L2 10 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5419069 CHI3L2 10 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S99_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3395434 CHI3L2 10 99 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3517538 CHI3L2 10 99 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S99_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8742151 CHI3L2 10 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1339241 CHI3L2 10 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_S99_large_5_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5151177 CHI3L2 10 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_large_5_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1813317 CHI3L2 10 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S99_large_15_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4358927 CHI3L2 10 99 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_large_15_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8683377 CHI3L2 10 99 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_S99_large_25_TRUE.e -o Power_Calc_CHI3L2_500_10_S99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7001417 CHI3L2 10 99 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_S99_large_25_FALSE.e -o Power_Calc_CHI3L2_500_10_S99_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3301337 CHI3L2 10 99 large 25 FALSE
+  
+bsub -e Power_Calc_CHI3L2_500_5_S85_small_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7745001 CHI3L2 5 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_small_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6581061 CHI3L2 5 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S85_small_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4235949 CHI3L2 5 85 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_small_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7328100 CHI3L2 5 85 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S85_small_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4193524 CHI3L2 5 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_small_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3398421 CHI3L2 5 85 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S85_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7426573 CHI3L2 5 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1402335 CHI3L2 5 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S85_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5892192 CHI3L2 5 85 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8587613 CHI3L2 5 85 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S85_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4215676 CHI3L2 5 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4356660 CHI3L2 5 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S85_large_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8886059 CHI3L2 5 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_large_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8451153 CHI3L2 5 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S85_large_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1876551 CHI3L2 5 85 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_large_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5676697 CHI3L2 5 85 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S85_large_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S85_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4269286 CHI3L2 5 85 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S85_large_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S85_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7688150 CHI3L2 5 85 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S90_small_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4233075 CHI3L2 5 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_small_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6835393 CHI3L2 5 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S90_small_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7658585 CHI3L2 5 90 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_small_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 484184 CHI3L2 5 90 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S90_small_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8212810 CHI3L2 5 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_small_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8103174 CHI3L2 5 90 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S90_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5969782 CHI3L2 5 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1207135 CHI3L2 5 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S90_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1723209 CHI3L2 5 90 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5411549 CHI3L2 5 90 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S90_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6684389 CHI3L2 5 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1334748 CHI3L2 5 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S90_large_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6100534 CHI3L2 5 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_large_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9178206 CHI3L2 5 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S90_large_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3981032 CHI3L2 5 90 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_large_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3832540 CHI3L2 5 90 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S90_large_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S90_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7567207 CHI3L2 5 90 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S90_large_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S90_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7261111 CHI3L2 5 90 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S95_small_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1665094 CHI3L2 5 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_small_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8597701 CHI3L2 5 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S95_small_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3108269 CHI3L2 5 95 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_small_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5205285 CHI3L2 5 95 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S95_small_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5454233 CHI3L2 5 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_small_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5031999 CHI3L2 5 95 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S95_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 6221730 CHI3L2 5 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2824783 CHI3L2 5 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S95_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3476174 CHI3L2 5 95 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1392139 CHI3L2 5 95 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S95_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8721893 CHI3L2 5 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9063225 CHI3L2 5 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S95_large_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7636094 CHI3L2 5 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_large_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3692737 CHI3L2 5 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S95_large_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3650750 CHI3L2 5 95 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_large_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8760894 CHI3L2 5 95 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S95_large_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S95_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8698501 CHI3L2 5 95 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S95_large_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S95_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4571795 CHI3L2 5 95 large 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S99_small_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9759318 CHI3L2 5 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_small_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7087916 CHI3L2 5 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S99_small_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4204709 CHI3L2 5 99 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_small_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7648712 CHI3L2 5 99 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S99_small_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 4087111 CHI3L2 5 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_small_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 2326673 CHI3L2 5 99 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S99_medium_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9163100 CHI3L2 5 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_medium_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 9531606 CHI3L2 5 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S99_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 547806 CHI3L2 5 99 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5376846 CHI3L2 5 99 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S99_medium_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7765589 CHI3L2 5 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_medium_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7484365 CHI3L2 5 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_S99_large_5_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8576013 CHI3L2 5 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_large_5_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 7415201 CHI3L2 5 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S99_large_15_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 5067861 CHI3L2 5 99 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_large_15_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 3977984 CHI3L2 5 99 large 15 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_S99_large_25_TRUE.e -o Power_Calc_CHI3L2_500_5_S99_large_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 8753811 CHI3L2 5 99 large 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_S99_large_25_FALSE.e -o Power_Calc_CHI3L2_500_5_S99_large_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 500 1072943 CHI3L2 5 99 large 25 FALSE
+ 
+##################################### 
+bsub -e Power_Calc_CHI3L2_1000_20_S85_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5367117 CHI3L2 20 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9580397 CHI3L2 20 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4471520 CHI3L2 20 85 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4828773 CHI3L2 20 85 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5221129 CHI3L2 20 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8998563 CHI3L2 20 85 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S85_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2182885 CHI3L2 20 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1550124 CHI3L2 20 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1755781 CHI3L2 20 85 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8037167 CHI3L2 20 85 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8086402 CHI3L2 20 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5392366 CHI3L2 20 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S85_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3252731 CHI3L2 20 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3481684 CHI3L2 20 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6135670 CHI3L2 20 85 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8222296 CHI3L2 20 85 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S90_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5048584 CHI3L2 20 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4621493 CHI3L2 20 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 595183 CHI3L2 20 90 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9742168 CHI3L2 20 90 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6598564 CHI3L2 20 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9686714 CHI3L2 20 90 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S90_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1000991 CHI3L2 20 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 869988 CHI3L2 20 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9981418 CHI3L2 20 90 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2423881 CHI3L2 20 90 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5395093 CHI3L2 20 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5568307 CHI3L2 20 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S90_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6644499 CHI3L2 20 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1863987 CHI3L2 20 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8649101 CHI3L2 20 90 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6276686 CHI3L2 20 90 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S95_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8567640 CHI3L2 20 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4295879 CHI3L2 20 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3046557 CHI3L2 20 95 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5359888 CHI3L2 20 95 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4722008 CHI3L2 20 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6502359 CHI3L2 20 95 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S95_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7771542 CHI3L2 20 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7057036 CHI3L2 20 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5364263 CHI3L2 20 95 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1532634 CHI3L2 20 95 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2539199 CHI3L2 20 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4921340 CHI3L2 20 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S95_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7831329 CHI3L2 20 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9718005 CHI3L2 20 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8384107 CHI3L2 20 95 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5314010 CHI3L2 20 95 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S99_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9998087 CHI3L2 20 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6522711 CHI3L2 20 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8877293 CHI3L2 20 99 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4783767 CHI3L2 20 99 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7909729 CHI3L2 20 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5994746 CHI3L2 20 99 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S99_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3713176 CHI3L2 20 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 800094 CHI3L2 20 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8767744 CHI3L2 20 99 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9335403 CHI3L2 20 99 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6679876 CHI3L2 20 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6633423 CHI3L2 20 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_S99_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1794269 CHI3L2 20 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 740039 CHI3L2 20 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8692888 CHI3L2 20 99 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7278752 CHI3L2 20 99 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S85_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1251270 CHI3L2 10 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5175960 CHI3L2 10 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9357530 CHI3L2 10 85 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7362429 CHI3L2 10 85 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6157707 CHI3L2 10 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7520448 CHI3L2 10 85 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S85_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3928669 CHI3L2 10 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4008881 CHI3L2 10 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9858528 CHI3L2 10 85 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5552879 CHI3L2 10 85 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3935993 CHI3L2 10 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5123406 CHI3L2 10 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S85_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9654725 CHI3L2 10 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7259218 CHI3L2 10 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6153317 CHI3L2 10 85 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9741143 CHI3L2 10 85 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S90_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1430580 CHI3L2 10 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9561492 CHI3L2 10 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4749784 CHI3L2 10 90 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8297924 CHI3L2 10 90 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2962185 CHI3L2 10 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1378223 CHI3L2 10 90 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S90_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2819472 CHI3L2 10 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4360577 CHI3L2 10 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 256165 CHI3L2 10 90 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7127063 CHI3L2 10 90 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1072476 CHI3L2 10 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3712384 CHI3L2 10 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S90_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5047862 CHI3L2 10 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5979982 CHI3L2 10 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1034096 CHI3L2 10 90 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6164949 CHI3L2 10 90 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S95_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6162199 CHI3L2 10 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6822516 CHI3L2 10 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6748883 CHI3L2 10 95 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4395511 CHI3L2 10 95 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5804431 CHI3L2 10 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6440090 CHI3L2 10 95 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S95_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9870387 CHI3L2 10 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4860546 CHI3L2 10 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7433966 CHI3L2 10 95 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4633801 CHI3L2 10 95 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7004517 CHI3L2 10 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8242190 CHI3L2 10 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S95_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9646747 CHI3L2 10 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 136025 CHI3L2 10 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3660918 CHI3L2 10 95 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3775762 CHI3L2 10 95 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S99_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7578264 CHI3L2 10 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9276043 CHI3L2 10 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6403689 CHI3L2 10 99 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5585965 CHI3L2 10 99 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7213947 CHI3L2 10 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2520140 CHI3L2 10 99 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S99_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7866963 CHI3L2 10 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7327831 CHI3L2 10 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8085031 CHI3L2 10 99 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8734312 CHI3L2 10 99 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1730521 CHI3L2 10 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_10_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9762090 CHI3L2 10 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_S99_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4894579 CHI3L2 10 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_10_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2022956 CHI3L2 10 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1952993 CHI3L2 10 99 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2753493 CHI3L2 10 99 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S85_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S85_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6716087 CHI3L2 5 85 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6003468 CHI3L2 5 85 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2106979 CHI3L2 5 85 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8348778 CHI3L2 5 85 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_S85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 963917 CHI3L2 5 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8172518 CHI3L2 5 85 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S85_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S85_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7855571 CHI3L2 5 85 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2351681 CHI3L2 5 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7152134 CHI3L2 5 85 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6445870 CHI3L2 5 85 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_S85_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7168268 CHI3L2 5 85 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1731760 CHI3L2 5 85 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S85_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7609299 CHI3L2 5 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 473307 CHI3L2 5 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5979778 CHI3L2 5 85 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7611643 CHI3L2 5 85 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S90_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S90_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 434185 CHI3L2 5 90 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2731307 CHI3L2 5 90 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9400871 CHI3L2 5 90 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5592025 CHI3L2 5 90 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_S90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6205377 CHI3L2 5 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8345246 CHI3L2 5 90 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S90_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S90_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2576950 CHI3L2 5 90 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7976520 CHI3L2 5 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1769892 CHI3L2 5 90 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4371024 CHI3L2 5 90 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_S90_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9565500 CHI3L2 5 90 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2694428 CHI3L2 5 90 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S90_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8930943 CHI3L2 5 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 291208 CHI3L2 5 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9368871 CHI3L2 5 90 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7076122 CHI3L2 5 90 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S95_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S95_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2804938 CHI3L2 5 95 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1003516 CHI3L2 5 95 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2148230 CHI3L2 5 95 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4870114 CHI3L2 5 95 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_S95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8799399 CHI3L2 5 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4156489 CHI3L2 5 95 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S95_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S95_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 246994 CHI3L2 5 95 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4007842 CHI3L2 5 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6422075 CHI3L2 5 95 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9649385 CHI3L2 5 95 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_S95_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9448416 CHI3L2 5 95 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1913036 CHI3L2 5 95 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S95_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2727210 CHI3L2 5 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6054510 CHI3L2 5 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2114408 CHI3L2 5 95 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6197251 CHI3L2 5 95 large 15 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S99_small_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S99_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1125564 CHI3L2 5 99 small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_small_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7441604 CHI3L2 5 99 small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_small_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1972925 CHI3L2 5 99 small 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_small_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4116030 CHI3L2 5 99 small 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_S99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3058415 CHI3L2 5 99 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_small_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_small_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 7142088 CHI3L2 5 99 small 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S99_medium_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S99_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 2873209 CHI3L2 5 99 medium 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6219090 CHI3L2 5 99 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1883577 CHI3L2 5 99 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3758453 CHI3L2 5 99 medium 15 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_medium_25_TRUE.e -o Power_Calc_CHI3L2_1000_5_S99_medium_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5308467 CHI3L2 5 99 medium 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 4237281 CHI3L2 5 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_S99_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_5_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 6449247 CHI3L2 5 99 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1792089 CHI3L2 5 99 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_S99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1712591 CHI3L2 5 99 large 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_large_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1116228 CHI3L2 5 99 large 15 FALSE
+
+##########
+
+bsub -e Power_Calc_CHI3L2_1000_10_s65_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_s65_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 420789 CHI3L2 10 65 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_s70_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_s70_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 298819 CHI3L2 10 70 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_s75_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_s75_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 680487 CHI3L2 10 75 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_s80_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_s80_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 267674 CHI3L2 10 80 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S85_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9858528 CHI3L2 10 85 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S90_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 9132759 CHI3L2 10 90 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S95_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 5359903 CHI3L2 10 95 medium 15 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_S99_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_S99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3395434 CHI3L2 10 99 medium 15 TRUE
+
+bsub -e Power_Calc_CHI3L2_1000_5_s65_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_s65_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 207894 CHI3L2 5 65 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_s70_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_s70_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 988192 CHI3L2 5 70 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_s75_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_s75_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 804876 CHI3L2 5 75 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_s80_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_s80_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 676742 CHI3L2 5 80 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S85_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S85_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8585289 CHI3L2 5 85 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S90_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S90_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1327599 CHI3L2 5 90 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S95_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S95_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3599035 CHI3L2 5 95 medium 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_S99_medium_25_FALSE.e -o Power_Calc_CHI3L2_1000_5_S99_medium_25_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3954343 CHI3L2 5 99 medium 25 FALSE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_s65_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_s65_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 207894 CHI3L2 20 65 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_s70_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_s70_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 988192 CHI3L2 20 70 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_s75_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_s75_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 804876 CHI3L2 20 75 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_s80_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_s80_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 676742 CHI3L2 20 80 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S85_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8585289 CHI3L2 20 85 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S90_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1327599 CHI3L2 20 90 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S95_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3599035 CHI3L2 20 95 large 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_large_5_TRUE.e -o Power_Calc_CHI3L2_1000_20_S99_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3954343 CHI3L2 20 99 large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_s65_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_s65_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 207894 CHI3L2 20 65 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_s70_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_s70_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 988192 CHI3L2 20 70 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_s75_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_s75_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 804876 CHI3L2 20 75 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_s80_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_s80_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 676742 CHI3L2 20 80 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S85_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S85_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 8585289 CHI3L2 20 85 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S90_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S90_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 1327599 CHI3L2 20 90 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S95_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S95_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3599035 CHI3L2 20 95 large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_S99_large_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_S99_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 1 1000 3954343 CHI3L2 20 99 large 5 FALSE
+ 

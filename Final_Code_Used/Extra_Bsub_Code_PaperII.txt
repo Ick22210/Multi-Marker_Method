@@ -1,0 +1,68 @@
+Additional Code that may be useful for Paper II
+
+# SKAT IBS kernel TIE levels
+bsub -e TIE_SKAT_NAT2_500_Prev20_IBS.e -o TIE_SKAT_NAT2_500_Prev20_IBS.o -n 4 sh CalculateStatAndPValues_TIE_SKAT.sh 8 500 4134454 NAT2 20 IBS
+bsub -e TIE_SKAT_NAT2_500_Prev10_IBS.e -o TIE_SKAT_NAT2_500_Prev10_IBS.o -n 4 sh CalculateStatAndPValues_TIE_SKAT.sh 8 500 8396219 NAT2 10 IBS
+bsub -e TIE_SKAT_NAT2_500_Prev5_IBS.e -o TIE_SKAT_NAT2_500_Prev5_IBS.o -n 4 sh CalculateStatAndPValues_TIE_SKAT.sh 8 500 1834817 NAT2 5 IBS
+
+# JST TIE for smaller s PVE values
+bsub -e TIE_JST_NAT2_500_Prev20_s65.e -o TIE_JST_NAT2_500_Prev20_s65.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 9545654 NAT2 20 65
+bsub -e TIE_JST_NAT2_500_Prev10_s65.e -o TIE_JST_NAT2_500_Prev10_s65.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 5102234 NAT2 10 65
+bsub -e TIE_JST_NAT2_500_Prev5_s65.e -o TIE_JST_NAT2_500_Prev5_s65.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 6858444 NAT2 5 65
+bsub -e TIE_JST_NAT2_500_Prev20_s70.e -o TIE_JST_NAT2_500_Prev20_s70.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 2096459 NAT2 20 70
+bsub -e TIE_JST_NAT2_500_Prev10_s70.e -o TIE_JST_NAT2_500_Prev10_s70.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 2551149 NAT2 10 70
+bsub -e TIE_JST_NAT2_500_Prev5_s70.e -o TIE_JST_NAT2_500_Prev5_s70.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 5384606 NAT2 5 70
+bsub -e TIE_JST_NAT2_500_Prev20_s75.e -o TIE_JST_NAT2_500_Prev20_s75.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 9884769 NAT2 20 75
+bsub -e TIE_JST_NAT2_500_Prev10_s75.e -o TIE_JST_NAT2_500_Prev10_s75.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 7790837 NAT2 10 75
+bsub -e TIE_JST_NAT2_500_Prev5_s75.e -o TIE_JST_NAT2_500_Prev5_s75.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 8496182 NAT2 5 75
+bsub -e TIE_JST_NAT2_500_Prev20_s80.e -o TIE_JST_NAT2_500_Prev20_s80.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 6034153 NAT2 20 80
+bsub -e TIE_JST_NAT2_500_Prev10_s80.e -o TIE_JST_NAT2_500_Prev10_s80.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 1459723 NAT2 10 80
+bsub -e TIE_JST_NAT2_500_Prev5_s80.e -o TIE_JST_NAT2_500_Prev5_s80.o -n 4 sh CalculateStatAndPValues_TIE_Ghat.sh 8 500 2030160 NAT2 5 80
+
+# JST Power for smaller s PVE values
+## Score associated
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_75percentAssoc_lowLD_s65_Score.e -o Power_JST_NAT2_1000_Prev20_Orsmall_75percentAssoc_lowLD_s65_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 1453205 NAT2 20 65 small 75 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_75percentAssoc_lowLD_s70_Score.e -o Power_JST_NAT2_1000_Prev20_Orsmall_75percentAssoc_lowLD_s70_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 571814 NAT2 20 70 small 75 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_75percentAssoc_lowLD_s75_Score.e -o Power_JST_NAT2_1000_Prev20_Orsmall_75percentAssoc_lowLD_s75_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6268697 NAT2 20 75 small 75 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_75percentAssoc_lowLD_s80_Score.e -o Power_JST_NAT2_1000_Prev20_Orsmall_75percentAssoc_lowLD_s80_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 2668277 NAT2 20 80 small 75 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_50percentAssoc_highLD_s65_Score.e -o Power_JST_NAT2_1000_Prev20_Orsmall_50percentAssoc_highLD_s65_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 9515096 NAT2 20 65 small 50 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_50percentAssoc_highLD_s70_Score.e -o Power_JST_NAT2_1000_Prev20_Orsmall_50percentAssoc_highLD_s70_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 5388593 NAT2 20 70 small 50 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_50percentAssoc_highLD_s75_Score.e -o Power_JST_NAT2_1000_Prev20_Orsmall_50percentAssoc_highLD_s75_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3873950 NAT2 20 75 small 50 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_50percentAssoc_highLD_s80_Score.e -o Power_JST_NAT2_1000_Prev20_Orsmall_50percentAssoc_highLD_s80_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3085697 NAT2 20 80 small 50 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_OrMedium_25percentAssoc_lowLD_s65_Score.e -o Power_JST_NAT2_1000_Prev20_OrMedium_25percentAssoc_lowLD_s65_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 9993310 NAT2 20 65 medium 25 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_OrMedium_25percentAssoc_lowLD_s70_Score.e -o Power_JST_NAT2_1000_Prev20_OrMedium_25percentAssoc_lowLD_s70_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3232563 NAT2 20 70 medium 25 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_OrMedium_25percentAssoc_lowLD_s75_Score.e -o Power_JST_NAT2_1000_Prev20_OrMedium_25percentAssoc_lowLD_s75_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6258397 NAT2 20 75 medium 25 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_OrMedium_25percentAssoc_lowLD_s80_Score.e -o Power_JST_NAT2_1000_Prev20_OrMedium_25percentAssoc_lowLD_s80_Score.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 2121037 NAT2 20 80 medium 25 TRUE
+
+## R SNP Associated
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_25percentAssoc_highLD_s65_RSNP.e -o Power_JST_NAT2_1000_Prev20_Orsmall_25percentAssoc_highLD_s65_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4461149 NAT2 20 65 small 25 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_25percentAssoc_highLD_s70_RSNP.e -o Power_JST_NAT2_1000_Prev20_Orsmall_25percentAssoc_highLD_s70_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9543011 NAT2 20 70 small 25 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_25percentAssoc_highLD_s75_RSNP.e -o Power_JST_NAT2_1000_Prev20_Orsmall_25percentAssoc_highLD_s75_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5728760 NAT2 20 75 small 25 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_Orsmall_25percentAssoc_highLD_s80_RSNP.e -o Power_JST_NAT2_1000_Prev20_Orsmall_25percentAssoc_highLD_s80_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2320555 NAT2 20 80 small 25 FALSE
+
+bsub -e Power_JST_NAT2_1000_Prev10_Ormedium_25percentAssoc_lowLD_s65_RSNP.e -o Power_JST_NAT2_1000_Prev10_Ormedium_25percentAssoc_lowLD_s65_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 7031284 NAT2 10 65 medium 25 TRUE
+bsub -e Power_JST_NAT2_1000_Prev10_Ormedium_25percentAssoc_lowLD_s70_RSNP.e -o Power_JST_NAT2_1000_Prev10_Ormedium_25percentAssoc_lowLD_s70_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3721621 NAT2 10 70 medium 25 TRUE
+bsub -e Power_JST_NAT2_1000_Prev10_Ormedium_25percentAssoc_lowLD_s75_RSNP.e -o Power_JST_NAT2_1000_Prev10_Ormedium_25percentAssoc_lowLD_s75_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2994352 NAT2 10 75 medium 25 TRUE
+bsub -e Power_JST_NAT2_1000_Prev10_Ormedium_25percentAssoc_lowLD_s80_RSNP.e -o Power_JST_NAT2_1000_Prev10_Ormedium_25percentAssoc_lowLD_s80_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6301792 NAT2 10 80 medium 25 TRUE
+bsub -e Power_JST_NAT2_1000_Prev10_Ormedium_15percentAssoc_highLD_s65_RSNP.e -o Power_JST_NAT2_1000_Prev10_Ormedium_15percentAssoc_highLD_s65_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5201979 NAT2 10 65 medium 15 FALSE
+bsub -e Power_JST_NAT2_1000_Prev10_Ormedium_15percentAssoc_highLD_s70_RSNP.e -o Power_JST_NAT2_1000_Prev10_Ormedium_15percentAssoc_highLD_s70_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9655890 NAT2 10 70 medium 15 FALSE
+bsub -e Power_JST_NAT2_1000_Prev10_Ormedium_15percentAssoc_highLD_s75_RSNP.e -o Power_JST_NAT2_1000_Prev10_Ormedium_15percentAssoc_highLD_s75_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 2848715 NAT2 10 75 medium 15 FALSE
+bsub -e Power_JST_NAT2_1000_Prev10_Ormedium_15percentAssoc_highLD_s80_RSNP.e -o Power_JST_NAT2_1000_Prev10_Ormedium_15percentAssoc_highLD_s80_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8534354 NAT2 10 80 medium 15 FALSE
+
+bsub -e Power_JST_NAT2_1000_Prev5_Ormedium_25percentAssoc_highLD_s65_RSNP.e -o Power_JST_NAT2_1000_Prev5_Ormedium_25percentAssoc_highLD_s65_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5043788 NAT2 5 65 medium 25 FALSE
+bsub -e Power_JST_NAT2_1000_Prev5_Ormedium_25percentAssoc_highLD_s70_RSNP.e -o Power_JST_NAT2_1000_Prev5_Ormedium_25percentAssoc_highLD_s70_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8813613 NAT2 5 70 medium 25 FALSE
+bsub -e Power_JST_NAT2_1000_Prev5_Ormedium_25percentAssoc_highLD_s75_RSNP.e -o Power_JST_NAT2_1000_Prev5_Ormedium_25percentAssoc_highLD_s75_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6333537 NAT2 5 75 medium 25 FALSE
+bsub -e Power_JST_NAT2_1000_Prev5_Ormedium_25percentAssoc_highLD_s80_RSNP.e -o Power_JST_NAT2_1000_Prev5_Ormedium_25percentAssoc_highLD_s80_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4869061 NAT2 5 80 medium 25 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_Orlarge_15percentAssoc_lowLD_s65_RSNP.e -o Power_JST_NAT2_1000_Prev20_Orlarge_15percentAssoc_lowLD_s65_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9626514 NAT2 20 65 large 15 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Orlarge_15percentAssoc_lowLD_s70_RSNP.e -o Power_JST_NAT2_1000_Prev20_Orlarge_15percentAssoc_lowLD_s70_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8216582 NAT2 20 70 large 15 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Orlarge_15percentAssoc_lowLD_s75_RSNP.e -o Power_JST_NAT2_1000_Prev20_Orlarge_15percentAssoc_lowLD_s75_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 1764931 NAT2 20 75 large 15 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Orlarge_15percentAssoc_lowLD_s80_RSNP.e -o Power_JST_NAT2_1000_Prev20_Orlarge_15percentAssoc_lowLD_s80_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 5282099 NAT2 20 80 large 15 TRUE
+
+bsub -e Power_JST_NAT2_1000_Prev10_Orlarge_5percentAssoc_highLD_s65_RSNP.e -o Power_JST_NAT2_1000_Prev10_Orlarge_5percentAssoc_highLD_s65_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 23726 NAT2 10 65 large 5 FALSE
+bsub -e Power_JST_NAT2_1000_Prev10_Orlarge_5percentAssoc_highLD_s70_RSNP.e -o Power_JST_NAT2_1000_Prev10_Orlarge_5percentAssoc_highLD_s70_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 3256181 NAT2 10 70 large 5 FALSE
+bsub -e Power_JST_NAT2_1000_Prev10_Orlarge_5percentAssoc_highLD_s75_RSNP.e -o Power_JST_NAT2_1000_Prev10_Orlarge_5percentAssoc_highLD_s75_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 4025284 NAT2 10 75 large 5 FALSE
+bsub -e Power_JST_NAT2_1000_Prev10_Orlarge_5percentAssoc_highLD_s80_RSNP.e -o Power_JST_NAT2_1000_Prev10_Orlarge_5percentAssoc_highLD_s80_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 6432578 NAT2 10 80 large 5 FALSE
+bsub -e Power_JST_NAT2_1000_Prev20_Ormedium_5percentAssoc_lowLD_s65_RSNP.e -o Power_JST_NAT2_1000_Prev20_Ormedium_5percentAssoc_lowLD_s65_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8423480 NAT2 20 65 medium 5 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Ormedium_5percentAssoc_lowLD_s70_RSNP.e -o Power_JST_NAT2_1000_Prev20_Ormedium_5percentAssoc_lowLD_s70_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 8006624 NAT2 20 70 medium 5 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Ormedium_5percentAssoc_lowLD_s75_RSNP.e -o Power_JST_NAT2_1000_Prev20_Ormedium_5percentAssoc_lowLD_s75_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9578643 NAT2 20 75 medium 5 TRUE
+bsub -e Power_JST_NAT2_1000_Prev20_Ormedium_5percentAssoc_lowLD_s80_RSNP.e -o Power_JST_NAT2_1000_Prev20_Ormedium_5percentAssoc_lowLD_s80_RSNP.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RSNPs.sh 8 1000 9336281 NAT2 20 80 medium 5 TRUE

@@ -1,0 +1,173 @@
+##General Power Code             
+# bsub -e Power_Calc_Gene_SS_Prev_Kernel_ORSize_percentageAssoc_lowLDTF_SKAT.e -o Power_Calc_Gene_SS_Prev_Kernel_ORSize_percentageAssoc_lowLDTF_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 SS SEED GENE YPREV KERNEL ORSize percentageAssoc lowLDTF
+
+bsub -e Power_Calc_ASAH1_500_20_linear_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2189893 ASAH1 20 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linear_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3029063 ASAH1 20 linear small 25 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linear_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4112654 ASAH1 20 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linear_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 583003 ASAH1 20 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linear_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7243387 ASAH1 20 linear small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_20_linear_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2780937 ASAH1 20 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linear_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4338447 ASAH1 20 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linear_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6463591 ASAH1 20 linear medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_20_linear_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9783724 ASAH1 20 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linear_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7824318 ASAH1 20 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linear_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5510482 ASAH1 20 linear large 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_20_IBS_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9254950 ASAH1 20 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBS_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5001876 ASAH1 20 IBS small 25 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBS_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7038111 ASAH1 20 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBS_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7168868 ASAH1 20 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBS_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4910573 ASAH1 20 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_20_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7795112 ASAH1 20 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9187267 ASAH1 20 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5396068 ASAH1 20 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_20_IBS_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4894449 ASAH1 20 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBS_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1590708 ASAH1 20 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBS_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4992210 ASAH1 20 IBS large 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_10_linear_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6396582 ASAH1 10 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linear_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2383187 ASAH1 10 linear small 25 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linear_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7563036 ASAH1 10 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linear_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1376404 ASAH1 10 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linear_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8352754 ASAH1 10 linear small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_10_linear_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7428257 ASAH1 10 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linear_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8108334 ASAH1 10 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linear_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6363005 ASAH1 10 linear medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_10_linear_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2228597 ASAH1 10 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linear_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3240339 ASAH1 10 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linear_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6488799 ASAH1 10 linear large 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_10_IBS_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4599650 ASAH1 10 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBS_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6851239 ASAH1 10 IBS small 25 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBS_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7547703 ASAH1 10 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBS_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6419770 ASAH1 10 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBS_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8020152 ASAH1 10 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_10_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5454172 ASAH1 10 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1606000 ASAH1 10 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3196973 ASAH1 10 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_10_IBS_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4182746 ASAH1 10 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBS_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5830158 ASAH1 10 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBS_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1960761 ASAH1 10 IBS large 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_5_linear_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5021393 ASAH1 5 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linear_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 542659 ASAH1 5 linear small 25 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linear_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9481252 ASAH1 5 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linear_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6795940 ASAH1 5 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linear_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3996002 ASAH1 5 linear small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_5_linear_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 775566 ASAH1 5 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linear_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 816768 ASAH1 5 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linear_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 749101 ASAH1 5 linear medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_5_linear_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 872078 ASAH1 5 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linear_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2400205 ASAH1 5 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linear_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7314829 ASAH1 5 linear large 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_5_IBS_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6029015 ASAH1 5 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBS_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2572729 ASAH1 5 IBS small 25 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBS_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4294573 ASAH1 5 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBS_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1231470 ASAH1 5 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBS_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7051764 ASAH1 5 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_5_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8757763 ASAH1 5 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9486382 ASAH1 5 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2669887 ASAH1 5 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_500_5_IBS_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2157519 ASAH1 5 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBS_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4402830 ASAH1 5 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBS_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4059897 ASAH1 5 IBS large 25 TRUE
+
+######################################
+bsub -e Power_Calc_ASAH1_1000_20_linear_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 230966 ASAH1 20 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_linear_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 476445 ASAH1 20 linear small 25 FALSE
+
+bsub -e Power_Calc_ASAH1_1000_20_linear_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 334043 ASAH1 20 linear medium 5 FALSE
+
+bsub -e Power_Calc_ASAH1_1000_20_linear_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4626173 ASAH1 20 linear large 5 FALSE
+
+bsub -e Power_Calc_ASAH1_1000_10_linear_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1139656 ASAH1 10 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_linear_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5612368 ASAH1 10 linear small 25 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_linear_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4599493 ASAH1 10 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_linear_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4761427 ASAH1 10 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linear_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2401640 ASAH1 5 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linear_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6665735 ASAH1 5 linear small 25 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linear_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7489269 ASAH1 5 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linear_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1299744 ASAH1 5 linear large 5 FALSE
+ --------------------------------------------
+bsub -e Power_Calc_ASAH1_1000_20_linear_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3615424 ASAH1 20 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linear_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5676045 ASAH1 20 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linear_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6191230 ASAH1 20 linear small 50 TRUE 
+
+bsub -e Power_Calc_ASAH1_1000_20_linear_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 679139 ASAH1 20 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linear_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1905836 ASAH1 20 linear medium 25 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_20_linear_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1812481 ASAH1 20 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linear_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8186247 ASAH1 20 linear large 25 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_10_linear_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7245148 ASAH1 10 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linear_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3088065 ASAH1 10 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linear_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4289412 ASAH1 10 linear small 50 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_10_linear_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5433695 ASAH1 10 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linear_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2051031 ASAH1 10 linear medium 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linear_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8198665 ASAH1 10 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linear_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2430690 ASAH1 10 linear large 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linear_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9862669 ASAH1 5 linear small 5 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_5_linear_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7380319 ASAH1 5 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linear_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8096123 ASAH1 5 linear small 50 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linear_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9447036 ASAH1 5 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linear_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6721699 ASAH1 5 linear medium 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linear_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 849672 ASAH1 5 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linear_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2825892 ASAH1 5 linear large 25 TRUE
+ 
+ --------------------------------------------
+bsub -e Power_Calc_ASAH1_1000_10_IBS_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2119486 ASAH1 10 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBS_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9618776 ASAH1 10 IBS small 25 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBS_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2633269 ASAH1 10 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBS_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7881797 ASAH1 10 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBS_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5104568 ASAH1 10 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_1000_10_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3283360 ASAH1 10 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8601234 ASAH1 10 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8820037 ASAH1 10 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_1000_10_IBS_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 506181 ASAH1 10 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBS_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7965595 ASAH1 10 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBS_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9696560 ASAH1 10 IBS large 25 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_20_IBS_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4740236 ASAH1 20 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBS_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6316538 ASAH1 20 IBS small 25 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBS_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4007816 ASAH1 20 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBS_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3377197 ASAH1 20 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBS_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4653277 ASAH1 20 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_1000_20_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9686814 ASAH1 20 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4060389 ASAH1 20 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5354344 ASAH1 20 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_1000_20_IBS_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6396963 ASAH1 20 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBS_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6021928 ASAH1 20 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBS_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8332339 ASAH1 20 IBS large 25 TRUE
+  
+bsub -e Power_Calc_ASAH1_1000_5_IBS_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9916240 ASAH1 5 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBS_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9245890 ASAH1 5 IBS small 25 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBS_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3298445 ASAH1 5 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBS_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1887897 ASAH1 5 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBS_small_50_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4704491 ASAH1 5 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_ASAH1_1000_5_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5013775 ASAH1 5 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1832981 ASAH1 5 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3711484 ASAH1 5 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_ASAH1_1000_5_IBS_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2306516 ASAH1 5 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBS_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2839485 ASAH1 5 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBS_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9360388 ASAH1 5 IBS large 25 TRUE

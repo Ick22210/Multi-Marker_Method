@@ -1,0 +1,241 @@
+bsub -e Power_Calc_NAT2_500_20_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_small_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9604176 NAT2 20 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_small_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6897044 NAT2 20 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_small_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9294031 NAT2 20 linear small 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_small_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6174062 NAT2 20 linear small 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_small_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6885878 NAT2 20 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_small_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8703304 NAT2 20 linear small 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_20_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8876198 NAT2 20 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8767432 NAT2 20 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8131897 NAT2 20 linear medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8610151 NAT2 20 linear medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8286560 NAT2 20 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6641798 NAT2 20 linear medium 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_20_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_large_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1544571 NAT2 20 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_large_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1003188 NAT2 20 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_large_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4806400 NAT2 20 linear large 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_large_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3070117 NAT2 20 linear large 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_large_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9189426 NAT2 20 linear large 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linearKernel_large_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4674903 NAT2 20 linear large 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2551958 NAT2 20 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3496881 NAT2 20 IBS small 5 FALSE
+
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5851416 NAT2 20 IBS small 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6073471 NAT2 20 IBS small 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9127097 NAT2 20 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3114286 NAT2 20 IBS small 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1094638 NAT2 20 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6586691 NAT2 20 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9924697 NAT2 20 IBS medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9522103 NAT2 20 IBS medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 504631 NAT2 20 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 798076 NAT2 20 IBS medium 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7657208 NAT2 20 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 518736 NAT2 20 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1897605 NAT2 20 IBS large 15 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6988672 NAT2 20 IBS large 15 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9200115 NAT2 20 IBS large 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8569427 NAT2 20 IBS large 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_small_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8886437 NAT2 10 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_small_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6523197 NAT2 10 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_small_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9165862 NAT2 10 linear small 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_small_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2557055 NAT2 10 linear small 15 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_small_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1116738 NAT2 10 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_small_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6881624 NAT2 10 linear small 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 307847 NAT2 10 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1207503 NAT2 10 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 312858 NAT2 10 linear medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8831415 NAT2 10 linear medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7697195 NAT2 10 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3942646 NAT2 10 linear medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_large_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1759981 NAT2 10 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_large_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4309129 NAT2 10 linear large 5 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_large_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3633551 NAT2 10 linear large 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_large_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7347814 NAT2 10 linear large 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_large_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7933190 NAT2 10 linear large 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linearKernel_large_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4459232 NAT2 10 linear large 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1833485 NAT2 10 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7781552 NAT2 10 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8823862 NAT2 10 IBS small 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2438329 NAT2 10 IBS small 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1605766 NAT2 10 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4757517 NAT2 10 IBS small 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9873690 NAT2 10 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9635882 NAT2 10 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2919210 NAT2 10 IBS medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4281016 NAT2 10 IBS medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6060680 NAT2 10 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2727769 NAT2 10 IBS medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4643342 NAT2 10 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 933911 NAT2 10 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7383428 NAT2 10 IBS large 15 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8378070 NAT2 10 IBS large 15 FALSE
+
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7818009 NAT2 10 IBS large 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7280835 NAT2 10 IBS large 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_5_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_small_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6821130 NAT2 5 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_small_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2848218 NAT2 5 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_small_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4533753 NAT2 5 linear small 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_small_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2629196 NAT2 5 linear small 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_small_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4828645 NAT2 5 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_small_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8620956 NAT2 5 linear small 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5232229 NAT2 5 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2067355 NAT2 5 linear medium 5 FALSE
+
+bsub -e Power_Calc_NAT2_500_5_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9922841 NAT2 5 linear medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5359769 NAT2 5 linear medium 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9634753 NAT2 5 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6390084 NAT2 5 linear medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_large_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2672422 NAT2 5 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_large_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6203207 NAT2 5 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_large_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4683206 NAT2 5 linear large 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_large_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4311133 NAT2 5 linear large 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_large_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1543925 NAT2 5 linear large 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linearKernel_large_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1489674 NAT2 5 linear large 25 FALSE
+
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1916631 NAT2 5 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8399816 NAT2 5 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6909042 NAT2 5 IBS small 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8748683 NAT2 5 IBS small 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9881166 NAT2 5 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8153862 NAT2 5 IBS small 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5491699 NAT2 5 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2253298 NAT2 5 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 74491 NAT2 5 IBS medium 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1828782 NAT2 5 IBS medium 15 FALSE
+
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6286230 NAT2 5 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2185871 NAT2 5 IBS medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8563092 NAT2 5 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5159789 NAT2 5 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4320363 NAT2 5 IBS large 15 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 406676 NAT2 5 IBS large 15 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 196263 NAT2 5 IBS large 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 931447 NAT2 5 IBS large 25 FALSE
+
+
+bsub -e Power_Calc_NAT2_500_5_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh  CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2253298 NAT2 5 IBS medium 5 FALSE
+
+#########################
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7085955 NAT2 20 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9500292 NAT2 20 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9623279 NAT2 20 linear small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6719381 NAT2 20 linear small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4423471 NAT2 20 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4660413 NAT2 20 linear small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5502405 NAT2 20 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9124595 NAT2 20 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5671614 NAT2 20 linear medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 99174 NAT2 20 linear medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3852869 NAT2 20 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9843424 NAT2 20 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5195007 NAT2 20 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1978472 NAT2 20 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9299783 NAT2 20 linear large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6275856 NAT2 20 linear large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7056461 NAT2 20 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 626002 NAT2 20 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7015048 NAT2 20 IBS small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 503286 NAT2 20 IBS small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7792819 NAT2 20 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2297294 NAT2 20 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1623675 NAT2 20 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1273692 NAT2 20 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1020508 NAT2 20 IBS medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7943159 NAT2 20 IBS medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9739982 NAT2 20 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1673475 NAT2 20 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5144892 NAT2 20 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 820450 NAT2 20 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6244556 NAT2 20 IBS large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8313266 NAT2 20 IBS large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2984942 NAT2 10 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8029875 NAT2 10 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6635167 NAT2 10 linear small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1922019 NAT2 10 linear small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8198403 NAT2 10 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3746278 NAT2 10 linear small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5179649 NAT2 10 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1652253 NAT2 10 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 269351 NAT2 10 linear medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6659026 NAT2 10 linear medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7358686 NAT2 10 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7974615 NAT2 10 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2197466 NAT2 10 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5107450 NAT2 10 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8115984 NAT2 10 linear large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8930385 NAT2 10 linear large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6358052 NAT2 10 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3240092 NAT2 10 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9595562 NAT2 10 IBS small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2022318 NAT2 10 IBS small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1134324 NAT2 10 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1854155 NAT2 10 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4588657 NAT2 10 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9078973 NAT2 10 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8637521 NAT2 10 IBS medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7847558 NAT2 10 IBS medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8635104 NAT2 10 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7698166 NAT2 10 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6876982 NAT2 10 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5791568 NAT2 10 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1505297 NAT2 10 IBS large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8956295 NAT2 10 IBS large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 812996 NAT2 5 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5289889 NAT2 5 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 857724 NAT2 5 linear small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3797584 NAT2 5 linear small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4402916 NAT2 5 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5391532 NAT2 5 linear small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1258176 NAT2 5 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3063538 NAT2 5 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5373855 NAT2 5 linear medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1759041 NAT2 5 linear medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6788342 NAT2 5 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4743440 NAT2 5 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9046151 NAT2 5 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8666191 NAT2 5 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8089901 NAT2 5 linear large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5862952 NAT2 5 linear large 15 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 623222 NAT2 5 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6229057 NAT2 5 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6496280 NAT2 5 IBS small 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5508219 NAT2 5 IBS small 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4407313 NAT2 5 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5816372 NAT2 5 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1054718 NAT2 5 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2432395 NAT2 5 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2765118 NAT2 5 IBS medium 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5182522 NAT2 5 IBS medium 15 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5000116 NAT2 5 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9072733 NAT2 5 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1372838 NAT2 5 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3294860 NAT2 5 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9336392 NAT2 5 IBS large 15 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5266798 NAT2 5 IBS large 15 FALSE

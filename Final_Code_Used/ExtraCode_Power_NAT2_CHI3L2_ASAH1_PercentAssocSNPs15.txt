@@ -1,0 +1,350 @@
+bsub -e Power_Calc_NAT2_1000_20_65_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_65_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 260907 NAT2 20 65 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_70_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_70_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 467883 NAT2 20 70 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_75_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_75_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 308364 NAT2 20 75 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_80_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_80_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 66931 NAT2 20 80 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_85_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 402925 NAT2 20 85 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_90_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 468777 NAT2 20 90 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_95_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 150363 NAT2 20 95 small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_99_small_25_TRUE.e -o Power_Calc_NAT2_1000_20_99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 313490 NAT2 20 99 small 25 TRUE
+
+bsub -e Power_Calc_CHI3L2_1000_20_65_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_65_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 214417 CHI3L2 20 65 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_70_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_70_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 287679 CHI3L2 20 70 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_75_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_75_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 715503 CHI3L2 20 75 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_80_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_80_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 937323 CHI3L2 20 80 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_85_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 25551 CHI3L2 20 85 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_90_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 922943 CHI3L2 20 90 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_95_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 381786 CHI3L2 20 95 small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_99_small_25_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 393849 CHI3L2 20 99 small 25 TRUE
+
+bsub -e Power_Calc_CHI3L2_1000_20_65_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_65_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 37439 CHI3L2 20 65 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_70_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_70_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 259284 CHI3L2 20 70 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_75_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_75_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 514837 CHI3L2 20 75 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_80_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_80_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 238912 CHI3L2 20 80 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_85_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 527996 CHI3L2 20 85 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_90_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 168586 CHI3L2 20 90 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_95_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 547725 CHI3L2 20 95 medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_99_medium_5_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 77468 CHI3L2 20 99 medium 5 FALSE
+
+
+bsub -e Power_Calc_ASAH1_1000_20_65_small_5_FALSE.e -o Power_Calc_ASAH1_1000_20_65_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 35658 ASAH1 20 65 small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_70_small_5_FALSE.e -o Power_Calc_ASAH1_1000_20_70_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 214402 ASAH1 20 70 small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_75_small_5_FALSE.e -o Power_Calc_ASAH1_1000_20_75_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 630418 ASAH1 20 75 small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_80_small_5_FALSE.e -o Power_Calc_ASAH1_1000_20_80_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 877907 ASAH1 20 80 small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_85_small_5_FALSE.e -o Power_Calc_ASAH1_1000_20_85_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 724939 ASAH1 20 85 small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_90_small_5_FALSE.e -o Power_Calc_ASAH1_1000_20_90_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 195788 ASAH1 20 90 small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_95_small_5_FALSE.e -o Power_Calc_ASAH1_1000_20_95_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 573308 ASAH1 20 95 small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_99_small_5_FALSE.e -o Power_Calc_ASAH1_1000_20_99_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 349325 ASAH1 20 99 small 5 FALSE
+
+
+# bsub -e Power_Calc_NAT2_1000_20_85_medium_15_FALSE.e -o Power_Calc_NAT2_1000_20_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 2877408 NAT2 20 85 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_10_85_medium_15_FALSE.e -o Power_Calc_NAT2_1000_10_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6303854 NAT2 10 85 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_5_85_medium_15_FALSE.e -o Power_Calc_NAT2_1000_5_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6438377 NAT2 5 85 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_20_85_large_15_TRUE.e -o Power_Calc_NAT2_1000_20_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 5953542 NAT2 20 85 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_10_85_large_15_TRUE.e -o Power_Calc_NAT2_1000_10_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6614287 NAT2 10 85 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_5_85_large_15_TRUE.e -o Power_Calc_NAT2_1000_5_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 2603380 NAT2 5 85 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_20_90_medium_15_FALSE.e -o Power_Calc_NAT2_1000_20_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 2189223 NAT2 20 90 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_10_90_medium_15_FALSE.e -o Power_Calc_NAT2_1000_10_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 294730 NAT2 10 90 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_5_90_medium_15_FALSE.e -o Power_Calc_NAT2_1000_5_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 1895427 NAT2 5 90 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_20_90_large_15_TRUE.e -o Power_Calc_NAT2_1000_20_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 8027720 NAT2 20 90 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_10_90_large_15_TRUE.e -o Power_Calc_NAT2_1000_10_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 9290998 NAT2 10 90 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_5_90_large_15_TRUE.e -o Power_Calc_NAT2_1000_5_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 8673444 NAT2 5 90 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_20_95_medium_15_FALSE.e -o Power_Calc_NAT2_1000_20_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 9351422 NAT2 20 95 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_10_95_medium_15_FALSE.e -o Power_Calc_NAT2_1000_10_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 5447787 NAT2 10 95 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_5_95_medium_15_FALSE.e -o Power_Calc_NAT2_1000_5_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 4382318 NAT2 5 95 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_20_95_large_15_TRUE.e -o Power_Calc_NAT2_1000_20_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 9908359 NAT2 20 95 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_10_95_large_15_TRUE.e -o Power_Calc_NAT2_1000_10_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 380298 NAT2 10 95 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_5_95_large_15_TRUE.e -o Power_Calc_NAT2_1000_5_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 2954731 NAT2 5 95 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_20_99_medium_15_FALSE.e -o Power_Calc_NAT2_1000_20_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 913954 NAT2 20 99 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_10_99_medium_15_FALSE.e -o Power_Calc_NAT2_1000_10_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6222446 NAT2 10 99 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_5_99_medium_15_FALSE.e -o Power_Calc_NAT2_1000_5_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 8148070 NAT2 5 99 medium 15 FALSE
+# bsub -e Power_Calc_NAT2_1000_20_99_large_15_TRUE.e -o Power_Calc_NAT2_1000_20_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 7531561 NAT2 20 99 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_10_99_large_15_TRUE.e -o Power_Calc_NAT2_1000_10_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6606299 NAT2 10 99 large 15 TRUE
+# bsub -e Power_Calc_NAT2_1000_5_99_large_15_TRUE.e -o Power_Calc_NAT2_1000_5_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 9431205 NAT2 5 99 large 15 TRUE
+
+# bsub -e Power_Calc_CHI3L2_500_20_85_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_20_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8149079 CHI3L2 20 85 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_10_85_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_10_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4368011 CHI3L2 10 85 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_5_85_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_5_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8794505 CHI3L2 5 85 medium 15 FALSE
+
+# bsub -e Power_Calc_CHI3L2_500_20_85_large_15_TRUE.e -o Power_Calc_CHI3L2_500_20_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4081809 CHI3L2 20 85 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_10_85_large_15_TRUE.e -o Power_Calc_CHI3L2_500_10_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7948837 CHI3L2 10 85 large 15 TRUE
+
+# bsub -e Power_Calc_CHI3L2_500_5_85_large_15_TRUE.e -o Power_Calc_CHI3L2_500_5_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1907093 CHI3L2 5 85 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_20_85_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3568948 CHI3L2 20 85 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_10_85_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8830699 CHI3L2 10 85 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_5_85_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1899521 CHI3L2 5 85 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_20_85_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6947886 CHI3L2 20 85 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_10_85_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1313152 CHI3L2 10 85 medium 15 FALSE
+
+# bsub -e Power_Calc_CHI3L2_1000_5_85_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6256334 CHI3L2 5 85 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_20_85_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3542658 CHI3L2 20 85 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_10_85_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1395893 CHI3L2 10 85 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_5_85_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 920973 CHI3L2 5 85 large 15 TRUE
+
+# bsub -e Power_Calc_CHI3L2_500_20_90_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_20_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3717335 CHI3L2 20 90 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_10_90_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_10_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8174843 CHI3L2 10 90 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_5_90_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_5_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 991197 CHI3L2 5 90 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_20_90_large_15_TRUE.e -o Power_Calc_CHI3L2_500_20_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 251248 CHI3L2 20 90 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_10_90_large_15_TRUE.e -o Power_Calc_CHI3L2_500_10_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5762837 CHI3L2 10 90 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_5_90_large_15_TRUE.e -o Power_Calc_CHI3L2_500_5_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2233625 CHI3L2 5 90 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_20_90_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 961377 CHI3L2 20 90 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_10_90_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8441344 CHI3L2 10 90 medium 15 TRUE
+
+# bsub -e Power_Calc_CHI3L2_1000_5_90_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8418009 CHI3L2 5 90 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_20_90_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 441699 CHI3L2 20 90 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_10_90_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4079336 CHI3L2 10 90 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_5_90_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 415875 CHI3L2 5 90 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_20_90_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8922095 CHI3L2 20 90 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_10_90_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1407786 CHI3L2 10 90 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_5_90_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9125351 CHI3L2 5 90 large 15 TRUE
+
+# bsub -e Power_Calc_CHI3L2_500_20_95_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_20_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 4112879 CHI3L2 20 95 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_10_95_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_10_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9894331 CHI3L2 10 95 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_5_95_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_5_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9960830 CHI3L2 5 95 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_20_95_large_15_TRUE.e -o Power_Calc_CHI3L2_500_20_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1201564 CHI3L2 20 95 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_10_95_large_15_TRUE.e -o Power_Calc_CHI3L2_500_10_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9593366 CHI3L2 10 95 large 15 TRUE
+
+# bsub -e Power_Calc_CHI3L2_500_5_95_large_15_TRUE.e -o Power_Calc_CHI3L2_500_5_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5558347 CHI3L2 5 95 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_20_95_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5774404 CHI3L2 20 95 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_10_95_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 219706 CHI3L2 10 95 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_5_95_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4046059 CHI3L2 5 95 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_20_95_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1195055 CHI3L2 20 95 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_10_95_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7377023 CHI3L2 10 95 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_5_95_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 9270864 CHI3L2 5 95 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_20_95_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 34726 CHI3L2 20 95 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_10_95_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 3371521 CHI3L2 10 95 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_5_95_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7695860 CHI3L2 5 95 large 15 TRUE
+
+# bsub -e Power_Calc_CHI3L2_500_20_85_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_20_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3307635 CHI3L2 20 85 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_10_85_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_10_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 602559 CHI3L2 10 85 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_5_85_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_5_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 6223618 CHI3L2 5 85 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_20_90_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_20_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 86176 CHI3L2 20 90 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_10_90_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_10_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2621811 CHI3L2 10 90 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_5_90_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_5_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8821722 CHI3L2 5 90 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_20_95_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_20_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2468128 CHI3L2 20 95 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_10_95_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_10_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5208894 CHI3L2 10 95 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_5_95_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_5_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 7828751 CHI3L2 5 95 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_20_99_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_20_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5100054 CHI3L2 20 99 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_10_99_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_10_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 5107922 CHI3L2 10 99 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_5_99_medium_15_TRUE.e -o Power_Calc_CHI3L2_500_5_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 9517060 CHI3L2 5 99 medium 15 TRUE
+
+# bsub -e Power_Calc_CHI3L2_500_20_99_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_20_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 509642 CHI3L2 20 99 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_10_99_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_10_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 2420269 CHI3L2 10 99 medium 15 FALSE
+
+# bsub -e Power_Calc_CHI3L2_500_5_99_medium_15_FALSE.e -o Power_Calc_CHI3L2_500_5_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1557317 CHI3L2 5 99 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_500_20_99_large_15_TRUE.e -o Power_Calc_CHI3L2_500_20_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 1617636 CHI3L2 20 99 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_10_99_large_15_TRUE.e -o Power_Calc_CHI3L2_500_10_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 3726459 CHI3L2 10 99 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_500_5_99_large_15_TRUE.e -o Power_Calc_CHI3L2_500_5_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 500 8642842 CHI3L2 5 99 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_20_99_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7808025 CHI3L2 20 99 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_10_99_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5122628 CHI3L2 10 99 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_5_99_medium_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 8263089 CHI3L2 5 99 medium 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_20_99_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_20_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 6712953 CHI3L2 20 99 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_10_99_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_10_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 4404427 CHI3L2 10 99 medium 15 FALSE
+# bsub -e Power_Calc_CHI3L2_1000_5_99_medium_15_FALSE.e -o Power_Calc_CHI3L2_1000_5_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 1342428 CHI3L2 5 99 medium 15 FALSE
+
+# bsub -e Power_Calc_CHI3L2_1000_20_99_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_20_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 7228683 CHI3L2 20 99 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_10_99_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_10_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5710671 CHI3L2 10 99 large 15 TRUE
+# bsub -e Power_Calc_CHI3L2_1000_5_99_large_15_TRUE.e -o Power_Calc_CHI3L2_1000_5_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 1 1000 5607737 CHI3L2 5 99 large 15 TRUE
+
+
+# bsub -e Power_Calc_ASAH1_500_20_85_medium_15_FALSE.e -o Power_Calc_ASAH1_500_20_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 6185445 ASAH1 20 85 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_85_medium_15_FALSE.e -o Power_Calc_ASAH1_500_10_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 4858791 ASAH1 10 85 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_85_medium_15_FALSE.e -o Power_Calc_ASAH1_500_5_85_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 1395801 ASAH1 5 85 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_85_large_15_FALSE.e -o Power_Calc_ASAH1_500_20_85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 2375078 ASAH1 20 85 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_85_large_15_FALSE.e -o Power_Calc_ASAH1_500_10_85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 375890 ASAH1 10 85 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_85_large_15_FALSE.e -o Power_Calc_ASAH1_500_5_85_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 6038898 ASAH1 5 85 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_90_medium_15_FALSE.e -o Power_Calc_ASAH1_500_20_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 2949783 ASAH1 20 90 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_90_medium_15_FALSE.e -o Power_Calc_ASAH1_500_10_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 3744861 ASAH1 10 90 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_90_medium_15_FALSE.e -o Power_Calc_ASAH1_500_5_90_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 7236947 ASAH1 5 90 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_90_large_15_FALSE.e -o Power_Calc_ASAH1_500_20_90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 1168165 ASAH1 20 90 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_90_large_15_FALSE.e -o Power_Calc_ASAH1_500_10_90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 1733729 ASAH1 10 90 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_90_large_15_FALSE.e -o Power_Calc_ASAH1_500_5_90_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 8587210 ASAH1 5 90 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_95_medium_15_FALSE.e -o Power_Calc_ASAH1_500_20_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 1988628 ASAH1 20 95 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_95_medium_15_FALSE.e -o Power_Calc_ASAH1_500_10_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 7119738 ASAH1 10 95 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_95_medium_15_FALSE.e -o Power_Calc_ASAH1_500_5_95_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 8197186 ASAH1 5 95 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_95_large_15_FALSE.e -o Power_Calc_ASAH1_500_20_95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 8477850 ASAH1 20 95 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_95_large_15_FALSE.e -o Power_Calc_ASAH1_500_10_95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 2013955 ASAH1 10 95 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_95_large_15_FALSE.e -o Power_Calc_ASAH1_500_5_95_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 4923013 ASAH1 5 95 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_99_medium_15_FALSE.e -o Power_Calc_ASAH1_500_20_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 9475483 ASAH1 20 99 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_99_medium_15_FALSE.e -o Power_Calc_ASAH1_500_10_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 347790 ASAH1 10 99 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_99_medium_15_FALSE.e -o Power_Calc_ASAH1_500_5_99_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 259857 ASAH1 5 99 medium 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_99_large_15_FALSE.e -o Power_Calc_ASAH1_500_20_99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 7605844 ASAH1 20 99 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_99_large_15_FALSE.e -o Power_Calc_ASAH1_500_10_99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 1787635 ASAH1 10 99 large 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_99_large_15_FALSE.e -o Power_Calc_ASAH1_500_5_99_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 9872372 ASAH1 5 99 large 15 FALSE
+
+# bsub -e Power_Calc_ASAH1_500_20_85_small_15_FALSE.e -o Power_Calc_ASAH1_500_20_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 2495297 ASAH1 20 85 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_85_small_15_FALSE.e -o Power_Calc_ASAH1_500_10_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 613694 ASAH1 10 85 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_85_small_15_FALSE.e -o Power_Calc_ASAH1_500_5_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 6741720 ASAH1 5 85 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_90_small_15_FALSE.e -o Power_Calc_ASAH1_500_20_90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 4202177 ASAH1 20 90 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_90_small_15_FALSE.e -o Power_Calc_ASAH1_500_10_90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 2990646 ASAH1 10 90 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_90_small_15_FALSE.e -o Power_Calc_ASAH1_500_5_90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 4874316 ASAH1 5 90 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_85_small_15_FALSE.e -o Power_Calc_ASAH1_500_20_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 2495297 ASAH1 20 85 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_85_small_15_FALSE.e -o Power_Calc_ASAH1_500_10_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 613694 ASAH1 10 85 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_85_small_15_FALSE.e -o Power_Calc_ASAH1_500_5_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 6741720 ASAH1 5 85 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_99_small_15_FALSE.e -o Power_Calc_ASAH1_500_20_99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 5760300 ASAH1 20 99 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_99_small_15_FALSE.e -o Power_Calc_ASAH1_500_10_99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 3210605 ASAH1 10 99 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_99_small_15_FALSE.e -o Power_Calc_ASAH1_500_5_99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 8934217 ASAH1 5 99 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_20_95_small_15_FALSE.e -o Power_Calc_ASAH1_500_20_95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 6728195 ASAH1 20 95 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_10_95_small_15_FALSE.e -o Power_Calc_ASAH1_500_10_95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 6808362 ASAH1 10 95 small 15 FALSE
+# bsub -e Power_Calc_ASAH1_500_5_95_small_15_FALSE.e -o Power_Calc_ASAH1_500_5_95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 3129905 ASAH1 5 95 small 15 FALSE
+
+bsub -e Power_Calc_ASAH1_500_20_85_small_15_TRUE.e -o Power_Calc_ASAH1_500_20_85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 108793 ASAH1 20 85 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_85_small_15_TRUE.e -o Power_Calc_ASAH1_500_10_85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 959929 ASAH1 10 85 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_85_small_15_TRUE.e -o Power_Calc_ASAH1_500_5_85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 140042 ASAH1 5 85 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_90_small_15_TRUE.e -o Power_Calc_ASAH1_500_20_90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 480226 ASAH1 20 90 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_90_small_15_TRUE.e -o Power_Calc_ASAH1_500_10_90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 865922 ASAH1 10 90 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_90_small_15_TRUE.e -o Power_Calc_ASAH1_500_5_90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 669548 ASAH1 5 90 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_99_small_15_TRUE.e -o Power_Calc_ASAH1_500_20_99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 837666 ASAH1 20 99 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_99_small_15_TRUE.e -o Power_Calc_ASAH1_500_10_99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 413093 ASAH1 10 99 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_99_small_15_TRUE.e -o Power_Calc_ASAH1_500_5_99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 22714 ASAH1 5 99 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_95_small_15_TRUE.e -o Power_Calc_ASAH1_500_20_95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 840825 ASAH1 20 95 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_95_small_15_TRUE.e -o Power_Calc_ASAH1_500_10_95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 971767 ASAH1 10 95 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_95_small_15_TRUE.e -o Power_Calc_ASAH1_500_5_95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 598728 ASAH1 5 95 small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_85_medium_15_TRUE.e -o Power_Calc_ASAH1_500_20_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 210779 ASAH1 20 85 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_85_medium_15_TRUE.e -o Power_Calc_ASAH1_500_10_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 12550 ASAH1 10 85 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_85_medium_15_TRUE.e -o Power_Calc_ASAH1_500_5_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 716038 ASAH1 5 85 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_85_large_15_TRUE.e -o Power_Calc_ASAH1_500_20_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 259035 ASAH1 20 85 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_85_large_15_TRUE.e -o Power_Calc_ASAH1_500_10_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 118264 ASAH1 10 85 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_85_large_15_TRUE.e -o Power_Calc_ASAH1_500_5_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 874432 ASAH1 5 85 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_90_medium_15_TRUE.e -o Power_Calc_ASAH1_500_20_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 939550 ASAH1 20 90 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_90_medium_15_TRUE.e -o Power_Calc_ASAH1_500_10_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 566415 ASAH1 10 90 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_90_medium_15_TRUE.e -o Power_Calc_ASAH1_500_5_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 866516 ASAH1 5 90 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_90_large_15_TRUE.e -o Power_Calc_ASAH1_500_20_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 790293 ASAH1 20 90 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_90_large_15_TRUE.e -o Power_Calc_ASAH1_500_10_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 620885 ASAH1 10 90 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_90_large_15_TRUE.e -o Power_Calc_ASAH1_500_5_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 703664 ASAH1 5 90 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_95_medium_15_TRUE.e -o Power_Calc_ASAH1_500_20_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 58889 ASAH1 20 95 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_95_medium_15_TRUE.e -o Power_Calc_ASAH1_500_10_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 250948 ASAH1 10 95 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_95_medium_15_TRUE.e -o Power_Calc_ASAH1_500_5_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 85037 ASAH1 5 95 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_95_large_15_TRUE.e -o Power_Calc_ASAH1_500_20_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 550835 ASAH1 20 95 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_95_large_15_TRUE.e -o Power_Calc_ASAH1_500_10_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 321543 ASAH1 10 95 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_95_large_15_TRUE.e -o Power_Calc_ASAH1_500_5_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 588423 ASAH1 5 95 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_99_medium_15_TRUE.e -o Power_Calc_ASAH1_500_20_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 512566 ASAH1 20 99 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_99_medium_15_TRUE.e -o Power_Calc_ASAH1_500_10_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 27519 ASAH1 10 99 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_99_medium_15_TRUE.e -o Power_Calc_ASAH1_500_5_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 333715 ASAH1 5 99 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_99_large_15_TRUE.e -o Power_Calc_ASAH1_500_20_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 452526 ASAH1 20 99 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_99_large_15_TRUE.e -o Power_Calc_ASAH1_500_10_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 631507 ASAH1 10 99 large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_99_large_15_TRUE.e -o Power_Calc_ASAH1_500_5_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 500 650629 ASAH1 5 99 large 15 TRUE
+################
+# bsub -e Power_Calc_SKAT_NAT2_1000_20_linear_medium_15_FALSE.e -o Power_Calc_SKAT_NAT2_1000_20_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2877408 NAT2 20 linear medium 15 FALSE
+# bsub -e Power_Calc_SKAT_NAT2_1000_10_linear_medium_15_FALSE.e -o Power_Calc_SKAT_NAT2_1000_10_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6303854 NAT2 10 linear medium 15 FALSE
+# bsub -e Power_Calc_SKAT_NAT2_1000_5_linear_medium_15_FALSE.e -o Power_Calc_SKAT_NAT2_1000_5_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6438377 NAT2 5 linear medium 15 FALSE
+
+# bsub -e Power_Calc_SKAT_NAT2_1000_20_linear_large_15_TRUE.e -o Power_Calc_SKAT_NAT2_1000_20_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5953542 NAT2 20 linear large 15 TRUE
+# bsub -e Power_Calc_SKAT_NAT2_1000_10_linear_large_15_TRUE.e -o Power_Calc_SKAT_NAT2_1000_10_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6614287 NAT2 10 linear large 15 TRUE
+# bsub -e Power_Calc_SKAT_NAT2_1000_5_linear_large_15_TRUE.e -o Power_Calc_SKAT_NAT2_1000_5_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2603380 NAT2 5 linear large 15 TRUE
+
+# bsub -e Power_Calc_SKAT_CHI3L2_500_20_linear_medium_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_500_20_linear_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 3307635 CHI3L2 20 linear medium 15 TRUE
+# bsub -e Power_Calc_SKAT_CHI3L2_500_10_linear_medium_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_500_10_linear_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 602559 CHI3L2 10 linear medium 15 TRUE
+# bsub -e Power_Calc_SKAT_CHI3L2_500_5_linear_medium_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_500_5_linear_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 6223618 CHI3L2 5 linear medium 15 TRUE
+
+# bsub -e Power_Calc_SKAT_CHI3L2_500_20_linear_medium_15_FALSE.e -o Power_Calc_SKAT_CHI3L2_500_20_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 8149079 CHI3L2 20 linear medium 15 FALSE
+bsub -e Power_Calc_SKAT_CHI3L2_500_10_linear_medium_15_FALSE.e -o Power_Calc_SKAT_CHI3L2_500_10_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4368011 CHI3L2 10 linear medium 15 FALSE
+# bsub -e Power_Calc_SKAT_CHI3L2_500_5_linear_medium_15_FALSE.e -o Power_Calc_SKAT_CHI3L2_500_5_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 8794505 CHI3L2 5 linear medium 15 FALSE
+
+# bsub -e Power_Calc_SKAT_CHI3L2_500_20_linear_large_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_500_20_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4081809 CHI3L2 20 linear large 15 TRUE
+# bsub -e Power_Calc_SKAT_CHI3L2_500_10_linear_large_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_500_10_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7948837 CHI3L2 10 linear large 15 TRUE
+# bsub -e Power_Calc_SKAT_CHI3L2_500_5_linear_large_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_500_5_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 1907093 CHI3L2 5 linear large 15 TRUE
+
+# bsub -e Power_Calc_SKAT_CHI3L2_1000_20_linear_medium_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_1000_20_linear_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3568948 CHI3L2 20 linear medium 15 TRUE
+# bsub -e Power_Calc_SKAT_CHI3L2_1000_10_linear_medium_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_1000_10_linear_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 8830699 CHI3L2 10 linear medium 15 TRUE
+# bsub -e Power_Calc_SKAT_CHI3L2_1000_5_linear_medium_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_1000_5_linear_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1899521 CHI3L2 5 linear medium 15 TRUE
+
+# bsub -e Power_Calc_SKAT_CHI3L2_1000_20_linear_medium_15_FALSE.e -o Power_Calc_SKAT_CHI3L2_1000_20_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6947886 CHI3L2 20 linear medium 15 FALSE
+ bsub -e Power_Calc_SKAT_CHI3L2_1000_10_linear_medium_15_FALSE.e -o Power_Calc_SKAT_CHI3L2_1000_10_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1313152 CHI3L2 10 linear medium 15 FALSE
+# bsub -e Power_Calc_SKAT_CHI3L2_1000_5_linear_medium_15_FALSE.e -o Power_Calc_SKAT_CHI3L2_1000_5_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6256334 CHI3L2 5 linear medium 15 FALSE
+
+# bsub -e Power_Calc_SKAT_CHI3L2_1000_20_linear_large_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_1000_20_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3542658 CHI3L2 20 linear large 15 TRUE
+ bsub -e Power_Calc_SKAT_CHI3L2_1000_10_linear_large_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_1000_10_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1395893 CHI3L2 10 linear large 15 TRUE
+# bsub -e Power_Calc_SKAT_CHI3L2_1000_5_linear_large_15_TRUE.e -o Power_Calc_SKAT_CHI3L2_1000_5_linear_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 920973 CHI3L2 5 linear large 15 TRUE
+
+# bsub -e Power_Calc_SKAT_ASAH1_500_20_linear_small_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_20_linear_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2495297 ASAH1 20 linear small 15 FALSE
+# bsub -e Power_Calc_SKAT_ASAH1_500_10_linear_small_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_10_linear_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 613694 ASAH1 10 linear small 15 FALSE
+# bsub -e Power_Calc_SKAT_ASAH1_500_5_linear_small_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_5_linear_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6741720 ASAH1 5 linear small 15 FALSE
+
+# bsub -e Power_Calc_SKAT_ASAH1_500_20_linear_medium_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_20_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6185445 ASAH1 20 linear medium 15 FALSE
+# bsub -e Power_Calc_SKAT_ASAH1_500_10_linear_medium_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_10_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4858791 ASAH1 10 linear medium 15 FALSE
+# bsub -e Power_Calc_SKAT_ASAH1_500_5_linear_medium_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_5_linear_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1395801 ASAH1 5 linear medium 15 FALSE
+
+# bsub -e Power_Calc_SKAT_ASAH1_500_20_linear_large_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_20_linear_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2375078 ASAH1 20 linear large 15 FALSE
+# bsub -e Power_Calc_SKAT_ASAH1_500_10_linear_large_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_10_linear_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 375890 ASAH1 10 linear large 15 FALSE
+# bsub -e Power_Calc_SKAT_ASAH1_500_5_linear_large_15_FALSE.e -o Power_Calc_SKAT_ASAH1_500_5_linear_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6038898 ASAH1 5 linear large 15 FALSE
+
+
+bsub -e Power_Calc_SKAT_NAT2_1000_20_linear_small_25_TRUE.e -o Power_Calc_SKAT_NAT2_1000_20_linear_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2877408 NAT2 20 linear small 25 TRUE
+
+bsub -e Power_Calc_SKAT_CHI3L2_1000_20_linear_small_25_TRUE.e -o Power_Calc_SKAT_CHI3L2_1000_20_linear_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3307635 CHI3L2 20 linear small 25 TRUE
+bsub -e Power_Calc_SKAT_CHI3L2_1000_20_linear_medium_5_FALSE.e -o Power_Calc_SKAT_CHI3L2_1000_20_linear_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 4858791 CHI3L2 20 linear medium 5 FALSE
+
+bsub -e Power_Calc_SKAT_ASAH1_1000_20_linear_small_5_FALSE.e -o Power_Calc_SKAT_ASAH1_1000_20_linear_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6185445 ASAH1 20 linear small 5 FALSE
+###
+bsub -e Power_Calc_SKAT_NAT2_1000_20_IBS_small_25_TRUE.e -o Power_Calc_SKAT_NAT2_1000_20_IBS_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1395893 NAT2 20 IBS small 25 TRUE
+
+bsub -e Power_Calc_SKAT_CHI3L2_1000_20_IBS_small_25_TRUE.e -o Power_Calc_SKAT_CHI3L2_1000_20_IBS_small_25_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1395801 CHI3L2 20 IBS small 25 TRUE
+bsub -e Power_Calc_SKAT_CHI3L2_1000_20_IBS_medium_5_FALSE.e -o Power_Calc_SKAT_CHI3L2_1000_20_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 375890 CHI3L2 20 IBS medium 5 FALSE
+
+bsub -e Power_Calc_SKAT_ASAH1_1000_20_IBS_small_5_FALSE.e -o Power_Calc_SKAT_ASAH1_1000_20_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6038898 ASAH1 20 IBS small 5 FALSE
+
+
+##########################################
+bsub -e Power_Calc_ASAH1_1000_20_85_small_15_FALSE.e -o Power_Calc_ASAH1_1000_20_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 318824 ASAH1 20 85 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_90_small_15_FALSE.e -o Power_Calc_ASAH1_1000_20_90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 4007751 ASAH1 20 90 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_95_small_15_FALSE.e -o Power_Calc_ASAH1_1000_20_95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 9771648 ASAH1 20 95 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_99_small_15_FALSE.e -o Power_Calc_ASAH1_1000_20_99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 5665944 ASAH1 20 99 small 15 FALSE
+
+bsub -e Power_Calc_ASAH1_1000_10_85_small_15_FALSE.e -o Power_Calc_ASAH1_1000_10_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3297566 ASAH1 10 85 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_90_small_15_FALSE.e -o Power_Calc_ASAH1_1000_10_90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 1906150 ASAH1 10 90 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_95_small_15_FALSE.e -o Power_Calc_ASAH1_1000_10_95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6059594 ASAH1 10 95 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_99_small_15_FALSE.e -o Power_Calc_ASAH1_1000_10_99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3339655 ASAH1 10 99 small 15 FALSE
+
+bsub -e Power_Calc_ASAH1_1000_5_85_small_15_FALSE.e -o Power_Calc_ASAH1_1000_5_85_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 967930 ASAH1 5 85 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_90_small_15_FALSE.e -o Power_Calc_ASAH1_1000_5_90_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 4658308 ASAH1 5 90 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_95_small_15_FALSE.e -o Power_Calc_ASAH1_1000_5_95_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3621507 ASAH1 5 95 small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_99_small_15_FALSE.e -o Power_Calc_ASAH1_1000_5_99_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 8384503 ASAH1 5 99 small 15 FALSE
+
+bsub -e Power_Calc_ASAH1_1000_20_85_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_20_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 9628379 ASAH1 20 85 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_90_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_20_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 7143431 ASAH1 20 90 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_95_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_20_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 1913005 ASAH1 20 95 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_99_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_20_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 2508186 ASAH1 20 99 medium 15 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_10_85_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_10_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3743253 ASAH1 10 85 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_90_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_10_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 4085160 ASAH1 10 90 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_95_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_10_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 7999277 ASAH1 10 95 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_99_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_10_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 2948644 ASAH1 10 99 medium 15 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_5_85_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_5_85_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 8483948 ASAH1 5 85 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_90_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_5_90_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 8346564 ASAH1 5 90 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_95_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_5_95_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 131647 ASAH1 5 95 medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_99_medium_15_TRUE.e -o Power_Calc_ASAH1_1000_5_99_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 314586 ASAH1 5 99 medium 15 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_20_85_large_15_TRUE.e -o Power_Calc_ASAH1_1000_20_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3165124 ASAH1 20 85 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_90_large_15_TRUE.e -o Power_Calc_ASAH1_1000_20_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3830592 ASAH1 20 90 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_95_large_15_TRUE.e -o Power_Calc_ASAH1_1000_20_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 778039 ASAH1 20 95 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_99_large_15_TRUE.e -o Power_Calc_ASAH1_1000_20_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 4541965 ASAH1 20 99 large 15 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_10_85_large_15_TRUE.e -o Power_Calc_ASAH1_1000_10_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3010133 ASAH1 10 85 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_90_large_15_TRUE.e -o Power_Calc_ASAH1_1000_10_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 8594403 ASAH1 10 90 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_95_large_15_TRUE.e -o Power_Calc_ASAH1_1000_10_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 498447 ASAH1 10 95 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_99_large_15_TRUE.e -o Power_Calc_ASAH1_1000_10_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 4845665 ASAH1 10 99 large 15 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_5_85_large_15_TRUE.e -o Power_Calc_ASAH1_1000_5_85_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 242926 ASAH1 5 85 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_90_large_15_TRUE.e -o Power_Calc_ASAH1_1000_5_90_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 5644755 ASAH1 5 90 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_95_large_15_TRUE.e -o Power_Calc_ASAH1_1000_5_95_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 6280140 ASAH1 5 95 large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_99_large_15_TRUE.e -o Power_Calc_ASAH1_1000_5_99_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 7287122 ASAH1 5 99 large 15 TRUE
+
+bsub -e Power_Calc_ASAH1_1000_20_85_small_15_TRUE.e -o Power_Calc_ASAH1_1000_20_85_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 8068772 ASAH1 20 85 small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_90_small_15_TRUE.e -o Power_Calc_ASAH1_1000_20_90_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 1840549 ASAH1 20 90 small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_95_small_15_TRUE.e -o Power_Calc_ASAH1_1000_20_95_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 630625 ASAH1 20 95 small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_99_small_15_TRUE.e -o Power_Calc_ASAH1_1000_20_99_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores.sh 8 1000 3213493 ASAH1 20 99 small 15 TRUE
+                
+bsub -e Power_Calc_SKAT_Gene_SS_20_linear_small_percentageAssoc_FALSE.e -o Power_Calc_SKAT_Gene_SS_20_linear_small_percentageAssoc_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1970873 ASAH1 20 linear small 15 FALSE
+bsub -e Power_Calc_SKAT_Gene_SS_10_linear_small_percentageAssoc_FALSE.e -o Power_Calc_SKAT_Gene_SS_10_linear_small_percentageAssoc_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8449512 ASAH1 10 linear small 15 FALSE
+bsub -e Power_Calc_SKAT_Gene_SS_5_linear_small_percentageAssoc_FALSE.e -o Power_Calc_SKAT_Gene_SS_5_linear_small_percentageAssoc_FALSE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8288284 ASAH1 5 linear small 15 FALSE
+
+bsub -e Power_Calc_SKAT_Gene_SS_20_linear_medium_percentageAssoc_TRUE.e -o Power_Calc_SKAT_Gene_SS_20_linear_medium_percentageAssoc_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7991549 ASAH1 20 linear medium 15 TRUE
+bsub -e Power_Calc_SKAT_Gene_SS_10_linear_medium_percentageAssoc_TRUE.e -o Power_Calc_SKAT_Gene_SS_10_linear_medium_percentageAssoc_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 41798 ASAH1 10 linear medium 15 TRUE
+bsub -e Power_Calc_SKAT_Gene_SS_5_linear_medium_percentageAssoc_TRUE.e -o Power_Calc_SKAT_Gene_SS_5_linear_medium_percentageAssoc_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8666536 ASAH1 5 linear medium 15 TRUE
+
+bsub -e Power_Calc_SKAT_Gene_SS_20_linear_large_percentageAssoc_TRUE.e -o Power_Calc_SKAT_Gene_SS_20_linear_large_percentageAssoc_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2641068 ASAH1 20 linear large 15 TRUE
+bsub -e Power_Calc_SKAT_Gene_SS_10_linear_large_percentageAssoc_TRUE.e -o Power_Calc_SKAT_Gene_SS_10_linear_large_percentageAssoc_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5374514 ASAH1 10 linear large 15 TRUE
+bsub -e Power_Calc_SKAT_Gene_SS_5_linear_large_percentageAssoc_TRUE.e -o Power_Calc_SKAT_Gene_SS_5_linear_large_percentageAssoc_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8130610 ASAH1 5 linear large 15 TRUE
+
+bsub -e Power_Calc_SKAT_Gene_SS_20_linear_small_percentageAssoc_TRUE.e -o Power_Calc_SKAT_Gene_SS_20_linear_small_percentageAssoc_TRUE.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 868772 ASAH1 20 linear small 15 TRUE

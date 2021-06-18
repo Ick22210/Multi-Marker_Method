@@ -1,0 +1,240 @@
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4463615 ASAH1 20 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3759302 ASAH1 20 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5526995 ASAH1 20 linear small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6311984 ASAH1 20 linear small 15 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6464926 ASAH1 20 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1947166 ASAH1 20 linear small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1744735 ASAH1 20 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7601925 ASAH1 20 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9414010 ASAH1 20 linear medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 312454 ASAH1 20 linear medium 15 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1394298 ASAH1 20 linear medium 25 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5507358 ASAH1 20 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2733150 ASAH1 20 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6130343 ASAH1 20 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8346029 ASAH1 20 linear large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9591483 ASAH1 20 linear large 15 FALSE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5339158 ASAH1 20 linear large 25 TRUE
+bsub -e Power_Calc_ASAH1_500_20_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_linearKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1735885 ASAH1 20 linear large 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 479493 ASAH1 20 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3657960 ASAH1 20 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2613622 ASAH1 20 IBS small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7906937 ASAH1 20 IBS small 15 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4460756 ASAH1 20 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5597627 ASAH1 20 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3060336 ASAH1 20 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3091805 ASAH1 20 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4083691 ASAH1 20 IBS medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9160980 ASAH1 20 IBS medium 15 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3482169 ASAH1 20 IBS medium 25 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5218910 ASAH1 20 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9331523 ASAH1 20 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5525545 ASAH1 20 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5292726 ASAH1 20 IBS large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5718748 ASAH1 20 IBS large 15 FALSE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4569873 ASAH1 20 IBS large 25 TRUE
+bsub -e Power_Calc_ASAH1_500_20_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_20_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3068763 ASAH1 20 IBS large 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 156251 ASAH1 10 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4468588 ASAH1 10 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5543261 ASAH1 10 linear small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6703677 ASAH1 10 linear small 15 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8925687 ASAH1 10 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4193803 ASAH1 10 linear small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2314488 ASAH1 10 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 156136 ASAH1 10 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 6160167 ASAH1 10 linear medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 154864 ASAH1 10 linear medium 15 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7940284 ASAH1 10 linear medium 25 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3619276 ASAH1 10 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9466614 ASAH1 10 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9546617 ASAH1 10 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7891442 ASAH1 10 linear large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1399825 ASAH1 10 linear large 15 FALSE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5027699 ASAH1 10 linear large 25 TRUE
+bsub -e Power_Calc_ASAH1_500_10_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_linearKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3850983 ASAH1 10 linear large 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8896531 ASAH1 10 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8585931 ASAH1 10 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8931022 ASAH1 10 IBS small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3680490 ASAH1 10 IBS small 15 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3748378 ASAH1 10 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7815024 ASAH1 10 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4955800 ASAH1 10 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 944004 ASAH1 10 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 942336 ASAH1 10 IBS medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5882084 ASAH1 10 IBS medium 15 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2922503 ASAH1 10 IBS medium 25 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3489223 ASAH1 10 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3402738 ASAH1 10 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2543417 ASAH1 10 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7925872 ASAH1 10 IBS large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3621598 ASAH1 10 IBS large 15 FALSE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9886980 ASAH1 10 IBS large 25 TRUE
+bsub -e Power_Calc_ASAH1_500_10_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_10_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 786004 ASAH1 10 IBS large 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8878649 ASAH1 5 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2137003 ASAH1 5 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4958210 ASAH1 5 linear small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7512057 ASAH1 5 linear small 15 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 400609 ASAH1 5 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4955537 ASAH1 5 linear small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7825030 ASAH1 5 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3294365 ASAH1 5 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2606928 ASAH1 5 linear medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3606011 ASAH1 5 linear medium 15 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 3180332 ASAH1 5 linear medium 25 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5161755 ASAH1 5 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9615079 ASAH1 5 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9511429 ASAH1 5 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1698179 ASAH1 5 linear large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7693230 ASAH1 5 linear large 15 FALSE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9930263 ASAH1 5 linear large 25 TRUE
+bsub -e Power_Calc_ASAH1_500_5_linearKernel_large_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_linearKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4202279 ASAH1 5 linear large 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8028718 ASAH1 5 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 1614946 ASAH1 5 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 408215 ASAH1 5 IBS small 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5887923 ASAH1 5 IBS small 15 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2167745 ASAH1 5 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 9467090 ASAH1 5 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 412733 ASAH1 5 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 2128485 ASAH1 5 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4565616 ASAH1 5 IBS medium 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8338822 ASAH1 5 IBS medium 15 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 5751029 ASAH1 5 IBS medium 25 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4707404 ASAH1 5 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 7220439 ASAH1 5 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 335713 ASAH1 5 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4539629 ASAH1 5 IBS large 15 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 153394 ASAH1 5 IBS large 15 FALSE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_large_25_TRUE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 4530932 ASAH1 5 IBS large 25 TRUE
+bsub -e Power_Calc_ASAH1_500_5_IBSKernel_large_25_FALSE_SKAT.e -o Power_Calc_ASAH1_500_5_IBSKernel_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 500 8616008 ASAH1 5 IBS large 25 FALSE
+ 
+######################## 
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9289607 ASAH1 20 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1007331 ASAH1 20 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9423368 ASAH1 20 linear small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4650586 ASAH1 20 linear small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1577153 ASAH1 20 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2969807 ASAH1 20 linear small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9985175 ASAH1 20 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9187074 ASAH1 20 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1292830 ASAH1 20 linear medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8164370 ASAH1 20 linear medium 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 378515 ASAH1 20 linear medium 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9987653 ASAH1 20 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2021591 ASAH1 20 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1881754 ASAH1 20 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3470304 ASAH1 20 linear large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 213877 ASAH1 20 linear large 15 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8687821 ASAH1 20 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7920322 ASAH1 20 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7601597 ASAH1 20 IBS small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9951470 ASAH1 20 IBS small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3652235 ASAH1 20 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 385697 ASAH1 20 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6709357 ASAH1 20 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2288688 ASAH1 20 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6695300 ASAH1 20 IBS medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1625957 ASAH1 20 IBS medium 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7836839 ASAH1 20 IBS medium 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3318693 ASAH1 20 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1302514 ASAH1 20 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7110449 ASAH1 20 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3536636 ASAH1 20 IBS large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_20_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_20_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9458044 ASAH1 20 IBS large 15 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5255798 ASAH1 10 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7485275 ASAH1 10 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3431255 ASAH1 10 linear small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2205398 ASAH1 10 linear small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5048281 ASAH1 10 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8008279 ASAH1 10 linear small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4157592 ASAH1 10 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9164761 ASAH1 10 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6676569 ASAH1 10 linear medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2983651 ASAH1 10 linear medium 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7507572 ASAH1 10 linear medium 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3413470 ASAH1 10 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 502018 ASAH1 10 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9507143 ASAH1 10 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7349790 ASAH1 10 linear large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 518228 ASAH1 10 linear large 15 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2980624 ASAH1 10 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6995078 ASAH1 10 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8391428 ASAH1 10 IBS small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4367576 ASAH1 10 IBS small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7049957 ASAH1 10 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4024375 ASAH1 10 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8428528 ASAH1 10 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9407083 ASAH1 10 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 580504 ASAH1 10 IBS medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1081123 ASAH1 10 IBS medium 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7712391 ASAH1 10 IBS medium 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2984121 ASAH1 10 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1968346 ASAH1 10 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9242878 ASAH1 10 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2411848 ASAH1 10 IBS large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_10_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_10_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9224954 ASAH1 10 IBS large 15 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6447663 ASAH1 5 linear small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8402398 ASAH1 5 linear small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9129193 ASAH1 5 linear small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7885072 ASAH1 5 linear small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4067565 ASAH1 5 linear small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1306850 ASAH1 5 linear small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6918082 ASAH1 5 linear medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9180001 ASAH1 5 linear medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3903527 ASAH1 5 linear medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3253530 ASAH1 5 linear medium 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 985504 ASAH1 5 linear medium 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7916961 ASAH1 5 linear medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4361254 ASAH1 5 linear large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8886961 ASAH1 5 linear large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5867095 ASAH1 5 linear large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_linearKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_linearKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2100241 ASAH1 5 linear large 15 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_small_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1094350 ASAH1 5 IBS small 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_small_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8201690 ASAH1 5 IBS small 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_small_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_small_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 6487353 ASAH1 5 IBS small 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_small_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_small_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 587791 ASAH1 5 IBS small 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_small_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 7804419 ASAH1 5 IBS small 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_small_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 2281462 ASAH1 5 IBS small 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_medium_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4423860 ASAH1 5 IBS medium 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_medium_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9799159 ASAH1 5 IBS medium 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_medium_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_medium_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 9842949 ASAH1 5 IBS medium 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_medium_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_medium_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5710612 ASAH1 5 IBS medium 15 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_medium_25_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 3117218 ASAH1 5 IBS medium 25 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_medium_25_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 8155101 ASAH1 5 IBS medium 25 FALSE
+ 
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_large_5_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 1026674 ASAH1 5 IBS large 5 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_large_5_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 5635345 ASAH1 5 IBS large 5 FALSE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_large_15_TRUE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_large_15_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 129309 ASAH1 5 IBS large 15 TRUE
+bsub -e Power_Calc_ASAH1_1000_5_IBSKernel_large_15_FALSE_SKAT.e -o Power_Calc_ASAH1_1000_5_IBSKernel_large_15_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_RGenoSNPs_SKAT.sh 8 1000 4252259 ASAH1 5 IBS large 15 FALSE

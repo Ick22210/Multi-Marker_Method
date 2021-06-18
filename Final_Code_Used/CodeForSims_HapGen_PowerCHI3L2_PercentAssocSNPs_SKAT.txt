@@ -1,0 +1,159 @@
+1##General Power Code             
+# bsub -e Power_Calc_Gene_SS_Prev_Kernel_ORSize_percentageAssoc_lowLDTF_SKAT.e -o Power_Calc_Gene_SS_Prev_Kernel_ORSize_percentageAssoc_lowLDTF_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 SS SEED GENE YPREV KERNEL ORSize percentageAssoc lowLDTF
+
+bsub -e Power_Calc_CHI3L2_500_20_linear_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2189893 CHI3L2 20 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linear_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 3029063 CHI3L2 20 linear small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linear_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 8461001 CHI3L2 20 linear small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linear_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4112654 CHI3L2 20 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linear_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 583003 CHI3L2 20 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_linear_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7243387 CHI3L2 20 linear small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_linear_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2780937 CHI3L2 20 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linear_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4338447 CHI3L2 20 linear medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_linear_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 9783724 CHI3L2 20 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_linear_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7824318 CHI3L2 20 linear large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_IBS_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 9254950 CHI3L2 20 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBS_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 5001876 CHI3L2 20 IBS small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBS_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7797596 CHI3L2 20 IBS small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBS_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7038111 CHI3L2 20 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBS_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7168868 CHI3L2 20 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_20_IBS_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4910573 CHI3L2 20 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7795112 CHI3L2 20 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 9187267 CHI3L2 20 IBS medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_20_IBS_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4894449 CHI3L2 20 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_20_IBS_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_20_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 1590708 CHI3L2 20 IBS large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_linear_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 6396582 CHI3L2 10 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linear_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2383187 CHI3L2 10 linear small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linear_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2270732 CHI3L2 10 linear small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linear_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7563036 CHI3L2 10 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linear_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 1376404 CHI3L2 10 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_linear_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 8352754 CHI3L2 10 linear small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_linear_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7428257 CHI3L2 10 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linear_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 8108334 CHI3L2 10 linear medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_linear_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2228597 CHI3L2 10 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_linear_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 3240339 CHI3L2 10 linear large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_IBS_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4599650 CHI3L2 10 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBS_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 6851239 CHI3L2 10 IBS small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBS_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2385095 CHI3L2 10 IBS small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBS_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7547703 CHI3L2 10 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBS_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 6419770 CHI3L2 10 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_10_IBS_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 8020152 CHI3L2 10 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 5454172 CHI3L2 10 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 1606000 CHI3L2 10 IBS medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_10_IBS_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4182746 CHI3L2 10 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_10_IBS_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_10_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 5830158 CHI3L2 10 IBS large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_linear_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 5021393 CHI3L2 5 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linear_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 542659 CHI3L2 5 linear small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linear_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4396988 CHI3L2 5 linear small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linear_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 9481252 CHI3L2 5 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linear_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 6795940 CHI3L2 5 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_linear_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 3996002 CHI3L2 5 linear small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_linear_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 775566 CHI3L2 5 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linear_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 816768 CHI3L2 5 linear medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_linear_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 872078 CHI3L2 5 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_linear_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2400205 CHI3L2 5 linear large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_IBS_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 6029015 CHI3L2 5 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBS_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2572729 CHI3L2 5 IBS small 25 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBS_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 6143936 CHI3L2 5 IBS small 50 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBS_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4294573 CHI3L2 5 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBS_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 1231470 CHI3L2 5 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_500_5_IBS_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 7051764 CHI3L2 5 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 8757763 CHI3L2 5 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 9486382 CHI3L2 5 IBS medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_500_5_IBS_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 2157519 CHI3L2 5 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_500_5_IBS_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_500_5_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 500 4402830 CHI3L2 5 IBS large 5 TRUE
+
+#######################################
+bsub -e Power_Calc_CHI3L2_1000_20_linear_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 4822831 CHI3L2 20 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linear_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1333892 CHI3L2 20 linear small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linear_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 7144161 CHI3L2 20 linear small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linear_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 8371053 CHI3L2 20 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linear_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 5989587 CHI3L2 20 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_linear_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6097981 CHI3L2 20 linear small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_linear_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 134594 CHI3L2 20 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linear_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 156643 CHI3L2 20 linear medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_linear_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 2569381 CHI3L2 20 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_linear_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 511367 CHI3L2 20 linear large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 519376 CHI3L2 20 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 8092404 CHI3L2 20 IBS small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3247083 CHI3L2 20 IBS small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6052716 CHI3L2 20 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 7073520 CHI3L2 20 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 4774979 CHI3L2 20 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 8780695 CHI3L2 20 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3772277 CHI3L2 20 IBS medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6039346 CHI3L2 20 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_20_IBS_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_20_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 9564008 CHI3L2 20 IBS large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_linear_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 9586507 CHI3L2 10 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linear_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1774992 CHI3L2 10 linear small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linear_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1416807 CHI3L2 10 linear small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linear_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 9021274 CHI3L2 10 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linear_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 733280 CHI3L2 10 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_linear_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3052627 CHI3L2 10 linear small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_linear_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1896729 CHI3L2 10 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linear_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6747896 CHI3L2 10 linear medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_linear_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6431216 CHI3L2 10 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_linear_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6248633 CHI3L2 10 linear large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 4046570 CHI3L2 10 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 9370053 CHI3L2 10 IBS small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 4779544 CHI3L2 10 IBS small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3413585 CHI3L2 10 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 832262 CHI3L2 10 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3563790 CHI3L2 10 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1215853 CHI3L2 10 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3985887 CHI3L2 10 IBS medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6453798 CHI3L2 10 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_10_IBS_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_10_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1760768 CHI3L2 10 IBS large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_linear_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6225019 CHI3L2 5 linear small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linear_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 9014102 CHI3L2 5 linear small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linear_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3294286 CHI3L2 5 linear small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linear_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 2658800 CHI3L2 5 linear small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linear_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 2822431 CHI3L2 5 linear small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_linear_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1725032 CHI3L2 5 linear small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_linear_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 5648617 CHI3L2 5 linear medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linear_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 1698647 CHI3L2 5 linear medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_linear_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 2287340 CHI3L2 5 linear large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_linear_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3261873 CHI3L2 5 linear large 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_small_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3853529 CHI3L2 5 IBS small 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_small_25_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 2651642 CHI3L2 5 IBS small 25 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_small_50_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 2907331 CHI3L2 5 IBS small 50 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_small_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 2135918 CHI3L2 5 IBS small 5 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_small_25_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6996053 CHI3L2 5 IBS small 25 TRUE
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_small_50_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 8335520 CHI3L2 5 IBS small 50 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 9512236 CHI3L2 5 IBS medium 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 8725872 CHI3L2 5 IBS medium 5 TRUE
+ 
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_large_5_FALSE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 6042577 CHI3L2 5 IBS large 5 FALSE
+bsub -e Power_Calc_CHI3L2_1000_5_IBS_large_5_TRUE_SKAT.e -o Power_Calc_CHI3L2_1000_5_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 1 1000 3185303 CHI3L2 5 IBS large 5 TRUE

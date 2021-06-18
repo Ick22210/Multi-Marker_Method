@@ -1,0 +1,303 @@
+##General Power Code             
+# bsub -e Power_Calc_Gene_SS_Prev_Kernel_ORSize_percentageAssoc_lowLDTF_SKAT.e -o Power_Calc_Gene_SS_Prev_Kernel_ORSize_percentageAssoc_lowLDTF_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 SS SEED GENE YPREV KERNEL ORSize percentageAssoc lowLDTF
+
+bsub -e Power_Calc_NAT2_500_20_linear_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2189893 NAT2 20 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3029063 NAT2 20 linear small 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8461001 NAT2 20 linear small 50 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2828454 NAT2 20 linear small 75 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_small_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 624035 NAT2 20 linear small 100 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4112654 NAT2 20 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 583003 NAT2 20 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7243387 NAT2 20 linear small 50 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4565397 NAT2 20 linear small 75 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_small_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_small_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1971182 NAT2 20 linear small 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_linear_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2780937 NAT2 20 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1510338 NAT2 20 linear medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9265798 NAT2 20 linear medium 50 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2579191 NAT2 20 linear medium 75 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2583473 NAT2 20 linear medium 100 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4338447 NAT2 20 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6463591 NAT2 20 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3539696 NAT2 20 linear medium 50 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4013312 NAT2 20 linear medium 75 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_medium_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_medium_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9585714 NAT2 20 linear medium 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_linear_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9783724 NAT2 20 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 354497 NAT2 20 linear large 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_large_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3767984 NAT2 20 linear large 50 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_large_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3839521 NAT2 20 linear large 75 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_large_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4302314 NAT2 20 linear large 100 FALSE
+bsub -e Power_Calc_NAT2_500_20_linear_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7824318 NAT2 20 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5510482 NAT2 20 linear large 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_large_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3298551 NAT2 20 linear large 50 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_large_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4371938 NAT2 20 linear large 75 TRUE
+bsub -e Power_Calc_NAT2_500_20_linear_large_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_linear_large_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9065180 NAT2 20 linear large 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_IBS_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9254950 NAT2 20 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5001876 NAT2 20 IBS small 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7797596 NAT2 20 IBS small 50 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4981507 NAT2 20 IBS small 75 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1077674 NAT2 20 IBS small 100 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7038111 NAT2 20 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7168868 NAT2 20 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4910573 NAT2 20 IBS small 50 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6830619 NAT2 20 IBS small 75 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_small_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_small_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7684603 NAT2 20 IBS small 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7795112 NAT2 20 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 847543 NAT2 20 IBS medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7067392 NAT2 20 IBS medium 50 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3054001 NAT2 20 IBS medium 75 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2630118 NAT2 20 IBS medium 100 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9187267 NAT2 20 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5396068 NAT2 20 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 776712 NAT2 20 IBS medium 50 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3162288 NAT2 20 IBS medium 75 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_medium_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_medium_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6129206 NAT2 20 IBS medium 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_20_IBS_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4894449 NAT2 20 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7730317 NAT2 20 IBS large 25 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3703409 NAT2 20 IBS large 50 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8201789 NAT2 20 IBS large 75 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7978271 NAT2 20 IBS large 100 FALSE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1590708 NAT2 20 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4992210 NAT2 20 IBS large 25 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2365138 NAT2 20 IBS large 50 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3290529 NAT2 20 IBS large 75 TRUE
+bsub -e Power_Calc_NAT2_500_20_IBS_large_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_20_IBS_large_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1825892 NAT2 20 IBS large 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_linear_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6396582 NAT2 10 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2383187 NAT2 10 linear small 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2270732 NAT2 10 linear small 50 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2188930 NAT2 10 linear small 75 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_small_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1412287 NAT2 10 linear small 100 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7563036 NAT2 10 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1376404 NAT2 10 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8352754 NAT2 10 linear small 50 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3964729 NAT2 10 linear small 75 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_small_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_small_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5991294 NAT2 10 linear small 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_linear_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7428257 NAT2 10 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9421181 NAT2 10 linear medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 691190 NAT2 10 linear medium 50 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4986983 NAT2 10 linear medium 75 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5315932 NAT2 10 linear medium 100 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8108334 NAT2 10 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6363005 NAT2 10 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9499115 NAT2 10 linear medium 50 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6244092 NAT2 10 linear medium 75 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_medium_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_medium_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7849041 NAT2 10 linear medium 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_linear_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2228597 NAT2 10 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 700744 NAT2 10 linear large 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_large_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3120023 NAT2 10 linear large 50 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_large_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3157107 NAT2 10 linear large 75 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_large_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5285196 NAT2 10 linear large 100 FALSE
+bsub -e Power_Calc_NAT2_500_10_linear_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3240339 NAT2 10 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6488799 NAT2 10 linear large 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_large_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5299521 NAT2 10 linear large 50 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_large_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7370173 NAT2 10 linear large 75 TRUE
+bsub -e Power_Calc_NAT2_500_10_linear_large_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_linear_large_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4103944 NAT2 10 linear large 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_IBS_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4599650 NAT2 10 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6851239 NAT2 10 IBS small 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2385095 NAT2 10 IBS small 50 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6200497 NAT2 10 IBS small 75 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4995303 NAT2 10 IBS small 100 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7547703 NAT2 10 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6419770 NAT2 10 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8020152 NAT2 10 IBS small 50 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5523941 NAT2 10 IBS small 75 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_small_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_small_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1091928 NAT2 10 IBS small 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5454172 NAT2 10 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7210321 NAT2 10 IBS medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 971544 NAT2 10 IBS medium 50 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3214853 NAT2 10 IBS medium 75 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3819407 NAT2 10 IBS medium 100 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1606000 NAT2 10 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3196973 NAT2 10 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3300897 NAT2 10 IBS medium 50 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5821323 NAT2 10 IBS medium 75 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_medium_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_medium_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9493379 NAT2 10 IBS medium 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_10_IBS_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4182746 NAT2 10 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3503432 NAT2 10 IBS large 25 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3781130 NAT2 10 IBS large 50 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2021636 NAT2 10 IBS large 75 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2340542 NAT2 10 IBS large 100 FALSE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5830158 NAT2 10 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1960761 NAT2 10 IBS large 25 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5930156 NAT2 10 IBS large 50 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 40868 NAT2 10 IBS large 75 TRUE
+bsub -e Power_Calc_NAT2_500_10_IBS_large_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_10_IBS_large_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9663765 NAT2 10 IBS large 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_5_linear_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5021393 NAT2 5 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 542659 NAT2 5 linear small 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4396988 NAT2 5 linear small 50 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9989313 NAT2 5 linear small 75 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_small_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1109478 NAT2 5 linear small 100 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9481252 NAT2 5 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6795940 NAT2 5 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3996002 NAT2 5 linear small 50 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5785161 NAT2 5 linear small 75 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_small_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_small_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7095405 NAT2 5 linear small 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_5_linear_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 775566 NAT2 5 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 33867 NAT2 5 linear medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3112822 NAT2 5 linear medium 50 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8999958 NAT2 5 linear medium 75 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8557064 NAT2 5 linear medium 100 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 816768 NAT2 5 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 749101 NAT2 5 linear medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5092867 NAT2 5 linear medium 50 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4005620 NAT2 5 linear medium 75 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_medium_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_medium_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 5273674 NAT2 5 linear medium 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_5_linear_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 872078 NAT2 5 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9697037 NAT2 5 linear large 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_large_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7376899 NAT2 5 linear large 50 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_large_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3256628 NAT2 5 linear large 75 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_large_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1414369 NAT2 5 linear large 100 FALSE
+bsub -e Power_Calc_NAT2_500_5_linear_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2400205 NAT2 5 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7314829 NAT2 5 linear large 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_large_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1662773 NAT2 5 linear large 50 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_large_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9522698 NAT2 5 linear large 75 TRUE
+bsub -e Power_Calc_NAT2_500_5_linear_large_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_linear_large_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8749482 NAT2 5 linear large 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_5_IBS_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6029015 NAT2 5 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2572729 NAT2 5 IBS small 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6143936 NAT2 5 IBS small 50 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6087309 NAT2 5 IBS small 75 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8948381 NAT2 5 IBS small 100 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4294573 NAT2 5 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1231470 NAT2 5 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7051764 NAT2 5 IBS small 50 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2564484 NAT2 5 IBS small 75 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_small_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_small_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2257835 NAT2 5 IBS small 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8757763 NAT2 5 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6617884 NAT2 5 IBS medium 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3765583 NAT2 5 IBS medium 50 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7822025 NAT2 5 IBS medium 75 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7848508 NAT2 5 IBS medium 100 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9486382 NAT2 5 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2669887 NAT2 5 IBS medium 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7948025 NAT2 5 IBS medium 50 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 3515180 NAT2 5 IBS medium 75 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_medium_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_medium_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 8475736 NAT2 5 IBS medium 100 TRUE
+
+bsub -e Power_Calc_NAT2_500_5_IBS_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2157519 NAT2 5 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_25_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 7827657 NAT2 5 IBS large 25 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_50_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 2800039 NAT2 5 IBS large 50 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_75_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 9022938 NAT2 5 IBS large 75 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_100_FALSE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_100_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1237321 NAT2 5 IBS large 100 FALSE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4402830 NAT2 5 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 4059897 NAT2 5 IBS large 25 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_50_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 6070754 NAT2 5 IBS large 50 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_75_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 1362911 NAT2 5 IBS large 75 TRUE
+bsub -e Power_Calc_NAT2_500_5_IBS_large_100_TRUE_SKAT.e -o Power_Calc_NAT2_500_5_IBS_large_100_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 500 50237 NAT2 5 IBS large 100 TRUE
+
+#########################################################
+bsub -e Power_Calc_NAT2_1000_20_linear_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3677900 NAT2 20 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linear_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9518181 NAT2 20 linear small 25 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linear_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5705201 NAT2 20 linear small 50 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linear_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 544223 NAT2 20 linear small 75 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linear_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3865014 NAT2 20 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linear_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3224289 NAT2 20 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linear_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1455190 NAT2 20 linear small 50 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linear_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3257708 NAT2 20 linear small 75 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_20_linear_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3438092 NAT2 20 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linear_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8808437 NAT2 20 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linear_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4353015 NAT2 20 linear medium 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_20_linear_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8819499 NAT2 20 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_linear_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1504607 NAT2 20 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_linear_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7206440 NAT2 20 linear large 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_20_IBS_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8943659 NAT2 20 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBS_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 348353 NAT2 20 IBS small 25 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBS_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7056909 NAT2 20 IBS small 50 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBS_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6914491 NAT2 20 IBS small 75 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBS_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9495223 NAT2 20 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBS_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2742723 NAT2 20 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBS_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1503894 NAT2 20 IBS small 50 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBS_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5365933 NAT2 20 IBS small 75 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_20_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8938843 NAT2 20 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5816548 NAT2 20 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3001203 NAT2 20 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_20_IBS_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1912464 NAT2 20 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_20_IBS_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2485963 NAT2 20 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_20_IBS_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_20_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8747388 NAT2 20 IBS large 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_10_linear_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5308004 NAT2 10 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linear_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1062208 NAT2 10 linear small 25 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linear_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3838957 NAT2 10 linear small 50 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linear_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7130356 NAT2 10 linear small 75 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linear_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1716883 NAT2 10 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linear_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8619397 NAT2 10 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linear_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8123286 NAT2 10 linear small 50 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linear_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2851979 NAT2 10 linear small 75 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_10_linear_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2494495 NAT2 10 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linear_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5374047 NAT2 10 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linear_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6043163 NAT2 10 linear medium 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_10_linear_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4472086 NAT2 10 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_linear_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5908191 NAT2 10 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_linear_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2529272 NAT2 10 linear large 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_10_IBS_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9405706 NAT2 10 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBS_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8041557 NAT2 10 IBS small 25 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBS_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8845751 NAT2 10 IBS small 50 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBS_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2170992 NAT2 10 IBS small 75 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBS_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4210426 NAT2 10 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBS_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8278877 NAT2 10 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBS_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9204128 NAT2 10 IBS small 50 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBS_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5673237 NAT2 10 IBS small 75 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_10_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2481861 NAT2 10 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6107587 NAT2 10 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7221492 NAT2 10 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_10_IBS_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1075900 NAT2 10 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_10_IBS_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1443719 NAT2 10 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_10_IBS_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_10_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7164920 NAT2 10 IBS large 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_5_linear_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6062635 NAT2 5 linear small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linear_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9180258 NAT2 5 linear small 25 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linear_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 530180 NAT2 5 linear small 50 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linear_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6386645 NAT2 5 linear small 75 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linear_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9092514 NAT2 5 linear small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linear_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 172604 NAT2 5 linear small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linear_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9668728 NAT2 5 linear small 50 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linear_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5669690 NAT2 5 linear small 75 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_5_linear_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2257364 NAT2 5 linear medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linear_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6999398 NAT2 5 linear medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linear_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3171761 NAT2 5 linear medium 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_5_linear_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3070664 NAT2 5 linear large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_linear_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7166693 NAT2 5 linear large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_linear_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_linear_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 1516274 NAT2 5 linear large 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_5_IBS_small_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_small_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7787530 NAT2 5 IBS small 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBS_small_25_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_small_25_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 316666 NAT2 5 IBS small 25 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBS_small_50_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_small_50_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 6626741 NAT2 5 IBS small 50 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBS_small_75_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_small_75_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 7495622 NAT2 5 IBS small 75 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBS_small_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_small_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8998808 NAT2 5 IBS small 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBS_small_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_small_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9603691 NAT2 5 IBS small 25 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBS_small_50_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_small_50_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2448843 NAT2 5 IBS small 50 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBS_small_75_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_small_75_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 5951489 NAT2 5 IBS small 75 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_5_IBS_medium_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_medium_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 8354988 NAT2 5 IBS medium 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBS_medium_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_medium_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 2097762 NAT2 5 IBS medium 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBS_medium_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_medium_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 3426462 NAT2 5 IBS medium 25 TRUE
+ 
+bsub -e Power_Calc_NAT2_1000_5_IBS_large_5_FALSE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_large_5_FALSE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 9384509 NAT2 5 IBS large 5 FALSE
+bsub -e Power_Calc_NAT2_1000_5_IBS_large_5_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_large_5_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 500830 NAT2 5 IBS large 5 TRUE
+bsub -e Power_Calc_NAT2_1000_5_IBS_large_25_TRUE_SKAT.e -o Power_Calc_NAT2_1000_5_IBS_large_25_TRUE_SKAT.o -n 4 sh CalculateStatAndPValues_Power_Ghat_Scores_SKAT.sh 8 1000 4811753 NAT2 5 IBS large 25 TRUE
