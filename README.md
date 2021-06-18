@@ -14,3 +14,5 @@ Directories are organized as follows:
 4) Sourced_Functions: The main functions and full pipelines that are run using the shell scripts and code in the other folders. Be sure to check for sourced R libraries. For my simulations, code was either run on R/3.5.3 or R/4.0 since that is what was present on our computing cluster. Be sure to install the packages you need for the correct version of R. You can also install any R package needed to your local directory on a cluster computer and then source it from there. 
 
 5) TIE_And_Power_Code_GLMs: Code for the comparison with generalized linear model. Similarly to the other directories, it contains the R files and shell scripts for running TIE and Power simulations. 
+
+6) The Final Code Used conatins the bsub code I used to run all the simultations.  
