@@ -15,4 +15,4 @@ Directories are organized as follows:
 
 5) TIE_And_Power_Code_GLMs: Code for the comparison with generalized linear model. Similarly to the other directories, it contains the R files and shell scripts for running TIE and Power simulations. 
 
-6) The Final Code Used conatins the bsub code I used to run all the simultations.  
+6) The Final Code Used contains the bsub code I used to run all the simultations.  
